@@ -1,0 +1,2313 @@
+﻿#Ishonchlilikni baholash usuli
+
++sinovdan o'tkazish
+
+-o’xshashlari bilan taqqoslash
+
+-optimallashtirish
+
+-kuzatish
+
+
+
+#Dasturning hayot tsiklidagi eng ko'p vaqt talab qiladigan bosqich
+
++kuzatib borish
+
+-loyihalash
+
+-talablarni shakllantirish
+
+-dasturlash
+
+
+
+#Dasturning hayot aylanishining birinchi bosqichi
+
++talablarni shakllantirish
+
+-talablarni tahlil qilish
+
+-sinovdan o'tkazish
+
+-loyihalash
+
+
+
+#Ko'p mumkin bo'lgan variantlardan eng yaxshisini topish
+
++optimallashtirish
+
+-sinovdan o'tkazish
+
+-avtomatlashtirish
+
+-kuzatib borish
+
+
+
+#Dastur sifatining eng muhim mezoni
+
++ishlash
+
+-samaradorlik
+
+-ishlash
+
+-qulaylik
+
+
+
+#Kompyuter dasturlari va ularga tegishli hujjatlar birgalikda … deyiladi
+
++dasturiy ta'minot
+
+-dasturiy vosita
+
+-dasturiy mahsulot
+
+-konfiguratsiya
+
+
+
+#Dasturiy mahsulot yaratishga olib keladigan jarayonlar majmui
+
++Dasturiy ta'minotni ishlab chiqish jarayoni
+
+-Dasturiy ta'minotni ishlatish jarayoni
+
+-Dasturiy ta'minotni o'zgartirish jarayoni
+
+-Dasturiy ta'minotni sinovdan o'tkazish jarayoni
+
+
+
+#CASE iborasi nimani anglatadi?
+
++Computer-Aided Software Engineering
+
+-Complex-Aided Software Engineering
+
+-Computer-Aided Software Embed 
+
+-Computer-Architect Software Engineering
+
+
+
+#Qaysi bo'lim dasturiy ta’minotni konstruksiyalash jarayoniga kirmaydi
+
++konstruksiyalash g'oyalari
+
+-konstruksiyalash asoslari
+
+-konstruksiyalashni boshqarish
+
+-konstruksiyalashning amaliy jihatlari
+
+
+
+#… - bu dasturiy ta'minot tizimining bir qismi bo'lgan funksiya, protsedura yoki sinfdir.
+
++Modul
+
+-Test
+
+-Blok
+
+-Sxema
+
+
+
+#Prototip – 
+
++bu ma'lum funktsiyalar to'plamini amalga oshiradigan tizimning ishchi versiyasidir.
+
+-bu ma'lum funktsiyalar to'plamini amalga oshiradigan tizimning tugallangan versiyasi.
+
+-bu ma'lum funktsiyalar to'plamini amalga oshiradigan tizimning o'zgartirilgan versiyasi.
+
+-bu ma'lum funktsiyalar to'plamini amalga oshiradigan tizimning sinovdan o'tgan versiyasi.
+
+
+
+#Quyidagilardan qaysi biri dasturiy ta'minotni ishlab chiqish standarti emas
+
++Dasturchilar standartlari
+
+-Maxsus tashkilotlar standartlari ISO, IEEE, GOST
+
+-Til standartlari
+
+-Muayyan ishlab chiquvchi tashkilotning standartlari
+
+
+
+#Dastur kodini takomillashtirish … deyiladi
+
++Refaktoring
+
+-Reinjiniring
+
+-Konstruktsiyalash
+
+-Evolyutsiya
+
+
+
+#Dasturiy ta’minotga yangi funksionallik qo'shish
+
++Reinjiniring
+
+-Refaktoring
+
+-Konstruktsiyalash
+
+-Evolyutsiya
+
+
+
+#Refaktoring - bu …
+
++dasturning tashqi xatti-harakatlariga ta'sir qilmasdan uning ichki tuzilishini o'zgartirish jarayoni bo’lib, uning qanday ishlashini tushunishni osonlashtirish uchun mo'ljallangan.
+
+-ishlayotgan dasturiy ta'minotda yangi funksionalliklarni yaratish yoki global o'zgarishlar orqali xatolarni tuzatish jarayoni
+
+-dasturiy ta'minot tizimini batafsil yaratish jarayoni
+
+-kompyuter dasturiy mahsuloti hayotiyligi saqlanib qolishi uchun doimiy yangilanish, texnik xizmat ko'rsatish va takomillashtirishni talab qiladigan jarayon.
+
+
+
+#Reinjiniring – bu …
+
++ishlayotgan dasturiy ta'minotda yangi funksionalliklarni yaratish yoki global o'zgarishlar orqali xatolarni tuzatish jarayoni
+
+-dasturning tashqi xatti-harakatlariga ta'sir qilmasdan uning ichki tuzilishini o'zgartirish jarayoni bo’lib, uning qanday ishlashini tushunishni osonlashtirish uchun mo'ljallangan.
+
+-dasturiy ta'minot tizimini batafsil yaratish jarayoni
+
+-kompyuter dasturiy mahsuloti hayotiyligi saqlanib qolishi uchun doimiy yangilanish, texnik xizmat ko'rsatish va takomillashtirishni talab qiladigan jarayon.
+
+
+
+#Dasturiy ta'minotni konstruktsiyalash - bu ...
+
++dasturiy ta'minot tizimini batafsil yaratish jarayoni.
+
+-ishlayotgan dasturiy ta'minotda yangi funksionalliklarni yaratish yoki global o'zgarishlar orqali xatolarni tuzatish jarayoni
+
+-dasturning tashqi xatti-harakatlariga ta'sir qilmasdan uning ichki tuzilishini o'zgartirish jarayoni bo’lib, uning qanday ishlashini tushunishni osonlashtirish uchun mo'ljallangan.
+
+-kompyuter dasturiy mahsuloti hayotiyligi saqlanib qolishi uchun doimiy yangilanish, texnik xizmat ko'rsatish va takomillashtirishni talab qiladigan jarayon.
+
+
+
+# Dasturiy ta'minot evolyutsiyasi …
+
++dasturiy ta'minotni rivojlantirish jarayoni
+
+-ishlayotgan dasturiy ta'minotda yangi funksionalliklarni yaratish yoki global o'zgarishlar orqali xatolarni tuzatish jarayoni
+
+-dasturning tashqi xatti-harakatlariga ta'sir qilmasdan uning ichki tuzilishini o'zgartirish jarayoni bo’lib, uning qanday ishlashini tushunishni osonlashtirish uchun mo'ljallangan 
+
+-kompyuter dasturiy mahsuloti hayotiyligi saqlanib qolishi uchun doimiy yangilanish, texnik xizmat ko'rsatish va takomillashtirishni talab qiladigan jarayon
+
+
+
+#Dasturiy ta'minotni ishlab chiqish tamoyillariga nimalar kirmaydi
+
++Sotish
+
+-Usullar
+
+-Vositalar
+
+-Jarayonlar
+
+
+
+#Dasturiy ta'minotning hayot aylanishining paradigmalari va modellari
+
++Kaskadli; Inkrementli; V-shaklidagi; Evolyutsion (spiral); Komponentga yo'naltirilgan
+
+-Kaskadli; Inkrementli; V-shaklidagi; Evolyutsion (spiral); Tuzilmaviy
+
+-Kaskadli; Tuzilmaviy; V-shaklidagi; Evolyutsion (spiral); Komponentga yo'naltirilgan
+
+-Kaskadli; Inkrementli; Tuzilmaviy; Evolyutsion (spiral); Komponentga yo'naltirilgan
+
+
+
+#Dasturiy ta'minotni ishlab chiqishga qanday yondashish usuli ilmiy-texnikaviy muammolarni hal qilish uchun dasturlarni yaratish uchun mo'ljallangan
+
++dasturiy ta'minot tomonidan bajariladigan funktsiyalar (vazifalar) asosida loyihalash;
+
+-ma'lumotlar oqimini o'rganish asosida loyihalash;
+
+-ma'lumotlar tuzilmasiga asoslangan loyihalash;
+
+-abstrakt ma'lumotlar turlariga asoslangan loyihalash;
+
+
+
+#Ma'lumotlarni qayta ishlash tizimlarini loyihalashda dasturiy ta'minotni ishlab chiqishga qanday yondashish usuli qo'llaniladi
+
++ma'lumotlar oqimini o'rganish asosida loyihalash; 
+
+-dasturiy ta'minot tomonidan bajariladigan funktsiyalar (vazifalar) asosida loyihalash;
+
+-ma'lumotlar tuzilmasiga asoslangan loyihalash;
+
+-abstrakt ma'lumotlar turlariga asoslangan loyihalash;
+
+
+
+#Ma'lumotlar bazasini loyihalashda dasturiy ta'minotni ishlab chiqishga qanday yondashish usuli qo'llaniladi
+
++ma'lumotlar tuzilmasiga asoslangan loyihalash;
+
+-dasturiy ta'minot tomonidan bajariladigan funktsiyalar (vazifalar) asosida loyihalash;
+
+-ma'lumotlar oqimini o'rganish asosida loyihalash;
+
+-abstrakt ma'lumotlar turlariga asoslangan loyihalash;
+
+
+
+#Dasturlash tillari translyatorlarini ishlab chiqishda dasturiy ta'minotni ishlab chiqishga qanday yondashish usuli qo'llaniladi
+
++abstrakt ma'lumotlar turlariga asoslangan dizayn;
+
+-dasturiy ta'minot tomonidan bajariladigan funktsiyalar (vazifalar) asosida loyihalash;
+
+-ma'lumotlar oqimini o'rganishga asoslangan loyihalash;
+
+-ma'lumotlar tuzilmasiga asoslangan loyihalash;
+
+
+
+#ob'ektga yo'naltirilgan yondoshuv quyidagilarni o'z ichiga OLMAYDI
+
++ob'ektga yo'naltirilgan test
+
+-ob'ektga yo'naltirilgan tahlil
+
+-ob'ektga yo'naltirilgan loyihalash
+
+-ob'ektga yo'naltirilgan dasturlash
+
+
+
+#Dasturni ishlab chiqishda eng ko'p vaqt talab qiladigan qadam
+
++sinovdan o'tkazish
+
+-loyihalash
+
+-talablarni shakllantirish
+
+-dasturlash
+
+
+
+#Funktsional dekompozitsiya usuli diagrammasining IPO qisqartmasi nimani anglatadi?
+
++Input-Processing-Output
+
+-Internet-Provider-Online
+
+-Inline-Public-Optimal
+
+-Input-Program-Output
+
+
+
+#Ob'ekt o'z ichiga oladi
+
++ma'lumotlar va protseduralar
+
+-ma'lumotlar va dasturlar
+
+-dasturlar va protseduralar
+
+-funktsiya-metodlar va funksiya-kichik dasturlar
+
+
+
+#Ob'ektga yo'naltirilgan yondashuvning qaysi bosqichida predmet sohasini o'rganish orqali unda qaysi ob'ektlar muhimligi, ular qanday o'zaro ta'sir qilishlari aniqlanadi.
+
++ob'ektga yo'naltirilgan tahlil
+
+-ob'ektga yo'naltirilgan loyihalash
+
+-ob'ektga yo'naltirilgan dasturlash
+
+-ob'ektga yo'naltirilgan test
+
+
+
+#Ob'ektga yo'naltirilgan yondashuvning qaysi bosqichida ular o'rtasida uzatiladigan ob'ektlar va xabarlar nuqtai nazaridan kelajakdagi dasturiy ta'minot majmuasi loyihasi yaratiladi.
+
++ob'ektga yo'naltirilgan loyihalash
+
+-ob'ektga yo'naltirilgan tahlil
+
+-ob'ektga yo'naltirilgan dasturlash
+
+-ob'ektga yo'naltirilgan test
+
+
+
+#Ob'ektga yo'naltirilgan dasturlash vositalariga ega bo'lgan dasturlash tilida loyihani amalga oshirish ob'ektga yo'naltirilgan yondashuvning qaysi bosqichida amalga oshiriladi
+
++ob'ektga yo'naltirilgan dasturlash
+
+-ob'ektga yo'naltirilgan loyihalash
+
+-ob'ektga yo'naltirilgan tahlil
+
+-ob'ektga yo'naltirilgan test
+
+
+
+#Nosozliklarni tuzatish
+
++dasturda xato mavjudligi ma'lum bo'lganda muammolarni bartaraf etish jarayoni
+
+-parametrlar ro'yxatini aniqlash
+
+-protseduralarni (funktsiyalarni) chaqirish qoidasi
+
+-algoritm blok-sxemasini tuzish
+
+
+
+#Dastur yaratishning qaysi bosqichida sintaktik xatolar yuzaga keladi?
+
++dasturlash
+
+-loyihalash
+
+-talablarni tahlil qilish
+
+-sinovdan o'tkazish
+
+
+
+#Xatoliklarni lokalizatsiya qilish
+
++xatolik joyini aniqlash
+
+-xatolik sabablarini aniqlash
+
+-xatolik sababini topish
+
+-xatolikni tuzatish
+
+
+
+#Sinov maqsadi
+
++dastur ishonchliligini oshirish
+
+-dastur samaradorligini oshirish
+
+-ekspluatatsiya qilish xarakteristikalarini yaxshilash
+
+-dasturni tuzilmalashtirilgan shaklga keltirish
+
+
+
+#Dasturlashning instrumental vositalari
+
++kompilyatorlar, tarjimonlar
+
+-MBBT (ma'lumotlar bazasini boshqarish tizimlari)
+
+-OS (operatsion tizimlar)
+
+-BIOS (asosiy kirish/chiqish tizimi)
+
+
+
+#Asosiy WATEFALL (kaskad modeli) metodologiyasining tamoyillari.
+
++Aniq hujjatlar; Ishning keyingi bosqichi avvalgisi tugamaguncha boshlanmaydi; Kechiktirilgan sinov
+
+-Rivojlanish tezligining oshishi, arzonligi, yuqori sifati
+
+-Rivojlanishga iterativ yondashuv; Vaqt xarajatlarini minimallashtirish; Prototiplash; Ishlab chiqish davri; Hamkorlik
+
+-Iterativ rivojlanish modeli; Talablarni boshqarish; Komponent arxitekturasi; Vizual modellashtirish dasturi; Dasturiy ta'minot sifatini tekshirish; Kiritilgan o'zgartirishlarni nazorat qilish
+
+
+
+#RAD (Rapid Application Development) metodologiyasining asosiy tamoyillari quyidagilardir
+
++Ishlab chiqishning iterativ yondashuvi; Vaqt xarajatlarini minimallashtirish; Prototiplash; Ishlab chiqish davriyligi; Hamkorlik tamoyillaridir
+
+-Aniq hujjatlashtirish; Ishning keyingi bosqichi avvalgisi tugamaguncha boshlanmaydi; Kechiktirilgan sinov bosh tamoyillari
+
+-Ishlab chiqishning yuqori tezligi, kam xarajatliligi, yuqori sifat keng tarqalgan tamoyillari
+
+-Ishlab chiqishning iterativ modeli; Talablarni boshqarish; Komponentli arxitektura; Dasturiy ta'minotni vizual modellashtirish; Dasturiy ta'minot sifatini tekshirish; Kiritilgan o'zgartirishlarni nazorat qilish tamoyillari
+
+
+
+#Bloklar va ular orasidagi interfeyslarni loyihalashga asoslangan Ericsson yondashuvining muallifi kim (1967)
+
++Ivar Jeykobson - yondashuv muallifidir
+
+-Gradi Butch - yondashuvning muallifi
+
+-Jeyms Rembo – yondashuvning bosh muallifi
+
+-Ada Lovli – yondashuvning asosiy muallifi
+
+
+
+#Arxitektura va iterativ ishlab chiqishni ta'kidlovchi «Objectory AB» yondashuv muallifi kim (1995)
+
++Gradi Butch - yondashuv muallifidir
+
+-Ivar Jeykobson - yondashuvning muallifi
+
+-Jeyms Rembo – yondashuvning bosh muallifi
+
+-Ada Lovli – yondashuvning asosiy muallifi
+
+
+
+#dasturiy ta'minotni ishlab chiqishda vazifalar va mas'uliyatni taqsimlashning universal metodologiyasi.
+
++Rational Unified Process (RUP) - metodologiyasidir
+
+-Feature driven development (FDD) – asosiy metodologiyasi
+
+-Lean Software Development (LSD) – keng tarqalgan metodologiyasi
+
+-Microsoft Solutions Framework (MSF) – bosh metodologiyasi
+
+
+
+#Talablarni aniqlash manbalari va usullari uchun qo'llanilmaydi
+
++Dasturiy ta'minotni o'rnatish uchun qo'llanma
+
+-Ishlab chiqarish faoliyatini kuzatish
+
+-Intervyular, so'rovlar
+
+-Tizimning oldingi versiyalaridan foydalanish statistikasini tahlili
+
+
+
+#RUP (Rational Unified Process) metodologiyasining asosiy tamoyillari quyidagilardir
+
++Ishlab chiqishning iterativ modeli; Talablarni boshqarish; Komponentli arxitektura; Dasturiy ta'minotni vizual modellashtirish; Dasturiy ta'minot sifatini tekshirish; Kiritilgan o'zgartirishlarni nazorat qilish tamoyillaridir
+
+-Ishlab chiqishning yuqori tezligi, kam xarajatliligi, yuqori sifat keng tarqalgan tamoyillari
+
+-Ishlab chiqishga iterativ yondashuv; Vaqt xarajatlarini minimallashtirish; Prototiplash; Ishlab chiqishning davriyligi; Hamkorlik bosh tamoyillari.
+
+-Aniq hujjatlashtirish; Ishning keyingi bosqichi avvalgisi tugamaguncha boshlanmaydi; Kechiktirilgan sinov tamoyillari.
+
+
+
+#RUP metodologiyasining qaysi tamoyili loyihaning har bir bosqichida xavflarni bartaraf etishni nazarda tutadi
+
++Ishlab chiqishning iterativ modeli tamoyilidir
+
+-Talablarni boshqarish asosiy tamoyili
+
+-Komponent arxitekturasi bosh tamoyili
+
+-Vizual modellashtirish dasturi keng tarqalgan tamoyili
+
+
+
+#RUP metodologiyasining qaysi tamoyillari funktsional talablarni tashkil etish va kuzatish, hujjatlarni rasmiylashtirish va maqbul yechimlarni tanlash jarayonining tavsifini beradi
+
++metodologiyaning talablarni boshqarish tamoyilidir
+
+-metodologiyaning komponentli arxitektura bosh tamoyili
+
+-metodologiyaning dasturiy ta’minotni vizual modellashtirish asosiy tamoyili
+
+-metodologiyaning ishlab chiqishning iterativ modeli keng tarqalgan tamoyili
+
+
+
+#RUP metodologiyasining qaysi tamoyili tizim arxitekturasini joriy va kelajakdagi loyihalarda ishlatilishi mumkin bo'lgan tarkibiy qismlarga ajratishni nazarda tutadi.
+
++metodologiyaning komponentli arxitektura tamoyilidir
+
+-metodologiyaning dasturiy ta’minotni vizual modellashtirish asosiy tamoyili
+
+-metodologiyaning ishlab chiqishning iterativ modeli keng tarqalgan tamoyili
+
+-metodologiyaning kiritilgan o'zgarishlarni nazorat qilish bosh tamoyili
+
+
+
+#RUP metodologiyasining qaysi tamoyili arxitektura va uning tarkibiy qismlarining tuzilishi va xatti-harakatlarini tushunish uchun dasturiy ta'minotning vizual modelini yaratishni nazarda tutadi.
+
++metodologiyaning dasturiy ta’minotni vizual modellashtirish tamoyilidir
+
+-metodologiyaning ishlab chiqishning iterativ modeli keng tarqalgan tamoyili
+
+-metodologiyaning kiritilgan o'zgarishlarni nazorat qilish bosh tamoyili
+
+-metodologiyaning dasturiy ta'minot sifatini tekshirish asosiy tamoyili
+
+
+
+#RUP metodologiyasining qaysi tamoyili dasturiy ta'minotni ishlab chiqish jarayonida jamoa harakatlarining sifatini nazorat qilishni ta'minlaydi
+
++metodologiyaning dasturiy ta'minot sifatini tekshirish tamoyilidir
+
+-metodologiyaning dasturiy ta’minotni vizual modellashtirish asosiy tamoyili
+
+-metodologiyaning ishlab chiqishning iterativ modeli keng tarqalgan tamoyili
+
+-metodologiyaning kiritilgan o'zgarishlarni nazorat qilish bosh tamoyili
+
+
+
+#RUP metodologiyasining qaysi tamoyillari nazarda tutilgan uzluksiz ivojlanish jarayonini qurish imkonini beruvchi o'zgarishlarni kuzatish.
+
++metodologiyaning kiritilgan o'zgarishlarni nazorat qilish bosh tamoyilidir
+
+-metodologiyaning dasturiy ta'minot sifatini tekshirish asosiy tamoyili
+
+-metodologiyaning dasturiy ta’minotni vizual modellashtirish bosh tamoyili
+
+-metodologiyaning ishlab chiqishning iterativ modeli keng tarqalgan tamoyili
+
+
+
+#RUP metodologiyasining arxitekturasi nechta va qaysi qismlardan iborat
+
++2 ( statik va dinamik ) qismlardan iboratdir
+
+-2 ( ochiq va yopiq ) asosiy qismlardan iborat
+
+-3 ( bosqichlar , vazifalar va rollar ) bosh qismlardan iborat
+
+-4 ( tahlil , rejalashtirish , kodlash , texnik xizmat ko'rsatish ) keng tarqalgan qismlardan iborat
+
+
+
+#RUP metodologiyasi arxitekturasining gorizontal o'lchami ifodalaydi
+
++dinamik o'lchamni ko’rsatishdir
+
+-statistik o'lchamini aks ettiradi
+
+-ochiq o'lchamini namoyon etadi
+
+-yopiq o'lchamni ifodalaydi
+
+
+
+#RUP metodologiyasi arxitekturasining vertikal o'lchami ifodalaydi
+
++statistik o'lchamni namoyon etishdir
+
+-dinamik o'lchamni aks ettiradi
+
+-ochiq o'lcham o'lchamni ifodalaydi
+
+-yopiq o'lcham ko’rsatadi
+
+
+
+#RUP metodologiyasi arxitekturasining dinamik yoki vaqtinchalik o'lchamiga nima tegishli 
+
++Hayotiy tsikl, bosqichlar (phases), takrorlashlar, nazorat nuqtalari(milestones) tegishlidir
+
+-Ijrochilarning rollari (roles), vazifalar (activity), harakatlar natijalari (artifacts), ish jarayonlari (workflows), fanlar (disciplines) kiradi
+
+-Loyiha boshlanishi bosqichi(Inception) , ishlab chiqish bosqichi(Elaboration), Konstruktsiyalash bosqichi (Construction), Uzatish bosqichi (Transition) tegishli
+
+-Asosiy va yordamchi jarayonlar: biznes modellarini yaratish (Business Modeling), talablarni aniqlash (Requirements), tahlil va loyihalash (Analysis and Design), Amalga oshirish (Implementation) , sinovdan o'tkazish (Testing), joylashtirish (Deployment) , sozlash va o'zgartirishni boshqarish (Configuration and Change Management), loyiha boshqaruvi (Project Management), infratuzilmani (atrof-muhitni) boshqarish (Environment Management)larni aks ettiradi
+
+
+
+#Funksional bo’lmagan testlash turlari (unumdorligi)
+
++yuklamali testlash, stressga testlash, hajmli testlash turlariga ega
+
+-xavfsizlikka testlash, hamkorlikni testlash turlari mavjud
+
+-lokal testlash, abstract testlash, terminlar testlash turlariga bo’linadi
+
+-abstrakt testlash, virtual testlash turlari bor
+
+
+
+#RUP metodologiyasi arxitekturasining statik o'lchamiga nima tegishli 
+
++Ijrochilarning rollari (roles), vazifalar (activity), harakatlar natijalari (artifacts), ish jarayonlari (workflows), fanlar (disciplines) tegishlidir
+
+-Hayotiy tsikl, bosqichlar (phases), takrorlashlar, nazorat nuqtalari(milestones) tegishli
+
+-Loyiha boshlanishi bosqichi(Inception) , ishlab chiqish bosqichi(Elaboration), Konstruktsiyalash bosqichi (Construction), Uzatish bosqichi (Transition) tegishli
+
+-Asosiy va yordamchi jarayonlar: biznes modellarini yaratish (Business Modeling), talablarni aniqlash (Requirements), tahlil va loyihalash (Analysis and Design), Amalga oshirish (Implementation) , sinovdan o'tkazish (Testing), joylashtirish (Deployment) , sozlash va o'zgartirishni boshqarish (Configuration and Change Management), loyiha boshqaruvi (Project Management), infratuzilmani (atrof-muhitni) boshqarish (Environment Management)larni aks ettiradi
+
+
+
+#RUP arxitekturasining dinamik tuzilishi
+
++Loyiha boshlanishi bosqichi(Inception) , ishlab chiqish bosqichi(Elaboration), Konstruktsiyalash bosqichi (Construction), Uzatish bosqichi (Transition) larni aks ettirishdir
+
+-Asosiy va yordamchi jarayonlar: biznes modellarini yaratish (Business Modeling), talablarni aniqlash (Requirements), tahlil va loyihalash (Analysis and Design), Amalga oshirish (Implementation), sinovdan o'tkazish (Testing), joylashtirish (Deployment) , sozlash va o'zgartirishni boshqarish (Configuration and Change Management), loyiha boshqaruvi (Project Management), infratuzilmani (atrof-muhitni) boshqarish (Environment Management)lar tegishli
+
+-Hayotiy tsikl, bosqichlar (phases), takrorlashlar, nazorat nuqtalari(milestones) tegishli
+
+-Ijrochilarning rollari (roles), vazifalar (activity), harakatlar natijalari (artifacts), ish jarayonlari (workflows), fanlar (disciplines)larni o’z ichiga oladi
+
+
+
+#RUP arxitekturasining statik tuzilishi
+
++Asosiy va yordamchi jarayonlar: biznes modellarini yaratish (Business Modeling), talablarni aniqlash (Requirements), tahlil va loyihalash (Analysis and Design), Amalga oshirish (Implementation) , sinovdan o'tkazish (Testing), joylashtirish (Deployment), sozlash va o'zgartirishni boshqarish (Configuration and Change Management), loyiha boshqaruvi (Project Management), infratuzilmani (atrof-muhitni) boshqarish (Environment Management)larni aks ettirishdir.
+
+-Loyiha boshlanishi bosqichi(Inception) , ishlab chiqish bosqichi(Elaboration), Konstruktsiyalash bosqichi (Construction), Uzatish bosqichi (Transition) larni aks ettiradi
+
+-Hayotiy tsikl, bosqichlar (phases), takrorlashlar, nazorat nuqtalari(milestones) tegishli
+
+-Ijrochilarning rollari (roles), vazifalar (activity), harakatlar natijalari (artifacts), ish jarayonlari (workflows), fanlar (disciplines)larni o’z ichiga oladi
+
+
+
+#RUP metodologiyasining asosiy jarayonlari quyidagilarni o'z ichiga oladi
+
++biznes modellarini yaratish (Business Modeling), talablarni aniqlash (Requirements), tahlil va loyihalash (Analysis and Design), Amalga oshirish (Implementation) , sinovdan o'tkazish (Testing), joylashtirish (Deployment) tegishlidir
+
+-sozlash va o'zgartirishni boshqarish (Configuration and Change Management), loyiha boshqaruvi (Project Management), infratuzilmani (atrof-muhitni) boshqarish (Environment Management) larni o’z ichiga oladi
+
+-Hayotiy tsikl, bosqichlar (phases), takrorlashlar, nazorat nuqtalari(milestones) tegishli
+
+-Ijrochilarning rollari (roles), vazifalar (activity), harakatlar natijalari (artifacts), ish jarayonlari (workflows), fanlar (disciplines)larni o’z ichiga oladi
+
+
+
+#RUP metodologiyasini qo'llab-quvvatlovchi jarayonlar o'z ichiga oladi
+
++sozlash va o'zgartirishni boshqarish (Configuration and Change Management), loyiha boshqaruvi (Project Management), infratuzilmani (atrof-muhitni) boshqarish (Environment Management) lar tegishlidir
+
+-biznes modellarini yaratish (Business Modeling), talablarni aniqlash (Requirements), tahlil va loyihalash (Analysis and Design), Amalga oshirish (Implementation) , sinovdan o'tkazish (Testing), joylashtirish (Deployment) larni o’z ichiga oladi
+
+-Hayotiy tsikl, bosqichlar (phases), takrorlashlar, nazorat nuqtalari(milestones) tegishli
+
+-Ijrochilarning rollari (roles), vazifalar (activity), harakatlar natijalari (artifacts), ish jarayonlari (workflows), fanlar (disciplines)larni o’z ichiga oladi
+
+
+
+#RUP fazasi bosqichlari. Ushbu bosqichning asosiy maqsadi loyihaning maqsadlari bo'yicha barcha manfaatdor tomonlar o'rtasida murosaga erishishdir.
+
++Loyiha boshlanishi bosqichidir(Inception)
+
+-Ishlab chiqish bosh bosqichi(Elaboration)
+
+-Konstruktsiyalash asosiy bosqichi (Construction)
+
+-Uzatish keng tarqalgan bosqichi(Transition)
+
+
+
+#RUP fazasi bosqichlari. Ushbu bosqichning asosiy maqsadi asosiy, eng muhim talablar asosida tizimga yuklangan vazifalarni hal qilishga imkon beruvchi va keyinchalik tizimni ishlab chiqish uchun asos sifatida foydalaniladigan barqaror asosiy mahsulot arxitekturasini ishlab chiqish.
+
++Ishlab chiqish bosqichidir(Elaboration)
+
+-Konstruktsiyalash asosiy bosqichi (Construction)
+
+-Uzatish keng tarqalgan bosqichi(Transition)
+
+-Loyiha boshlanishi bosh bosqichi(Inception)
+
+
+
+#RUP fazasi bosqichlari. Ushbu bosqichning asosiy maqsadi ilgari ishlab chiqilgan arxitektura asosida talablarni batafsil tushuntirish va ularni qondiradigan tizimni ishlab chiqish
+
++Konstruktsiyalash bosqichidir(Construction)
+
+-Uzatish keng tarqalgan bosqichi(Transition)
+
+-Loyiha boshlanishi bosh bosqichi(Inception)
+
+-Ishlab chiqish asosiy bosqichi(Elaboration)
+
+
+
+#RUP fazasi bosqichlari. Ushbu bosqichning asosiy maqsadi tizimni oxirgi foydalanuvchilar uchun to'liq foydalanish imkoniyatini yaratish.
+
++Uzatish bosqichidir(Transition)
+
+-Loyiha boshlanishi bosh bosqichi(Inception)
+
+-Ishlab chiqish asosiy bosqichi(Elaboration)
+
+-Konstruktsiyalash keng tarqalgan bosqichi(Construction)
+
+
+
+#RUP ( Rational Unified Process ) metodologiyasining mualliflari
+
++Ivar Jeykobson, Gradi Batch, Jeyms Rumbaugh mualliflardir
+
+-Kent Bek, Uord Kanningem, Martin Fauler metodologiya mualliflari
+
+-Xirotiki Takeuchi va Ikujiro Nonaka metodologiya asoschilari
+
+-Jeff Sazerlend va Ken Shvaber metodologiya asoschilari
+
+
+
+#RUP ish mahsulotini ishlab chiqish jarayonida ijrochilar toifasi
+
++biznes tahlilchisi, biznesni ishlab chiquvchi, ekspert vakili toifalaridir
+
+-Mahsulot egasi, Scrum Master, Scrum jamoa ijrochilar toifasi
+
+-Dasturchilar jamoasi va testerlar jamoasi ijrochilar toifasi
+
+-Dasturchilar, tahlilchilar va loyiha menejerlari jamoasi ijrochilar toifasi
+
+
+
+#RUP ……. ta asosiy tamoyilga asoslanadi.
+
++6 ta tamoyilga ega
+
+-10 ta tamoyil mavjud
+
+-4 ta tamoyil bor
+
+-8 ta tamoyilga asoslanadi
+
+
+
+#RUP ning asosiy tamoyillari
+
++iterativ rivojlanish modeli, talablarni boshqarish, komponent arxitekturasi, vizual dasturiy ta'minotni modellashtirish, dasturiy ta'minot sifatini tekshirish, nazoratni o'zgartirishdir
+
+-qadoqlash va yorliqlashtirish, sinovdan o‘tkazish va tahanalizlash, o‘ziga xos xususiyatlarini aniqlashtirishni o'z ichiga oladi.
+
+-odamlar o'qiy oladigan talablarni haqiqiy kodga aylantirishga yordam beradigan oraliq bosqichni o'z ichiga oladi.
+
+-maxsus texnik vositalar yordamida fizik kattaliklar qiymatlarini tajriba yo‘li bilan topish.
+
+
+
+#RUP ning iterativ rivojlanish modeli tamoyili
+
++loyihaning har bir bosqichida xatarlarni bartaraf etish muammoni yaxshiroq tushunish va maqbul yechim topilmaguncha kerakli o'zgarishlarni amalga oshirishdir
+
+-RUP funktsional talablarni tashkil etish va kuzatish, hujjatlarni rasmiylashtirish va maqbul echimlarni tanlash jarayonini tavsiflaydi 
+
+-tizim arxitekturasi joriy va kelajakdagi loyihalarda qo‘llanilishi mumkin bo‘lgan komponentlarga bo‘lingan
+
+-odamlar o'qiy oladigan talablarni haqiqiy kodga aylantirishga yordam beradigan oraliq bosqich
+
+
+
+#RUP ning talablarni boshqarish tamoyili
+
++RUP funktsional talablarni tashkil etish va kuzatish, hujjatlarni rasmiylashtirish va maqbul echimlarni tanlash jarayonini tavsiflash imkoniyatiga ega
+
+-loyihaning har bir bosqichida xatarlarni bartaraf etish muammoni yaxshiroq tushunish va maqbul yechim topilmaguncha kerakli o'zgarishlarni amalga oshirish imkonini beradi
+
+-tizim arxitekturasi joriy va kelajakdagi loyihalarda qo‘llanilishi mumkin bo‘lgan komponentlarga bo‘lingan
+
+-odamlar o'qiy oladigan talablarni haqiqiy kodga aylantirishga yordam beradigan oraliq bosqich
+
+
+
+#Talablarni aniqlash manbalari va usullari uchun qo'llanilmaydi
+
++Adabiyotlar ro'yxati
+
+-Raqobat mahsulotlar tahlili
+
+-Anketalash
+
+-Texnik topshiriq
+
+
+
+#RUP ning komponent arxitekturasi tamoyili
+
++tizim arxitekturasi joriy va kelajakdagi loyihalarda qo‘llanilishi mumkin bo‘lgan komponentlarga ega
+
+-loyihaning har bir bosqichida xatarlarni bartaraf etish muammoni yaxshiroq tushunish va maqbul yechim topilmaguncha kerakli o'zgarishlarni amalga oshirish imkonini beradi
+
+-RUP funktsional talablarni tashkil etish va kuzatish, hujjatlarni rasmiylashtirish va maqbul echimlarni tanlash jarayonini tavsiflaydi
+
+-odamlar o'qiy oladigan talablarni haqiqiy kodga aylantirishga yordam beradigan oraliq bosqich
+
+
+
+#RUP ning vizual dasturiy ta'minotni modellashtirish tamoyili
+
++RUP ishlab chiqish metodologiyasini ko'rsatadi arxitektura va uning tarkibiy qismlarining tuzilishi va xatti-harakatlarini tushunish uchun dasturiy ta'minotning vizual modelini yaratishdir
+
+-loyihaning har bir bosqichida xatarlarni bartaraf etish muammoni yaxshiroq tushunish va maqbul yechim topilmaguncha kerakli o'zgarishlarni amalga oshirish imkonini beradi
+
+-RUP funktsional talablarni tashkil etish va kuzatish, hujjatlarni rasmiylashtirish va maqbul echimlarni tanlash jarayonini tavsiflaydi
+
+-tizim arxitekturasi joriy va kelajakdagi loyihalarda qo‘llanilishi mumkin bo‘lgan komponentlarga bo‘lingan
+
+
+
+#RUP ning dasturiy ta'minot sifatini tekshirish tamoyili
+
++dasturiy ta'minotni ishlab chiqish jarayonida jamoaning barcha harakatlarining sifatini nazorat qilishdir
+
+-RUP ishlab chiqish metodologiyasini ko'rsatadi arxitektura va uning tarkibiy qismlarining tuzilishi va xatti-harakatlarini tushunish uchun dasturiy ta'minotning vizual modelini qanday yaratish
+
+-loyihaning har bir bosqichida xatarlarni bartaraf etish muammoni yaxshiroq tushunish va maqbul yechim topilmaguncha kerakli o'zgarishlarni amalga oshirish imkonini beradi
+
+-RUP funktsional talablarni tashkil etish va kuzatish, hujjatlarni rasmiylashtirish va maqbul echimlarni tanlash jarayonini tavsiflaydi
+
+
+
+#RUP ning nazoratni o'zgartirish tamoyili
+
++o'zgarishlarni kuzatish uzluksiz rivojlanish jarayonini qurish imkonini berishdir
+
+-loyihaning har bir bosqichida xatarlarni bartaraf etish muammoni yaxshiroq tushunish va maqbul yechim topilmaguncha kerakli o'zgarishlarni amalga oshirish imkonini beradi
+
+-RUP funktsional talablarni tashkil etish va kuzatish, hujjatlarni rasmiylashtirish va maqbul echimlarni tanlash jarayonini tavsiflaydi
+
+-dasturiy ta'minotni ishlab chiqish jarayonida jamoaning barcha harakatlarining sifati nazorat qilinadi
+
+
+
+#SCRUM metodologiyasining mualliflari (loyihalarni boshqarishning inqilobiy usuli).
+
++Jeff Sazerlend va Ken Shvaber metodologiya mualliflaridir
+
+-Ivar Jeykobson, Gradi Batch, Jeyms Rumbaugh metodologiya mualliflari
+
+-Kent Bek, Uord Kanningem, Martin Fauler metodologiya asoschilari
+
+-Xirotiki Takeuchi va Ikujiro Nonaka metodologiya avtorlari
+
+
+
+#RUP jarayonlari . Atrof-muhit (dizayn muhitini boshqarish)
+
++tahlil qilish, loyihalash, ishlab chiqish, sinov vositalarini yaratish va qo'llab-quvvatlashga jarayonlariga ega
+
+-RUP mafkurasiga ko'ra loyiha boshqaruvining ma'muriy harakatlari majmuasini o'z ichiga oladi
+
+-manba kodini boshqarish (modellar, bajariladigan modullar, testlar, hujjatlar), mahsulot versiyasini boshqarish, kodni ishlab chiqish va hujjatlashtirish uchun korporativ standartlar, o'zgarishlar va xatolarni kuzatishni o'z ichiga oladi.
+
+-mijozning saytida mahsulotni o'rnatish, xodimlarni o'qitish, tizimni ishga tushirish va qabul qilish sinovlari, mahsulotni joylashtirish standartlarini tayyorlash, materiallarni savdo bo'limiga topshirishni o'z ichiga oladi.
+
+
+
+#Yaratilgan, o'zgartirilgan yoki biron bir jarayonda ishlatiladigan obyekt (ma'lumotlar hajmi) deyiladi
+
++Ishchi mahsulot (artifakt) ma’nosiga ega
+
+-Ishchi jarayon (workflows) deyiladi
+
+-Harakat (Activity) ma’nosini bildiradi
+
+-Rollar (Role) ma’nosini anglatadi
+
+
+
+#Rol ijrochisining ish birligi deyiladi
+
++Harakat (Activity) ma’nosiga ega
+
+-Ishchi mahsulot (artifakt) ma’nosini bildiradi
+
+-Ishchi jarayon (workflows) deyiladi
+
+-Rollar (Role) ma’nosini anglatadi
+
+
+
+#Muhim natijaga (ish mahsuloti) erishishga qaratilgan harakatlar ketma-ketligi va ijrochilar (rollar) toifalarining o'zaro ta'sirini tavsiflash.
+
++Ishchi jarayon (workflows) ma’nosiga ega
+
+-Harakat (Activity) deyiladi
+
+-Ishchi mahsulot (artifakt) ma’nosini bildiradi
+
+-Rollar (Role) ma’nosini anglatadi
+
+
+
+#Dasturiy ta’minotni testlash (software testing) – bu …
+
++dasturning real va kutilgan natijalari orasidagi moslikni ma’lum tartibda tanlangan chekli test to’plami asosida tekshirishdir
+
+-tizimni yoki uning komponentlarini joriy bosqich boshida shakllantirilgan talablarga qanoatlantirishini baholash jarayoni
+
+-ishlab chiqilgan DTning kutilgan natijalarga va foydalanuvchi extiyojlariga, tizim talablariga mosligini aniqlash
+
+-testlash bo’yicha bajarilishi kerak bo’lgan ishlarni qamrab olgan xujjat
+
+
+
+#X metodologiyasining (ekstremal dasturlash) mualliflari
+
++Kent Bek, Uord Kanningem, Martin Fauler metodologiya asoschilaridir
+
+-Ivar Jeykobson, Gradi Batch, Jeyms Rumbaugh metodologiya mualliflari
+
+-Xirotiki Takeuchi va Ikujiro Nonaka metodologiya avtorlari
+
+-Jeff Sazerlend va Ken Shvaber metodologiya asoschilari
+
+
+
+#Tekshirish (Verification) – bu …
+
++tizimni yoki uning komponentlarini joriy bosqich boshida shakllantirilgan talablarga qanoatlantirishini baholash jarayonidir.
+
+-ishlab chiqilgan DTning kutilgan natijalarga va foydalanuvchi extiyojlariga, tizim talablariga mosligini aniqlash.
+
+-testlash bo’yicha bajarilishi kerak bo’lgan ishlarni qamrab olgan xujjat
+
+-dasturning real va kutilgan natijalari orasidagi moslikni ma’lum tartibda tanlangan chekli test to’plami asosida tekshirish.
+
+
+
+#Validasiya (Validation) – bu …
+
++ishlab chiqilgan DTning kutilgan natijalarga va foydalanuvchi extiyojlariga, tizim talablariga mosligini aniqlashdir
+
+-testlash bo’yicha bajarilishi kerak bo’lgan ishlarni qamrab olgan xujjat
+
+-dasturning real va kutilgan natijalari orasidagi moslikni ma’lum tartibda tanlangan chekli test to’plami asosida tekshirish
+
+-tizimni yoki uning komponentlarini joriy bosqich boshida shakllantirilgan talablarga qanoatlantirishini baholash jarayonidir
+
+
+
+#Testlashni rejalashtirish (Test Plan) – bu
+
++testlash bo’yicha bajarilishi kerak bo’lgan ishlarni qamrab olgan xujjatdir
+
+-dasturning real va kutilgan natijalari orasidagi moslikni ma’lum tartibda tanlangan chekli test to’plami asosida tekshirish
+
+-tizimni yoki uning komponentlarini joriy bosqich boshida shakllantirilgan talablarga qanoatlantirishini baholash jarayonidir
+
+-ishlab chiqilgan DTning kutilgan natijalarga va foydalanuvchi extiyojlariga, tizim talablariga mosligini aniqlash
+
+
+
+#Bag/Defekt Report (Bug Report) - bu …
+
++testlash obyektini noto’g’ri ishlashiga olib kelgan harakatlar ketma-ketligi yoki shu holatga olib kelgan vaziyatlarni izohi bo’lib unda kelib chiqish sabablari va kutilayotgan natijalar keltirilgan xujjatdir.
+
+-dasturning real va kutilgan natijalari orasidagi moslikni ma’lum tartibda tanlangan chekli test to’plami asosida tekshirish.
+
+-tizimni yoki uning komponentlarini joriy bosqich boshida shakllantirilgan talablarga qanoatlantirishini baholash jarayonidir.
+
+-ishlab chiqilgan DTning kutilgan natijalarga va foydalanuvchi extiyojlariga, tizim talablariga mosligini aniqlash.
+
+
+
+#Xavfsizlikni testlash - bu
+
++testlash strategiyasi bo’lib, tizimni xavfsizligini tekshirish uchun qo’llanilishidir
+
+-dasturning real va kutilgan natijalari orasidagi moslikni ma’lum tartibda tanlangan chekli test to’plami asosida tekshirish
+
+-tizimni yoki uning komponentlarini joriy bosqich boshida shakllantirilgan talablarga qanoatlantirishini baholash jarayoni
+
+-ishlab chiqilgan DTning kutilgan natijalarga va foydalanuvchi extiyojlariga, tizim talablariga mosligini aniqlash
+
+
+
+#Testni Qoplanishi (Test Coverage) – bu …
+
++testlash sifatini baholash mezonlaridan biri, bajariladigan kodning yoki talablarni testlar yordamida qoplanishidir.
+
+-dasturning real va kutilgan natijalari orasidagi moslikni ma’lum tartibda tanlangan chekli test to’plami asosida tekshirish.
+
+-tizimni yoki uning komponentlarini joriy bosqich boshida shakllantirilgan talablarga qanoatlantirishini baholash jarayoni.
+
+-ishlab chiqilgan DTning kutilgan natijalarga va foydalanuvchi extiyojlariga, tizim talablariga mosligini aniqlash.
+
+
+
+#DT ni testlash darajalari 
+
++alohida modul ustida, bir guruh modullar yoki butun tizim ustida tekshirilishdir
+
+-testlash sifatini baholash mezonlaridan biri, bajariladigan kodning yoki talablarni testlar yordamida qoplanishi.
+
+-dasturning real va kutilgan natijalari orasidagi moslikni ma’lum tartibda tanlangan chekli test to’plami asosida tekshirish.
+
+-tizimni yoki uning komponentlarini joriy bosqich boshida shakllantirilgan talablarga qanoatlantirishini baholash jarayoni.
+
+
+
+#DT ning sifati –
+
++bahoni to’g’ri ekanligini kafolatlashdir
+
+-alohida modul ustida, bir guruh modullar yoki butun tizim ustida tekshirilishi tushuniladi.
+
+-testlash sifatini baholash mezonlaridan biri, bajariladigan kodning yoki talablarni testlar yordamida qoplanishidir.
+
+-dasturning real va kutilgan natijalari orasidagi moslikni ma’lum tartibda tanlangan chekli test to’plami asosida tekshirish.
+
+
+
+#DTni testlash tiplari quyidagi guruhlarga bo’linadi:
+
++funksional, funksional bo’lmagan, o’zgarishlar bilan bog’liq bo’lgan guruhlarga ega
+
+-lokal, abstrakt, terminlar guruhlarga bo’linadi
+
+-konsepsiya , terminlar , tashki interfeys guruhlari mavjud
+
+-abstrakt, virtual, tashqi interfeys guruhlarga bo’linadi
+
+
+
+#Funksional testlash turlari
+
++xavfsizlikka testlash, hamkorlikni testlash turlariga ega
+
+-lokal testlash, abstract testlash, terminlar testlash turlari mavjud
+
+-abstrakt testlash, virtual testlash turlariga bo’linadi
+
+-o’rnatish jarayonini testlash, foydalanish uchun qulayligini testlash turlari bor
+
+
+
+#Quyidagi bayonot talablarni sinovdan o'tkazish uchun qaysi parametrga mos keladi «Talablar tizimdan foydalanishning ijobiy va salbiy holatlarini o'z ichiga olishi kerak»
+
++Mumkin stsenariylar
+
+-Integratsiya
+
+-Dolzarbligi
+
+-Aniqlik va ravshanlik
+
+
+
+#Dasturiy ta'minotni himoya qilish – …
+
++dasturiy ta'minotni ruxsatsiz olish, foydalanish, tarqatish, o'zgartirish, o'rganish va analoglarini qayta qurishdan himoya qilishga qaratilgan chora-tadbirlar majmuidir
+
+-dasturning real va kutilgan natijalari orasidagi moslikni ma’lum tartibda tanlangan chekli test to’plami asosida tekshirish
+
+-tizimni yoki uning komponentlarini joriy bosqich boshida shakllantirilgan talablarga qanoatlantirishini baholash jarayoni
+
+-ishlab chiqilgan DTning kutilgan natijalarga va foydalanuvchi extiyojlariga, tizim talablariga mosligini aniqlash
+
+
+
+#Dasturlardan ruxsatsiz foydalanishdan himoya qilish – …
+
++dasturiy ta'minotdan noqonuniy foydalanishga qarshi kurashishga qaratilgan chora-tadbirlar tizimidir
+
+-tizimni yoki uning komponentlarini joriy bosqich boshida shakllantirilgan talablarga qanoatlantirishini baholash jarayoni
+
+-ishlab chiqilgan DTning kutilgan natijalarga va foydalanuvchi extiyojlariga, tizim talablariga mosligini aniqlash
+
+-dasturning real va kutilgan natijalari orasidagi moslikni ma’lum tartibda tanlangan chekli test to’plami asosida tekshirish
+
+
+
+#Dasturiy ta'minotning murakkabligi nechta asosiy guruhga bo'linadi:
+
++3 asosiy guruhga ega
+
+-2 asosiy guruh mavjud
+
+-5 asosiy guruhga bo’linadi
+
+-4 asosiy guruh bor
+
+
+
+#Modullashtirish - bu
+
++dasturiy ta'minot tizimini vazifalarni mustaqil bajarishga qodir bo'lgan bir nechta diskret va mustaqil modullarga bo'lish usulidir
+
+-dasturning real va kutilgan natijalari orasidagi moslikni ma’lum tartibda tanlangan chekli test to’plami asosida tekshirish
+
+-tizimni yoki uning komponentlarini joriy bosqich boshida shakllantirilgan talablarga qanoatlantirishini baholash jarayonidir
+
+-ishlab chiqilgan DTning kutilgan natijalarga va foydalanuvchi extiyojlariga, tizim talablariga mosligini aniqlash
+
+
+
+#Oq quti sinovlari –
+
++dasturning ichki tuzilmalarini yoki ishlarini tekshirishdir
+
+-ichki dasturni bilmasdan, manba kodini ko'rmasdan funksionallikni tekshiradi
+
+-testlarni loyihalashtirish uchun ichki ma'lumotlar tuzilmalari va algoritmlari haqida bilim bo’lishi shart emas
+
+-dasturning real va kutilgan natijalari orasidagi moslikni ma’lum tartibda tanlangan chekli test to’plami asosida tekshirish
+
+
+
+#Qora quti testi-…
+
++ichki dasturni bilmasdan, manba kodini ko'rmasdan funksionallikni tekshiradi.
+
+-dasturning ichki tuzilmalarini yoki ishlarini tekshirishdir
+
+-testlarni loyihalashtirish uchun ichki ma'lumotlar tuzilmalari va algoritmlari haqida bilimli bo'lishni o'z ichiga oladi
+
+-dasturning real va kutilgan natijalari orasidagi moslikni ma’lum tartibda tanlangan chekli test to’plami asosida tekshirish
+
+
+
+#Grey-box testi (kulrang quti testi)
+
++testlarni loyihalashtirish uchun ichki ma'lumotlar tuzilmalari va algoritmlari haqida bilimga ega bo'lishni o'z ichiga olishidir
+
+-ichki dasturni bilmasdan, manba kodini ko'rmasdan funksionallikni tekshiradi
+
+-dasturning ichki tuzilmalarini yoki ishlarini tekshiradi
+
+-dasturning real va kutilgan natijalari orasidagi moslikni ma’lum tartibda tanlangan chekli test to’plami asosida tekshirish
+
+
+
+#Dasturiy ta'minotni konstruktsiyalash (“Software Construction”) bilim sohasi quyidagi bo'limlarni o'z ichiga oladi:
+
++murakkablikni pasaytirish bo'limiga ega
+
+-algoritmlarni tahlil qilish bo'limi mavjud
+
+-ma’lumotlar bazasini hosil qilish bo'limi bor
+
+-dasturlash tillarini o’rganish bo'limini o'z ichiga oladi
+
+
+
+#Murakkablikni pasaytirish - bu
+
++konstruktsiyalashdagi murakkablikni minimallashtirish, kamaytirish va alohida qismlarga bo'lishdir
+
+-dasturiy ta'minotning tahlili va konstruktsiyalash talablar spetsifikatsiyasini qo'shimchaga aylantirishga yordam beradigan barcha tadbirlarni o'z ichiga oladi
+
+-ma'lumotlar diagrammalarining grafik yoki mantiqiy yoki jismoniy ko'rinishi
+
+-ma'lumotlar bo'yicha bajariladigan harakatlar
+
+
+
+#SCRUM metodologiyasida qanday ishtirokchi-roli mavjud emas?
+
++Menejer roli mavjud emasdir
+
+-Mahsulot buyurtmachisi roli mavjud emas
+
+-Ishlab chiquvchilar jamoasi roli kiritilmagan
+
+-Scrum-master roli aks ettirilmagan
+
+
+
+#SCRUMda uchta artefakt mavjud. Sprint davrida ishlab chiquvchilar jamoasi tomonidan bajarilgan artefakt, 2ta qoidaga javob berish lozim: releasable (foydalanuvchiga taqdim qilish mumkinligi) va usable (foydalanuvchilar uchun qiymatga ega). Bu qaysi artefaktga o’rinli
+
++Inkrement (Increment) artefaktiga taaluqlidir
+
+-Mahsulot uchun talablar (Product Backlog) artefaktiga o’rinli
+
+-Sprint uchun talablar (Sprint Backlog) artefaktiga mansub
+
+-Sprint oynasi [Scrum oynasi] (Sprint Board) artefaktiga kiradi
+
+
+
+#SCRUMda uchta artefakt mavjud. Maxsulotlarga quyilgan talablar jamlanmasi. Bu qaysi artefaktga o’rinli
+
++Mahsulot uchun talablar (Product Backlog) artefaktiga taaluqlidir
+
+-Sprint uchun talablar (Sprint Backlog) artefaktiga o’rinli
+
+-Sprint oynasi [Scrum oynasi] (Sprint Board) artefaktiga mansub
+
+-Inkrement (Increment) artefaktiga kiradi
+
+
+
+#SCRUMda uchta artefakt mavjud. Ishlab chiquvchilar jamoasi sprintning yakunida tayyor mahsulotni chiqarish uchun kerak bo'lgan vazifalarni o'z ichiga oladi. Bu qaysi artefaktga o’rinli 
+
++Sprint uchun talablar (Sprint Backlog) artefaktiga mansubdir
+
+-Sprint oynasi [Scrum oynasi] (Sprint Board) artefaktiga taaluqli
+
+-Inkrement (Increment) artefaktiga kiradi
+
+-Mahsulot uchun talablar (Product Backlog) artefaktiga o’rinli
+
+
+
+#SCRUM metodologiyasining dasturiy mahsulotni ko'rinishini shakllantirish va talablarni ishlab chiqish uchun javobgar shaxs
+
++Mahsulot egasi (Product Owner) javobgar shaxsdir
+
+-Scrum jamoasi (Scrum Team) javobgar shaxs
+
+-Scrum master (Scrum Master) javobgar shaxs bo’ladi
+
+-Manfaatdor shaxs (Stakeholder) javobgar shaxs
+
+
+
+#SCRUM metodologiyasining har qanday vaqtda bir maqsadga, ya’ni maxsulotni ishlab chiqishga, qaratilgan professionallar birlashmasi.
+
++Scrum jamoasidir (Scrum Team)
+
+-Scrum master (Scrum Master)
+
+-Manfaatdor shaxs (Stakeholder)
+
+-Mahsulot egasi (Product Owner)
+
+
+
+#SCRUM metodologiyasining jamoa to'siqlarni bartaraf etishga, jamoa murabbiy vazifasini va SCRUM tadbirlarini tashkil qiluvchi shaxs.
+
++Scrum masterdir (Scrum Master) 
+
+-Manfaatdor shaxs (Stakeholder)
+
+-Mahsulot egasi (Product Owner)
+
+-Scrum jamoasi (Scrum Team)
+
+
+
+#Bu SCRUM jamoasi va Mahsulot egasi tomonlaridan SCRUM tadbirlarini, oddatda 2-4 xafta vaqt miqdorida tashkil qilinayotgan jarayon.
+
++Sprint jarayonidir
+
+-Jurnal jarayoni
+
+-Backlog (talablar) jarayoni
+
+-Scrum oynasi jarayoni
+
+
+
+#Sprint uchun talablar(Sprint Backlog)ni namoyon qilish uchun vositasi
+
++Scrum oynasi vositasidir
+
+-Sprint vositasi
+
+-Jurnal vositasi
+
+-Backlog (talablar) vositasi
+
+
+
+#Lean – metodologiyasi bu 
+
++Resurslarni tejash metodologiyasidir
+
+-Tezkorlikni tejash metodologiyasi bo’ladi
+
+-Baxolashni tejash metodologiyasiga to’g’ri keladi
+
+-Vaqtni tejash metodologiyasi
+
+
+
+#SCRUMda Sprint – bu
+
++vazifa yoki muammoni jamoaviy muhokama qilish va uni hal etish maqsadida (ishlab chiqishga) amalga oshirilayotgan jarayondir
+
+-vazifa yoki muammoni aniqlash maqsadida yig’ilish
+
+-vazifa yoki muammoni harakatlar ketma-ketligini vizual va jismoniy taqdim etish usuli
+
+-vazifa yoki muammoni amalga oshirilgan ishlarning mehnat zichligini tekshirish va baholash mexanizmi 
+
+
+
+#Scrum - bu
+
++Dasturiy ta’minotni ishlab chiqish metodologiyasidir
+
+-Dasturiy ta’minotni ishlab chiqish standarti hisoblanadi
+
+-Dasturiy ta’minotni ishlab chiqish hujjati deyiladi
+
+-Dasturiy ta’minotni ishlab chiqish texnologiyasi bo’ladi
+
+
+
+#Scrum metodologiyaning kamchiligini aniqlang
+
++Sprintlar bo'g'inlarida munozaralar va uchrashuvlar katta vaqt yo'qotishdir
+
+-Har qanday vaqtda talablarga o'zgartirish kiritish qobiliyati mavjud
+
+-Vaqt chegarasi borligi 
+
+-Xodimlar va rahbariyat o'rtasida ochiq muloqot bo’lishi
+
+
+
+#SCRUM tamoyilli: Shaffoflik (Transparency)
+
++Jihatlar umumiy standartga birlashtirilganligini va barcha ishtirokchilari umumiy tushunchasiga egaligini nazarda tutishidir
+
+-Sprint va mahsulot maqsadlariga erishishdagi nomaqbul og'ishlarni o'z vaqtida aniqlashni va tekshirishni nazarda tutadi
+
+-Jarayon yoki mahsulotning bir yoki bir nechta elementlarining maqbul chegaralaridan chetga chiqish aniqlanganda tegishli o'zgarishlarni amalga oshirishni nazarda tutadi
+
+-Bu jamoa a'zolarining birgalikda ishlashini tavsiflovchi me'yorlar, amaliyotlar va strategiyalar to'plamini ishlab chiqishga nazarda tutadi
+
+
+
+#SCRUM tamoyilli: Tekshirish (inspeksiyalash) (Inspection)
+
++Sprint va mahsulot maqsadlariga erishishdagi nomaqbul og'ishlarni o'z vaqtida aniqlashni va tekshirishni nazarda tutishidir
+
+-Jarayon yoki mahsulotning bir yoki bir nechta elementlarining maqbul chegaralaridan chetga chiqish aniqlanganda tegishli o'zgarishlarni amalga oshirishni nazarda tutadi
+
+-Bu jamoa a'zolarining birgalikda ishlashini tavsiflovchi me'yorlar, amaliyotlar va strategiyalar to'plamini ishlab chiqishga nazarda tutadi
+
+-Jihatlar umumiy standartga birlashtirilganligini va barcha ishtirokchilari umumiy tushunchasiga egaligini nazarda tutadi
+
+
+
+#Tasvirda uml-diagrammaning qanday turi keltirilgan 
+
++Ketma-ketlik diagrammasi (sequence diagram) turidir
+
+-Pretsedentlar diagrammasi (use case diagram) turiga to’g’ri keladi
+
+-Joylashtirish diagrammasi (deployment diagram) turiga mos keladi
+
+-Sinflar diagrammasi (class diagram) turi aks ettirilgan
+
+
+
+#SCRUM tamoyilli: Moslashuvchanlik (Adaptation)
+
++Jarayon yoki mahsulotning bir yoki bir nechta elementlarining maqbul chegaralaridan chetga chiqish aniqlanganda tegishli o' zgarishlarni amalga oshirishni nazarda tutishidir
+
+-Bu jamoa a'zolarining birgalikda ishlashini tavsiflovchi me'yorlar, amaliyotlar va strategiyalar to'plamini ishlab chiqishga nazarda tutadi
+
+-Jihatlar umumiy standartga birlashtirilganligini va barcha ishtirokchilari umumiy tushunchasiga egaligini nazarda tutadi
+
+-Sprint va mahsulot maqsadlariga erishishdagi nomaqbul og'ishlarni o'z vaqtida aniqlashni va tekshirishni nazarda tutadi
+
+
+
+#Kunlik Scrum (Daily Scrum)
+
++Ushbu tadbir o'n besh daqiqadan ortiq davom etmaydi va har bir ish kuni bir joyda bir vaqtning o'zida o'tkazilishidir
+
+-Ushbu tadbir Sprint oxirida o'tkaziladi, shuning uchun mijozlar va manfaatdor shaxslar qo'shimcha tekshiruvni o'tkazadilar va unga hisobot beradilar
+
+-Bu keyingi Sprint uchun ishni rejalashtiradigan Skrum-jamoa tadbiridir
+
+-Barcha ishtirokchilarning o'z ishlarini tekshirish va keyingi bosqichlarida takomillashtirish rejasini tuzish tadbiri
+
+
+
+#Sprint sharhi (Sprint Review)
+
++Ushbu tadbir Sprint oxirida o'tkaziladi, shuning uchun mijozlar va manfaatdor shaxslar qo'shimcha tekshiruvni o'tkazadilar va unga hisobot berishidir
+
+-Ushbu tadbir o'n besh daqiqadan ortiq davom etmaydi va har bir ish kuni bir joyda bir vaqtning o'zida o'tkazilishi
+
+-Bu keyingi Sprint uchun ishni rejalashtiradigan Skrum-jamoa tadbiri
+
+-Barcha ishtirokchilarning o'z ishlarini tekshirish va keyingi bosqichlarida takomillashtirish rejasini tuzish tadbiri
+
+
+
+#Spritni rejlashtirish (Sprint Planning)
+
++Bu keyingi Sprint uchun ishni rejalashtiradigan Skrum-jamoa tadbiridir.
+
+-Barcha ishtirokchilarning o'z ishlarini tekshirish va keyingi bosqichlarida takomillashtirish rejasini tuzish tadbiri.
+
+-Ushbu tadbir Sprint oxirida o'tkaziladi, shuning uchun mijozlar va manfaatdor shaxslar qo'shimcha tekshiruvni o'tkazadilar va unga hisobot beradilar
+
+-Ushbu tadbir o'n besh daqiqadan ortiq davom etmaydi va har bir ish kuni bir joyda bir vaqtning o'zida o'tkaziladi.
+
+
+
+#UMLqanday dasturiy ta’minotni yaratish va loyihalash paradigmasiga asoslangan
+
++Ob’ektga yo’naltirilgan yondashuv paradigmasiga asosidadir
+
+-Jarayonli yondashuv paradigmasiga asoslangan
+
+-Tizimli yondashuv paradigmasiga asosi bo’yicha
+
+-Tuzilmaviy yondashuv paradigmasiga asosida
+
+
+
+#Sprint retrospektivasi (Sprint Retrospective)
+
++Barcha ishtirokchilarning o'z ishlarini tekshirish va keyingi bosqichlarida takomillashtirish rejasini tuzish tadbiridir
+
+-Ushbu tadbir Sprint oxirida o'tkaziladi, shuning uchun mijozlar va manfaatdor shaxslar qo'shimcha tekshiruvni o'tkazadilar va unga hisobot beradilar
+
+-Ushbu tadbir o'n besh daqiqadan ortiq davom etmaydi va har bir ish kuni bir joyda bir vaqtning o'zida o'tkaziladi
+
+-Bu keyingi Sprint uchun ishni rejalashtiradigan Skrum-jamoa tadbiri
+
+
+
+#UML ning Inglizcha nomi to'g'ri yozilgan  qatorni toping?
+
++Unified Modeling Language nomi UML ning Inglizcha nomidir
+
+-Unified Markup Language nomi UML ning Inglizcha nomiga to’g’ri
+
+-Unified Methodology Language nomi UML ning Inglizcha nomi bo’ladi
+
+-Unified Method Language nomi UML ning Inglizcha nomi
+
+
+
+#Tasvirda uml-diagrammaning qanday turi keltirilgan 
+
++Pretsedentlar diagrammasi (use case diagram) turi tasvirlangandir
+
+-Komponentlar diagrammasi (component diagram) turi keltirilgan
+
+-Sinflar diagrammasi (class diagram) turi ko’rsatilgan
+
+-Joylashtirish diagrammasi (deployment diagram) turi aks ettirilgan
+
+
+
+#Tasvirda uml-diagrammaning qanday turi keltirilgan 
+
++Faoliyat diagrammasi (activity diagram) turi tasvirlangandir
+
+-Pretsedentlar diagrammasi (use case diagram) turi keltirilgan
+
+-Sinflar diagrammasi (class diagram) turi ko’rsatilgan
+
+-Joylashtirish diagrammasi (deployment diagram) turi aks ettirilgan
+
+
+
+#Diagrammalarda izoh (eslatma) qanday geometrik shakl yordamida tasvirlanadi
+
++Burchagi buklangan varaq ko’rinishiga ega
+
+-To'rtburchak ko’rinishida
+
+-Kub ko’rinishi holatida
+
+-Aylana (doira) ko’rinishida
+
+
+
+#UML notatsiyasi orqali ifodalab bo’lmagan ob’ektlarga OCL - Object Constraint Language formal tili yoki tabiiy so’zlar yordamida ifodalanish xodisa sharti.
+
++Cheklov xodisa shartidir
+
+-Izoh (eslatma) xodisa sharti bo’ladi
+
+-Stereotip xodisa shartiga to’gri keladi
+
+-Aloqadorlik (connection) xodisa sharti
+
+
+
+#Tasvirda uml-diagrammaning qanday turi keltirilgan 
+
++Sinflar diagrammasi (class diagram) turidir
+
+-Faoliyat diagrammasi (activity diagram) turiga to’g’ri keladi
+
+-Pretsedentlar diagrammasi (use case diagram) turiga mos keladi
+
+-Joylashtirish diagrammasi (deployment diagram) turi aks ettirilgan
+
+
+
+#Ektor (actor, aktyor) – bu:
+
++ushbu tizim bilan o'zaro aloqada bo'lgan kompyuter tizimiga nisbatan tashqi mohiyatdir
+
+-faqat tizimdan ma'lumot olish mumkin bo'lgan kompyuter tizimiga nisbatan tashqi mohiyat bo’ladi
+
+-faqat tizimdan ma'lumot olish mumkin bo'lgan kompyuter tizimiga nisbatan ichki mohiyatga mos
+
+-ushbu tizim bilan o'zaro aloqada bo'lgan kompyuter tizimiga nisbatan ichki mohiyat
+
+
+
+#Bu dasturiy, tashkiliy-iqtisodiy, texnik va turli tabiatdagi boshqa tizimlarni aniqlash, taqdim etish, loyihalashtirish va hujjatlashtirish tilidir.
+
++UML 
+
+-XML
+
+-SGML
+
+-HTML
+
+
+
+#Hodisalar oqimidagi o'zaro ta'sir qiluvchi ob'ektlar guruhlarining xatti-harakatlarini tavsiflovchi diagramma.
+
++O'zaro hamkorlik diagrammasidir
+
+-Ketma-ketlik diagrammasi bo’ladi
+
+-Sinf diagrammasiga mos
+
+-Holatlar diagrammasi deyiladi
+
+
+
+#Foydalanish holatida sodir bo'ladigan hodisalarning vaqt ketma-ketligini tavsiflovchi diagramma.
+
++Ketma-ketlik diagrammasi
+
+-Sinf diagrammasi
+
+-Holatlar diagrammasi
+
+-O'zaro hamkorlik diagrammasi
+
+
+
+#Tizimning sinflarini va ular o'rtasida mavjud bo'lgan turli xil ulanishlarni tavsiflovchi diagramma
+
++Sinf diagrammasi
+
+-Holatlar diagrammasi
+
+-O'zaro hamkorlik diagrammasi
+
+-Ketma-ketlik diagrammasi
+
+
+
+#Barcha mumkin bo'lgan holatlarni, shuningdek, ob'ektning holatlarini o'zgartirish jarayonini tavsiflovchi diagramma
+
++Holatlar diagrammasi
+
+-O'zaro hamkorlik diagrammasi
+
+-Ketma-ketlik diagrammasi
+
+-Sinf diagrammasi
+
+
+
+#Dasturiy ta'minot komponentlarini va ular o'rtasidagi munosabatlarni tavsiflovchi diagramma.
+
++Komponent diagrammasi
+
+-Joylashtirish diagrammasi
+
+-Holatlar diagrammasi
+
+-O'zaro hamkorlik diagrammasi
+
+
+
+#Tizimning dasturiy va apparat komponentlari o'rtasidagi jismoniy aloqalarni tavsiflovchi diagramma.
+
++Joylashtirish diagrammasi
+
+-Holatlar diagrammasi
+
+-O'zaro hamkorlik diagrammasi
+
+-Komponent diagrammasi
+
+
+
+#Testlarni loyihalashtirish uchun ichki ma'lumotlar tuzilmalari va algoritmlari haqida bilimga ega bo'lishni o'z ichiga oladi
+
++Gray-box testlash
+
+-Yellow-box testlash
+
+-Black-box testlash
+
+-White-box testlash
+
+
+
+#Ketma-ketlik diagrammasi –
+
++ob'ektlar o'rtasida almashinadigan xabarlar ketma-ketligini modellashtiradi
+
+-ob'ektlar o'rtasida almashinadigan xabarlar munosabatlarini modellashtiradi
+
+-ob'ektlar o'rtasida almashinadigan xabarlar bor yoki yo’qligini modellashtiradi
+
+-ob'ektlar o'rtasida almashinadigan xabarlar o’zgarishlarni modellashtiradi
+
+
+
+#Kommunikatsiya diagrammasi UML 1 standartida qanday nomlangan
+
++Hamkorlik diagrammasi
+
+-Joylashtirish diagrammasi
+
+-Holatlar diagrammasi
+
+-Komponent diagrammasi
+
+
+
+#Vaqt diagrammasi (timing diagrams) –
+
++o'zaro ta'sir paytida bir nechta ob'ektlarning holatini o'zgartirishni modellashtirishdir
+
+-o'zaro ta'sir paytida bir nechta ob'ektlarning holatini ketma-ketligini modellashtiradi
+
+-o'zaro ta'sir paytida bir nechta ob'ektlarning holatini munosabatlarini modellashtiradi
+
+-o'zaro ta'sir paytida bir nechta ob'ektlarning holatini bor yoki yuqligini modellashtiradi
+
+
+
+#O'zaro munosabatlarni ko'rib chiqish diagrammasi qanday 2ta diagrammani o’z ichiga oladi
+
++Faoliyat diagrammasi va ketma-ketlik diagrammasiga ega
+
+-Faoliyat diagrammasi va sinf diagrammasini o’z ichiga oladi
+
+-Sinf diagrammasi va ketma-ketlik diagrammasini aks ettiradi
+
+-Sinf diagrammasi va joylashtirish diagrammasi o’z ichiga oladi
+
+
+
+#Pretsedent diagrammasi (use case diagram) quyidagicha:  1-nomerli belgilangan ob’ektlar qanday nomlanadi 
+
++Keyslar degan nomga ega
+
+-Izohlar deb nomlanadi
+
+-Sinflar nomi bilan yuritiladi
+
+-Aktyorlar deb nomlanadi
+
+
+
+#Pretsedent diagrammasi (use case diagram) quyidagicha:  2-nomerli belgilangan ob’ektlar qanday nomlanadi 
+
++Aktyorlar degan nomga ega
+
+-Keyslar deb nomlanadi
+
+-Izohlar nomi bilan yuritiladi
+
+-Sinflar deb nomlanadi
+
+
+
+#Pretsedent diagrammasi (use case diagram) quyidagicha:  3-nomerli belgilangan ob’ektlar qanday nomlanadi 
+
++aktyor va foydalanish holatlari o'rtasidagi bog'liqlik degan nomga ega
+
+-aktyorlar o'rtasidagi umumlashtirish deb nomlanadi
+
+-foydalanish holatlari orasidagi umumlashtirish nomi bilan yuritiladi
+
+-foydalanish holatlari orasidagi bog'liqliklar (har xil turdagi) nomi deyiladi
+
+
+
+#Pretsedent diagrammasi (use case diagram) quyidagicha:  4-nomerli belgilangan ob’ektlar qanday nomlanadi 
+
++aktyorlar o'rtasidagi umumlashtirish degan nomga ega
+
+-foydalanish holatlari orasidagi umumlashtirish deb nomlanadi
+
+-foydalanish holatlari orasidagi bog'liqliklar (har xil turdagi) nomi bilan yuritiladi
+
+-aktyor va foydalanish holatlari o'rtasidagi bog'liqlik nomi deyiladi
+
+
+
+#Pretsedent diagrammasi (use case diagram) quyidagicha:  5-nomerli belgilangan ob’ektlar qanday nomlanadi 
+
++foydalanish holatlari orasidagi umumlashtirish degan nomga ega
+
+-foydalanish holatlari orasidagi bog'liqliklar (har xil turdagi) deb nomlanadi
+
+-aktyor va foydalanish holatlari o'rtasidagi bog'liqlik nomi bilan yuritiladi
+
+-aktyorlar o'rtasidagi umumlashtirish nomi deyiladi
+
+
+
+#Pretsedent diagrammasi (use case diagram) quyidagicha:  6-nomerli belgilangan ob’ektlar qanday nomlanadi 
+
++foydalanish holatlari orasidagi bog'liqliklar (har xil turdagi) degan nomga ega
+
+-aktyor va foydalanish holatlari o'rtasidagi bog'liqlik deb nomlanadi
+
+-aktyorlar o'rtasidagi umumlashtirish nomi bilan yuritiladi
+
+-foydalanish holatlari orasidagi umumlashtirish nomi deyiladi
+
+
+
+#Pretsedent diagrammasi (use case diagram) quyidagicha:  7-nomerli belgilangan ob’ektlar qanday nomlanadi 
+
++Izohlar degan nomga ega
+
+-Sinflar deb nomlanadi
+
+-Aktyorlar nomi bilan yuritiladi
+
+-Keyslar nomi deyiladi
+
+
+
+#UML notatsiyasida sinf diagrammasi qaysi 3ta qismdan iborat?
+
++Nomlanishi, atributlar va amallar
+
+-Ochiq, yopiq va himoyalangan
+
+-Statik, yarimstatik va dinamik
+
+-Nomlanishi, konstruktor va destruktor
+
+
+
+#Qaysi 3ta maxsus belgilar yordamida Sinf diagrammasida sinf atributlar va amallar ko’rinishini belgilaydi
+
++,-,
+
+-,-,*
+
+-,-,/
+
+-,~,:
+
+
+
+#Ichki dasturni bilmasdan, manba kodini ko'rmasdan funksionallikni tekshiradi.
+
++Black-box testlash
+
+-White-box testlash
+
+-Gray-box testlash
+
+-Yellow-box testlash
+
+
+
+#Dasturning ichki tuzilmalarini yoki ishlarini tekshiradi.
+
++White-box testlash
+
+-Gray-box testlash
+
+-Yellow-box testlash
+
+-Black-box testlash
+
+
+
+#Dasturiy ta’minotni testlash (software testing) – bu …
+
++dasturning real va kutilgan natijalari orasidagi moslikni ma’lum tartibda tanlangan chekli test to’plami asosida tekshirish
+
+-tizimni yoki uning komponentlarini joriy bosqich boshida shakllantirilgan talablarga qanoatlantirishini baholash jarayonidir
+
+-ishlab chiqilgan DTning kutilgan natijalarga va foydalanuvchi extiyojlariga, tizim talablariga mosligini aniqlash
+
+-testlash bo’yicha bajarilishi kerak bo’lgan ishlarni qamrab olgan xujjat
+
+
+
+#Tekshirish (Verification) – bu …
+
++tizimni yoki uning komponentlarini joriy bosqich boshida shakllantirilgan talablarga qanoatlantirishini baholash jarayonidir
+
+-ishlab chiqilgan DTning kutilgan natijalarga va foydalanuvchi extiyojlariga, tizim talablariga mosligini aniqlash
+
+-testlash bo’yicha bajarilishi kerak bo’lgan ishlarni qamrab olgan xujjat
+
+-dasturning real va kutilgan natijalari orasidagi moslikni ma’lum tartibda tanlangan chekli test to’plami asosida tekshirish
+
+
+
+#Validatsiya (Validation) – bu …
+
++ishlab chiqilgan DTning kutilgan natijalarga va foydalanuvchi extiyojlariga, tizim talablariga mosligini aniqlash
+
+-testlash bo’yicha bajarilishi kerak bo’lgan ishlarni qamrab olgan xujjat
+
+-dasturning real va kutilgan natijalari orasidagi moslikni ma’lum tartibda tanlangan chekli test to’plami asosida tekshirish
+
+-tizimni yoki uning komponentlarini joriy bosqich boshida shakllantirilgan talablarga qanoatlantirishini baholash jarayonidir
+
+
+
+#Testlashni rejalashtirish (Test Plan) – bu
+
++testlash bo’yicha bajarilishi kerak bo’lgan ishlarni qamrab olgan xujjat
+
+-dasturning real va kutilgan natijalari orasidagi moslikni ma’lum tartibda tanlangan chekli test to’plami asosida tekshirish
+
+-tizimni yoki uning komponentlarini joriy bosqich boshida shakllantirilgan talablarga qanoatlantirishini baholash jarayonidir
+
+-ishlab chiqilgan DTning kutilgan natijalarga va foydalanuvchi extiyojlariga, tizim talablariga mosligini aniqlash
+
+
+
+#Bag/Defekt Report (Bug Report) - bu …
+
++testlash obyektini noto’g’ri ishlashiga olib kelgan harakatlar ketma-ketligi yoki shu holatga olib kelgan vaziyatlarni izohi bo’lib unda kelib chiqish sabablari va kutilayotgan natijalar keltirilgan xujjatdir
+
+-dasturning real va kutilgan natijalari orasidagi moslikni ma’lum tartibda tanlangan chekli test to’plami asosida tekshirish
+
+-tizimni yoki uning komponentlarini joriy bosqich boshida shakllantirilgan talablarga qanoatlantirishini baholash jarayonidir
+
+-ishlab chiqilgan DTning kutilgan natijalarga va foydalanuvchi extiyojlariga, tizim talablariga mosligini aniqlash
+
+
+
+#Quyidagi bayonot talablarni sinovdan o'tkazish uchun qaysi parametrga mos keladi «Talablar har bir modul va butun mahsulot qanday ishlashi kerakligi haqida juda aniq ma'lumot berishi kerak»
+
++Aniqlik va ravshanlik
+
+-Mumkin stsenariylar
+
+-Integratsiya
+
+-Dolzarbligi
+
+
+
+#Quyidagi bayonot talablarni sinovdan o'tkazish uchun qaysi parametrga mos keladi «Ishlab chiqilgan mahsulotning boshqa tizimi bilan o'zaro ta'sir qilish sxemasining tavsifi»
+
++Integratsiya
+
+-Dolzarbligi
+
+-Aniqlik va ravshanlik
+
+-Mumkin stsenariylar
+
+
+
+#Quyidagi bayonot talablarni sinovdan o'tkazish uchun qaysi parametrga mos keladi «Dasturiy ta'minotni ishlab chiqish jarayonida o'zgarishlarni amalga oshirish bilan bog'liq talablarni saqlab qolish zaruriyati»
+
++Dolzarbligi
+
+-Aniqlik va ravshanlik
+
+-Mumkin stsenariylar
+
+-Integratsiya
+
+
+
+#Talablar doirasida asosiy test usullariga kirmaydigan texnika
+
++O'zaro ko'rish
+
+-Xatolarni kuzatish
+
+-Javob vaqti
+
+-Chiroyli interfeys
+
+
+
+#Quyilgan TALABLARNING muhimli deb aytib bo'lmaydigan variantni tanlang
+
++Ishlab chiqilayotgan mahsulotning moliyaviy qismini aniqlash
+
+-Tizim nima va qanday sharoitlarda ishlashi kerakligi
+
+-O'zgarishlarni o'lchash va o'zgarishlarni boshqarish imkoniyati
+
+-Loyihani ishlab chiqishdagi muvaffaqiyat darajasini ob'ektiv baholash
+
+
+
+#Foydalanuvchi uchun daturiy ta’minot vazifani hal qilish jarayonida qaysi funktsiyalar va shartlarga rioya qilish kerakligini tavsifi bu
+
++Talablar
+
+-Topshiriq
+
+-Xususiyat
+
+-Muammo
+
+
+
+#Sinovlash(testlash) turlari ko'rsatilgan variantni belgilang
+
++Funktsional, tizimli, o'zgarish bilan bog'liq
+
+-Funktsional, tizimli, muammoli
+
+-Funktsional, tizimli, xusussiyatli
+
+-Funktsional, tizimli, konstantali
+
+
+
+#Dasturni ishga tushirish mezoni bilan qanday test turlari ajratiladi
+
++Statik va dinamik
+
+-Qo'lda, Yarimavtomatik, Avtomatlashtirilgan
+
+-Modulli, integratsiyali, tizimli, qabul qilish testi
+
+-Funktsional, tizimli, o'zgarish bilan bog'liq
+
+
+
+#Amalga oshirish jarayoni bilan qanday test turlari ajratiladi
+
++Qo'lda, Yarimavtomatik, Avtomatlashtirilgan
+
+-Modulli, integratsiyali, tizimli, qabul qilish testi
+
+-Funktsional, tizimli, o'zgarish bilan bog'liq
+
+-Statik va dinamik
+
+
+
+#Quyidagi hujjatlar qanday hujjatlar toifasiga kiradi: o'rnatilgan yordam tizimi, o'rnatish va foydalanish bo'yicha yoriqnomalar, litsenziya shartnomasi
+
++Foydalanuvchi va qo'llab-quvvatlovchi hujjatlar (user and accompanying documentation)
+
+-Marketing hujjatlari (market requirements document)
+
+-Texnik spetsifikatsiyalar (technical specifications)
+
+-Mahsulot hujjatlari (product documentation, development documentation)
+
+
+
+#Quyidagi hujjatlar qanday hujjatlar toifasiga kiradi: loyiha rejasi, dasturiy mahsulotga bo'lgan talablar, arxitektura va dizayn
+
++Mahsulot hujjatlari (product documentation, development documentation)
+
+-Foydalanuvchi va qo'llab-quvvatlovchi hujjatlar (user and accompanying documentation)
+
+-Marketing hujjatlari (market requirements document)
+
+-Texnik spetsifikatsiyalar (technical specifications)
+
+
+
+#Quyidagi hujjatlar qanday hujjatlar toifasiga kiradi: ma'lumotlar bazasi sxemalari, algoritmlarning tavsifi, interfeyslar
+
++Texnik spetsifikatsiyalar (technical specifications)
+
+-Mahsulot hujjatlari (product documentation, development documentation)
+
+-Foydalanuvchi va qo'llab-quvvatlovchi hujjatlar (user and accompanying documentation)
+
+-Marketing hujjatlari (market requirements document)
+
+
+
+#Dasturiy mahsulotning muayyan sharoitlarda dasturiy ta'minotdan foydalanishda o'rnatilgan va mo'ljallangan ehtiyojlarga mos keladigan funktsiyalarni taqdim etish qobiliyati … deyiladi.
+
++Funktsionalligi
+
+-Ishlashchanligi
+
+-Talabchanligi
+
+-Xato qarshiligi
+
+
+
+#Umumiy xavfsizlik strategiyasi uchta asosiy tamoyilga asoslangan. Qaysi variant ortiqcha
+
++Ishonchlilik 
+
+-Maxfiylik (Konfidensiallik)
+
+-Butunlik 
+
+-Mavjudligi (foydalana olishlilik)
+
+
+
+#Testni Qoplanishi (Test Coverage) – bu
+
++testlash sifatini baholash mezonlaridan biri, bajariladigan kodning yoki talablarni testlar yordamida qoplanishidir
+
+-dasturning real va kutilgan natijalari orasidagi moslikni ma’lum tartibda tanlangan chekli test to’plami asosida tekshirish
+
+-tizimni yoki uning komponentlarini joriy bosqich boshida shakllantirilgan talablarga qanoatlantirishini baholash jarayonidir
+
+-ishlab chiqilgan DTning kutilgan natijalarga va foydalanuvchi extiyojlariga, tizim talablariga mosligini aniqlash
+
+
+
+#Dasturiy ta'minotni testlash necha va qanday darajalarga bo'linadi 
+
++4 (Modulli, integratsiyali, tizimli, qabul qilish testi)
+
+-3 (Modulli, integratsiyali, qabul qilish testi)
+
+-3 (Modulli, tizimli, qabul qilish testi)
+
+-2 (Modulli, qabul qilish testi)
+
+
+
+#Mavjud bo'lgan ilovaning ayrim yoki alohida mustaqil bo'lgan komponentalar orasidan nuqsonlarning mavjudligini aniqlash uchun funktsional va funktsional bo'lmagan talablarni tekshirish test-sinovi.
+
++Modulli yoki komponentli testlash
+
+-Integratsiyalashuv testlash
+
+-Tizimli testlash
+
+-Qabul qilish testi
+
+
+
+#Bu tizim talablarga javob berishini tasdiqlovchi va mijozlarning tizimdan qoniqishini aniqlash uchun o'tkaziladigan rasmiy test jarayonidir.
+
++Qabul qilish testi
+
+-Modulli yoki komponentli testlash
+
+-Integratsiyalashuv testlash
+
+-Tizimli testlash
+
+
+
+#Komponentlar orasidagi aloqani tekshirish, shuningdek tizimning turli qismlari (operatsion tizim, uskunalar yoki turli tizimlar o'rtasidagi aloqa) bilan o'zaro aloqani tekshirish.
+
++Integratsiyalashuv testlash
+
+-Tizimli testlash
+
+-Qabul qilish testi
+
+-Modulli yoki komponentli testlash
+
+
+
+#Butun tizimdan nuqsonlarning mavjudligini aniqlash uchun funktsional va funktsional bo'lmagan talablarni tekshirish test-sinovi.
+
++Tizimli testlash
+
+-Qabul qilish testi
+
+-Modulli yoki komponentli testlash
+
+-Integratsiyalashuv testlash
+
+
+
+#Pastdan yuqoriga, yuqoridan pastga, katta portlash (big bang) - yondashuvlar qaysi testlashning darajasiga tegishli
+
++Integratsiyalashuv testlash
+
+-Tizimli testlash
+
+-Qabul qilish testi
+
+-Modulli yoki komponentli testlash
+
+
+
+#“Foydalanish holatlariga asoslangan va  talablar asosida” yondashuvlar qaysi testlashning darajasiga tegishli
+
++Tizimli testlash
+
+-Qabul qilish testi
+
+-Modulli yoki komponentli testlash
+
+-Integratsiyalashuv testlash
+
+
+
+#“Alfa testi, Beta testi, Foydalanuvchi testi” yondashuvlar qaysi testlashning darajasiga tegishli
+
++Qabul qilish testi
+
+-Modulli yoki komponentli testlash
+
+-Integratsiyalashuv testlash
+
+-Tizimli testlash
+
+
+
+#“framework, test to'plamlari va holatlar” yondashuvlar qaysi testlashning darajasiga tegishli
+
++Modulli yoki komponentli testlash
+
+-Integratsiyalashuv testlash
+
+-Tizimli testlash
+
+-Qabul qilish testi
+
+
+
+#Qaysi testning vazifasi: maksimal yuklanganligi ostida dasturning miqyosliligini aniqlaydi.
+
++Ishlashchanlik testi
+
+-Aloqadorlik testi
+
+-Xavfsizlik testi
+
+-O'rnatish testi
+
+
+
+#Qaysi testning vazifasi: dasturni himoya qilish, hacker hujumlari, viruslar, nozik ma'lumotlarga ruxsatsiz kirish uchun yaxlit yondashuvni ta'minlash bilan bog'liq xatarlarni tahlil qilish.
+
++Xavfsizlik testi
+
+-O'rnatish testi
+
+-Ishlashchanlik testi
+
+-Aloqadorlik testi
+
+
+
+#Qaysi testning vazifasi: sinov qilingan mahsulotni dasturiy ta'minot xatolar, apparat etishmovchiligi yoki aloqa muammolari tufayli yuzaga kelishi mumkin bo'lgan muvaffaqiyatsizliklarga qarshi turish va muvaffaqiyatli tiklash qobiliyati nuqtai nazaridan tekshirish
+
++Rad etish va tiklash testi
+
+-Foydalanuvchi uchun qulaylik testi
+
+-Xavfsizlik testi
+
+-Konfiguratsiya testi
+
+
+
+#Qaysi testning vazifasi: turli platformalarda dasturiy ta'minotni tekshirishga qaratilgan testlash.
+
++Konfiguratsiya testi
+
+-Rad etish va tiklash testi
+
+-Foydalanuvchi uchun qulaylik testi
+
+-Xavfsizlik testi
+
+
+
+#Qaysi testning vazifasi: Foydalanuvchi dasturiy ta'minotni o'rnatish va sozlash uchun bajarishi kerak bo'lgan harakatlarni tekshirishdan iborat.
+
++O'rnatish testi
+
+-Rad etish va tiklash testi
+
+-Foydalanuvchi uchun qulaylik testi
+
+-Xavfsizlik testi
+
+
+
+#Regresiya testi (Regression Testing) 
+
++Bu ilova yoki muhitga kiritilgan oʻzgarishlarni (nuqsonni tuzatish, kodni birlashtirish, boshqa operatsion tizimga, maʼlumotlar bazasiga, veb-server yoki dastur serveriga oʻtkazish) tekshirishga qaratilgan testidir.
+
+-boshlash uchun chop etilgan versiyaning sifat mezonlariga muvofiqligini aniqlashga qaratilgan testdir.
+
+-DTning bir yoki bir nechta komponentlar yoki tizimlar bilan o'zaro aloqa qilish qobiliyatini tekshirish, moslik testini (muvofiqlik testini) va integratsiyashuvan testni (integration testing) o'z ichiga oladi.
+
+-ishlab chiqilgan mahsulotning foydalanuvchilar uchun qulaylik, o'rganish, tushunarlilik va jozibadorlik darajasini ma'lum shartlar kontekstida belgilash.
+
+
+
+#Tutunli test (Smoke testing)
+
++Bu komponent yoki tizimning asosiy funksiyalarini qamrab oluvchi rejalashtirilgan test.
+
+-ishlab chiqilgan mahsulotning foydalanuvchilar uchun qulaylik, o'rganish, tushunarlilik va jozibadorlik darajasini ma'lum shartlar kontekstida belgilash.
+
+-boshlash uchun chop etilgan versiyaning sifat mezonlariga muvofiqligini aniqlashga qaratilgan testdir.
+
+-spetsifikatsiyada ko'rsatilgan talablarga muvofiq ishlayotganligini isbotlash uchun etarli darajada yo'naltirilgan testdir.
+
+
+
+#Sanitar testi (Sanity Testing)
+
++spetsifikatsiyada ko'rsatilgan talablarga muvofiq ishlayotganligini isbotlash uchun etarli darajada yo'naltirilgan testdir.
+
+-boshlash uchun chop etilgan versiyaning sifat mezonlariga muvofiqligini aniqlashga qaratilgan testdir.
+
+-DTning bir yoki bir nechta komponentlar yoki tizimlar bilan o'zaro aloqa qilish qobiliyatini tekshirish, moslik testini (muvofiqlik testini) va integratsiyashuvan testni (integration testing) o'z ichiga oladi.
+
+-ishlab chiqilgan mahsulotning foydalanuvchilar uchun qulaylik, o'rganish, tushunarlilik va jozibadorlik darajasini ma'lum shartlar kontekstida belgilash.
+
+
+
+#O'rnatish testi (Build Verification Test)
+
++boshlash uchun chop etilgan versiyaning sifat mezonlariga muvofiqligini aniqlashga qaratilgan testdir.
+
+-spetsifikatsiyada ko'rsatilgan talablarga muvofiq ishlayotganligini isbotlash uchun etarli darajada yo'naltirilgan testdir.
+
+-DTning bir yoki bir nechta komponentlar yoki tizimlar bilan o'zaro aloqa qilish qobiliyatini tekshirish, moslik testini (muvofiqlik testini) va integratsiyashuvan testni (integration testing) o'z ichiga oladi.
+
+-ishlab chiqilgan mahsulotning foydalanuvchilar uchun qulaylik, o'rganish, tushunarlilik va jozibadorlik darajasini ma'lum shartlar kontekstida belgilash.
+
+
+
+#O'zaro ta'sir testi (Interoperability Testing)
+
++DTning bir yoki bir nechta komponentlar yoki tizimlar bilan o'zaro aloqa qilish qobiliyatini tekshirish, moslik testini (muvofiqlik testini) va integratsiyashuvan testni (integration testing) o'z ichiga oladi.
+
+-ishlab chiqilgan mahsulotning foydalanuvchilar uchun qulaylik, o'rganish, tushunarlilik va jozibadorlik darajasini ma'lum shartlar kontekstida belgilash.
+
+-boshlash uchun chop etilgan versiyaning sifat mezonlariga muvofiqligini aniqlashga qaratilgan testdir.
+
+-spetsifikatsiyada ko'rsatilgan talablarga muvofiq ishlayotganligini isbotlash uchun etarli darajada yo'naltirilgan testdir.
+
+
+
+#Foydalanish qulayligi testi (Usability Testing)
+
++ishlab chiqilgan mahsulotning foydalanuvchilar uchun qulaylik, o'rganish, tushunarlilik va jozibadorlik darajasini ma'lum shartlar kontekstida belgilash.
+
+-boshlash uchun chop etilgan versiyaning sifat mezonlariga muvofiqligini aniqlashga qaratilgan testdir.
+
+-spetsifikatsiyada ko'rsatilgan talablarga muvofiq ishlayotganligini isbotlash uchun etarli darajada yo'naltirilgan testdir.
+
+-Bu komponent yoki tizimning asosiy funksiyalarini qamrab oluvchi rejalashtirilgan test.

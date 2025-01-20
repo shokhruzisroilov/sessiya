@@ -1,2313 +1,2596 @@
-﻿#Ishonchlilikni baholash usuli
+#Yaycheykalar massivini qaysi funksiya yaratadi?
 
-+sinovdan o'tkazish
++Cell
 
--o’xshashlari bilan taqqoslash
+-Celldisp.
 
--optimallashtirish
+-Cellstr.
 
--kuzatish
+-Deal.
 
 
 
-#Dasturning hayot tsiklidagi eng ko'p vaqt talab qiladigan bosqich
+       
+#Qaysi jamoa diskret funktsiyalar namunalarini tuzadi?
 
-+kuzatib borish
++stem
 
--loyihalash
+-Loglogx.
 
--talablarni shakllantirish
+-Semilogx.
 
--dasturlash
+-Polar.
 
 
 
-#Dasturning hayot aylanishining birinchi bosqichi
+       
+#Qaysi buyruq soyali poligonni yaratadi?
 
-+talablarni shakllantirish
++Patch.
 
--talablarni tahlil qilish
+-Fill
 
--sinovdan o'tkazish
+-Colorbar
 
--loyihalash
+-Pie
 
 
 
-#Ko'p mumkin bo'lgan variantlardan eng yaxshisini topish
+       
+#Qaysi buyruq soyali poligoni yaratadi?
 
-+optimallashtirish
++Fill
 
--sinovdan o'tkazish
+-Patch.
 
--avtomatlashtirish
+-Colorbar.
 
--kuzatib borish
+-Pie.
 
 
 
-#Dastur sifatining eng muhim mezoni
+       
+#Qaysi buyruq ranglar shkalasini chiqaradi?
 
-+ishlash
++Colorbar.
 
--samaradorlik
+-Patch
 
--ishlash
+-Fill
 
--qulaylik
+-Pie
 
 
 
-#Kompyuter dasturlari va ularga tegishli hujjatlar birgalikda … deyiladi
+       
+#Qaysi buyruq aylanali diagrammani xosil qiladi?
 
-+dasturiy ta'minot
++Pie
 
--dasturiy vosita
+-Patch.
 
--dasturiy mahsulot
+-Fill.
 
--konfiguratsiya
+-Colorbar.
 
 
 
-#Dasturiy mahsulot yaratishga olib keladigan jarayonlar majmui
+       
+#Qaysi buyruqda kosmosda soyali poligon quriladi?
 
-+Dasturiy ta'minotni ishlab chiqish jarayoni
++fill3
 
--Dasturiy ta'minotni ishlatish jarayoni
+-Pie3
 
--Dasturiy ta'minotni o'zgartirish jarayoni
+-Cy1inder
 
--Dasturiy ta'minotni sinovdan o'tkazish jarayoni
+-Sphere
 
 
 
-#CASE iborasi nimani anglatadi?
+       
+#Qaysi buyruq hajmli aylanali diagrammani xosil qiladi?
 
-+Computer-Aided Software Engineering
++pie3
 
--Complex-Aided Software Engineering
+-Fill3
 
--Computer-Aided Software Embed 
+-Cy1inder
 
--Computer-Architect Software Engineering
+-Sphere
 
 
 
-#Qaysi bo'lim dasturiy ta’minotni konstruksiyalash jarayoniga kirmaydi
+       
+#Qaysi funksiya yaycheykalar massivini aks ettiradi?
 
-+konstruksiyalash g'oyalari
++Celldisp
 
--konstruksiyalash asoslari
+-Cell.
 
--konstruksiyalashni boshqarish
+-Cellstr.
 
--konstruksiyalashning amaliy jihatlari
+-Deal.
 
 
 
-#… - bu dasturiy ta'minot tizimining bir qismi bo'lgan funksiya, protsedura yoki sinfdir.
+       
+#Aniqlangan barcha o’zgaruvchilarni o’chirish uchun qaysi funksiyadan foydaniladi
 
-+Modul
++clear
 
--Test
+-ops
 
--Blok
+-help ops
 
--Sxema
+-help
 
 
 
-#Prototip – 
+       
+#Aniqlangan x o’garuvchini o’chirish uchun qaysi funksiyadan foydaniladi
 
-+bu ma'lum funktsiyalar to'plamini amalga oshiradigan tizimning ishchi versiyasidir.
++clear, õ
 
--bu ma'lum funktsiyalar to'plamini amalga oshiradigan tizimning tugallangan versiyasi.
+-ops
 
--bu ma'lum funktsiyalar to'plamini amalga oshiradigan tizimning o'zgartirilgan versiyasi.
+-help ops
 
--bu ma'lum funktsiyalar to'plamini amalga oshiradigan tizimning sinovdan o'tgan versiyasi.
+-help
 
 
 
-#Quyidagilardan qaysi biri dasturiy ta'minotni ishlab chiqish standarti emas
+       
+#Aniq ko’rsatilgan o’zgaruvchilarni o’chirish uchun qaysi funktsiyadan foydalaniladi
 
-+Dasturchilar standartlari
++clear a, b,c
 
--Maxsus tashkilotlar standartlari ISO, IEEE, GOST
+-ops
 
--Til standartlari
+-help ops
 
--Muayyan ishlab chiquvchi tashkilotning standartlari
+-help
 
 
 
-#Dastur kodini takomillashtirish … deyiladi
+       
+#MATLAB paketidagi mantiqiy o’zgaruvchilar ustida qaysi sinf funktsiyalari bajariladi?
 
-+Refaktoring
++Mantiqiy funksiyalar
 
--Reinjiniring
+-Arifmetik funksiyalar.
 
--Konstruktsiyalash
+-Trigonometrik funksiyalar.
 
--Evolyutsiya
+-To’plam ustida funksiyalar.
 
 
 
-#Dasturiy ta’minotga yangi funksionallik qo'shish
+       
+#MATLAB paketida ichki funksiya argumentlari qanday yoziladi?
 
-+Reinjiniring
++Ichki funksiya argumentlari aylana qavslarga olinadi.
 
--Refaktoring
+-Ichki funksiya argumentlari kvadrat qavslarga olinadi
 
--Konstruktsiyalash
+-Ichki funksiya argumentlari figurali qavslarga olinadi
 
--Evolyutsiya
+-Ichki funksiya argumentlari qo’sh tirnoqqa olinadi
 
 
 
-#Refaktoring - bu …
+       
+#MATLAB to’plamida qaysi jamoa narvon jadvali tuzadi?
 
-+dasturning tashqi xatti-harakatlariga ta'sir qilmasdan uning ichki tuzilishini o'zgartirish jarayoni bo’lib, uning qanday ishlashini tushunishni osonlashtirish uchun mo'ljallangan.
++Stairs
 
--ishlayotgan dasturiy ta'minotda yangi funksionalliklarni yaratish yoki global o'zgarishlar orqali xatolarni tuzatish jarayoni
+-plot
 
--dasturiy ta'minot tizimini batafsil yaratish jarayoni
+-hist
 
--kompyuter dasturiy mahsuloti hayotiyligi saqlanib qolishi uchun doimiy yangilanish, texnik xizmat ko'rsatish va takomillashtirishni talab qiladigan jarayon.
+-bar
 
 
 
-#Reinjiniring – bu …
+       
+#Quyidagi buyruqlardan qaysi biri elementar funksiyalar ro’yxatini chaqiradi
 
-+ishlayotgan dasturiy ta'minotda yangi funksionalliklarni yaratish yoki global o'zgarishlar orqali xatolarni tuzatish jarayoni
++help Elfun
 
--dasturning tashqi xatti-harakatlariga ta'sir qilmasdan uning ichki tuzilishini o'zgartirish jarayoni bo’lib, uning qanday ishlashini tushunishni osonlashtirish uchun mo'ljallangan.
+-help specfun
 
--dasturiy ta'minot tizimini batafsil yaratish jarayoni
+-help ops
 
--kompyuter dasturiy mahsuloti hayotiyligi saqlanib qolishi uchun doimiy yangilanish, texnik xizmat ko'rsatish va takomillashtirishni talab qiladigan jarayon.
+-help
 
 
 
-#Dasturiy ta'minotni konstruktsiyalash - bu ...
+       
+#Qaysi buyruq logarifmik masshtabdagi grafikni xosil qiladi?
 
-+dasturiy ta'minot tizimini batafsil yaratish jarayoni.
++loglogx.
 
--ishlayotgan dasturiy ta'minotda yangi funksionalliklarni yaratish yoki global o'zgarishlar orqali xatolarni tuzatish jarayoni
+-semilogx
 
--dasturning tashqi xatti-harakatlariga ta'sir qilmasdan uning ichki tuzilishini o'zgartirish jarayoni bo’lib, uning qanday ishlashini tushunishni osonlashtirish uchun mo'ljallangan.
+-stem
 
--kompyuter dasturiy mahsuloti hayotiyligi saqlanib qolishi uchun doimiy yangilanish, texnik xizmat ko'rsatish va takomillashtirishni talab qiladigan jarayon.
+-polar
 
 
 
-# Dasturiy ta'minot evolyutsiyasi …
+       
+#Qaysi buyruq yarim logarifmik masshtabdagi grafikni xosil qiladi?
 
-+dasturiy ta'minotni rivojlantirish jarayoni
++se`milogx
 
--ishlayotgan dasturiy ta'minotda yangi funksionalliklarni yaratish yoki global o'zgarishlar orqali xatolarni tuzatish jarayoni
+-loglogx
 
--dasturning tashqi xatti-harakatlariga ta'sir qilmasdan uning ichki tuzilishini o'zgartirish jarayoni bo’lib, uning qanday ishlashini tushunishni osonlashtirish uchun mo'ljallangan 
+-stem
 
--kompyuter dasturiy mahsuloti hayotiyligi saqlanib qolishi uchun doimiy yangilanish, texnik xizmat ko'rsatish va takomillashtirishni talab qiladigan jarayon
+-polar
 
 
 
-#Dasturiy ta'minotni ishlab chiqish tamoyillariga nimalar kirmaydi
+       
+#Quyidagi buyruqlardan qaysi biri maxsus funksiyalar ro’yxatini chaqiradi
 
-+Sotish
++help Specfun
 
--Usullar
+-help elfun
 
--Vositalar
+-help ops
 
--Jarayonlar
+-help
 
 
 
-#Dasturiy ta'minotning hayot aylanishining paradigmalari va modellari
 
-+Kaskadli; Inkrementli; V-shaklidagi; Evolyutsion (spiral); Komponentga yo'naltirilgan
+#Matlab tizimida ma’lumotlarning asosiy elementini tanlang
 
--Kaskadli; Inkrementli; V-shaklidagi; Evolyutsion (spiral); Tuzilmaviy
++Massiv
 
--Kaskadli; Tuzilmaviy; V-shaklidagi; Evolyutsion (spiral); Komponentga yo'naltirilgan
+-Sinf
 
--Kaskadli; Inkrementli; Tuzilmaviy; Evolyutsion (spiral); Komponentga yo'naltirilgan
+-Fakt
 
+-Vaktor
 
 
-#Dasturiy ta'minotni ishlab chiqishga qanday yondashish usuli ilmiy-texnikaviy muammolarni hal qilish uchun dasturlarni yaratish uchun mo'ljallangan
 
-+dasturiy ta'minot tomonidan bajariladigan funktsiyalar (vazifalar) asosida loyihalash;
 
--ma'lumotlar oqimini o'rganish asosida loyihalash;
+#Matlab tilida matritsa (massiv) qanday aniqlanadi?
 
--ma'lumotlar tuzilmasiga asoslangan loyihalash;
++A[9 8 5; 0 1 3]
 
--abstrakt ma'lumotlar turlariga asoslangan loyihalash;
+-Aarray [1..20] of ...
 
+-A:massiv;
 
+-int A  arr[ 20 ];
 
-#Ma'lumotlarni qayta ishlash tizimlarini loyihalashda dasturiy ta'minotni ishlab chiqishga qanday yondashish usuli qo'llaniladi
 
-+ma'lumotlar oqimini o'rganish asosida loyihalash; 
 
--dasturiy ta'minot tomonidan bajariladigan funktsiyalar (vazifalar) asosida loyihalash;
 
--ma'lumotlar tuzilmasiga asoslangan loyihalash;
+#Bir xil masofali nuqtalar massivini shakllantiruvchi funksiyani ko’rsating.
 
--abstrakt ma'lumotlar turlariga asoslangan loyihalash;
++linspace (a,b)
 
+-plot (x1, y1, s1, x2, y2, s2, x3, y3, s3, …)
 
+-cond (M, p)
 
-#Ma'lumotlar bazasini loyihalashda dasturiy ta'minotni ishlab chiqishga qanday yondashish usuli qo'llaniladi
+-rank (M)
 
-+ma'lumotlar tuzilmasiga asoslangan loyihalash;
 
--dasturiy ta'minot tomonidan bajariladigan funktsiyalar (vazifalar) asosida loyihalash;
 
--ma'lumotlar oqimini o'rganish asosida loyihalash;
 
--abstrakt ma'lumotlar turlariga asoslangan loyihalash;
+#Matlabda ikki o’lchovli grafikani qo’rish uchun qanday funksiyadan foydaniladi?
 
++Plot
 
+-xlabel
 
-#Dasturlash tillari translyatorlarini ishlab chiqishda dasturiy ta'minotni ishlab chiqishga qanday yondashish usuli qo'llaniladi
+-legend
 
-+abstrakt ma'lumotlar turlariga asoslangan dizayn;
+-lineto
 
--dasturiy ta'minot tomonidan bajariladigan funktsiyalar (vazifalar) asosida loyihalash;
 
--ma'lumotlar oqimini o'rganishga asoslangan loyihalash;
 
--ma'lumotlar tuzilmasiga asoslangan loyihalash;
+       
+#Qaysi buyruqdan foydalanib operatorlarning to’liq ro’yxatini olish mumkin?
 
++help Ops
 
+-help elfun
 
-#ob'ektga yo'naltirilgan yondoshuv quyidagilarni o'z ichiga OLMAYDI
+-help specfun
 
-+ob'ektga yo'naltirilgan test
+-clear a,b,c
 
--ob'ektga yo'naltirilgan tahlil
 
--ob'ektga yo'naltirilgan loyihalash
 
--ob'ektga yo'naltirilgan dasturlash
 
+#Matlab tizimida uch o’lchovli grafikni yaratishdan oldin nima qilish kerak?
 
++ikkita o`zgaruvchining qiymatlarini hisoblash kerak
 
-#Dasturni ishlab chiqishda eng ko'p vaqt talab qiladigan qadam
+-meshrid funksiyasi yordamida hosil qilingan to’g’ri to’rtburchak sohasini to’rlarga bo’linadi
 
-+sinovdan o'tkazish
+-grafik quriladigan ekran o’lchami aniqlanadi
 
--loyihalash
+-grafikning boshlang’ich koordinatlari aniqlanadi
 
--talablarni shakllantirish
 
--dasturlash
 
+      
+#m-fayllar nima uchun yaratiladi?
 
++aloxida buyruqlarni yozish va ularni bajarishga ketma-ket chaqirish uchun.
 
-#Funktsional dekompozitsiya usuli diagrammasining IPO qisqartmasi nimani anglatadi?
+-matlab paketida yozilgan barcha dasturlarni saqlab qolish uchun
 
-+Input-Processing-Output
+-o’zgarmas, o'zgaruvchilar, ifodalarni saqlash uchun
 
--Internet-Provider-Online
+-satrli ma’lumotlarni, matnni qayta ishlashni saqlash uchun
 
--Inline-Public-Optimal
 
--Input-Program-Output
+   
 
+#Ifodani kiritgandan keyin natija qanday o’zgaruvchiga mos qo’yiladi?
 
++Ans
 
-#Ob'ekt o'z ichiga oladi
+-result
 
-+ma'lumotlar va protseduralar
+-x
 
--ma'lumotlar va dasturlar
+-y
 
--dasturlar va protseduralar
 
--funktsiya-metodlar va funksiya-kichik dasturlar
 
 
+#Kubik splaynni ko’rsating
 
-#Ob'ektga yo'naltirilgan yondashuvning qaysi bosqichida predmet sohasini o'rganish orqali unda qaysi ob'ektlar muhimligi, ular qanday o'zaro ta'sir qilishlari aniqlanadi.
++spline
 
-+ob'ektga yo'naltirilgan tahlil
+-Interpl
 
--ob'ektga yo'naltirilgan loyihalash
+-Linear
 
--ob'ektga yo'naltirilgan dasturlash
+-Nearest
 
--ob'ektga yo'naltirilgan test
 
 
 
-#Ob'ektga yo'naltirilgan yondashuvning qaysi bosqichida ular o'rtasida uzatiladigan ob'ektlar va xabarlar nuqtai nazaridan kelajakdagi dasturiy ta'minot majmuasi loyihasi yaratiladi.
+#Matlabda izoh qanday belgi bilan boshlanadi?
 
-+ob'ektga yo'naltirilgan loyihalash
++%
 
--ob'ektga yo'naltirilgan tahlil
+-\\
 
--ob'ektga yo'naltirilgan dasturlash
+-*
 
--ob'ektga yo'naltirilgan test
+-//
 
 
+   
 
-#Ob'ektga yo'naltirilgan dasturlash vositalariga ega bo'lgan dasturlash tilida loyihani amalga oshirish ob'ektga yo'naltirilgan yondashuvning qaysi bosqichida amalga oshiriladi
+#MATLAB paketi o’zida nimani tavsiflaydi?
 
-+ob'ektga yo'naltirilgan dasturlash
++texnik hisoblashlar uchun yuqori darajali dasturlash tili.
 
--ob'ektga yo'naltirilgan loyihalash
+-massivlarni qayta ishlash uchun yuqori darajali dasturlash tili
 
--ob'ektga yo'naltirilgan tahlil
+-sonlarni qayta ishlash uchun yuqori darajali dasturlash tili
 
--ob'ektga yo'naltirilgan test
+-satrlarni qayta ishlash uchun yuqori darajali dasturlash tili
 
 
 
-#Nosozliklarni tuzatish
 
-+dasturda xato mavjudligi ma'lum bo'lganda muammolarni bartaraf etish jarayoni
+#MATLAB da ish seansi qanday kengaytmada saqlanadi?
 
--parametrlar ro'yxatini aniqlash
++Ish seansi.mat kengaytmali bo`lgan faylda saqlanishi mumkin
 
--protseduralarni (funktsiyalarni) chaqirish qoidasi
+-Ish seansi.db kengaytmali bo’lgan faylda saqlanishi mumkin
 
--algoritm blok-sxemasini tuzish
+-Ish seansi.mdb kengaytmali bo’lgan faylda saqlanishi mumkin
 
+-Ish seansi.txt kengaytmali bo’lgan faylda saqlanishi mumkin
 
 
-#Dastur yaratishning qaysi bosqichida sintaktik xatolar yuzaga keladi?
 
-+dasturlash
+       
+#Qaysi buyruq ekranni tozalaydi va kursorni bo’sh ekranning yuqori chap burchagiga qo’yadi?
 
--loyihalash
++Clc
 
--talablarni tahlil qilish
+-Home
 
--sinovdan o'tkazish
+-mîrå on
 
+-echo on all
 
 
-#Xatoliklarni lokalizatsiya qilish
 
-+xatolik joyini aniqlash
+   
+#Qaysi buyruq oynaning yuqori chap burchagiga kursorni qaytaradi?
 
--xatolik sabablarini aniqlash
++Home.
 
--xatolik sababini topish
+-Clñ
 
--xatolikni tuzatish
+-mîrå on
 
+-echo on all
 
 
-#Sinov maqsadi
 
-+dastur ishonchliligini oshirish
+       
+#Qaysi buyruq satrli bo’yicha chiqarish tartibini yoqadi?
 
--dastur samaradorligini oshirish
++mîrå On
 
--ekspluatatsiya qilish xarakteristikalarini yaxshilash
+-Clñ
 
--dasturni tuzilmalashtirilgan shaklga keltirish
+-home
 
+-echo on all
 
 
-#Dasturlashning instrumental vositalari
+      
 
-+kompilyatorlar, tarjimonlar
+#Qaysi buyruq barcha m-fayllarning matnlarini ekranga chiqarish tartibini yoqadi?
 
--MBBT (ma'lumotlar bazasini boshqarish tizimlari)
++echo on All
 
--OS (operatsion tizimlar)
+-Clñ
 
--BIOS (asosiy kirish/chiqish tizimi)
+-home
 
+-mîrå on
 
 
-#Asosiy WATEFALL (kaskad modeli) metodologiyasining tamoyillari.
 
-+Aniq hujjatlar; Ishning keyingi bosqichi avvalgisi tugamaguncha boshlanmaydi; Kechiktirilgan sinov
 
--Rivojlanish tezligining oshishi, arzonligi, yuqori sifati
+#MATLAB paketida vektor o’zida nimani tavsiflaydi?
 
--Rivojlanishga iterativ yondashuv; Vaqt xarajatlarini minimallashtirish; Prototiplash; Ishlab chiqish davri; Hamkorlik
++Vektor – bu bo`sh joy bilan ajratilgan va kvadrat qavslarga olingan son.
 
--Iterativ rivojlanish modeli; Talablarni boshqarish; Komponent arxitekturasi; Vizual modellashtirish dasturi; Dasturiy ta'minot sifatini tekshirish; Kiritilgan o'zgartirishlarni nazorat qilish
+-Vektor – bu bo’sh joy bilan ajratilgan va aylana qavslarga olingan son.
 
+-Vektor – bu bo’sh joy bilan ajratilgan va kvadrat qavslarga olingan so’z.
 
+-Vektor – bu arifmetik amallar belgilari bilan ifodalangan ifoda.
 
-#RAD (Rapid Application Development) metodologiyasining asosiy tamoyillari quyidagilardir
 
-+Ishlab chiqishning iterativ yondashuvi; Vaqt xarajatlarini minimallashtirish; Prototiplash; Ishlab chiqish davriyligi; Hamkorlik tamoyillaridir
 
--Aniq hujjatlashtirish; Ishning keyingi bosqichi avvalgisi tugamaguncha boshlanmaydi; Kechiktirilgan sinov bosh tamoyillari
+       
+#MATLAB paketida matritsa o’zida nimani tavsiflaydi?
 
--Ishlab chiqishning yuqori tezligi, kam xarajatliligi, yuqori sifat keng tarqalgan tamoyillari
++Matritsa – bu nuqta vergul, bilan ajratilgan va kvadrat qavslarga olingan sonlardan iborat satrlardir.
 
--Ishlab chiqishning iterativ modeli; Talablarni boshqarish; Komponentli arxitektura; Dasturiy ta'minotni vizual modellashtirish; Dasturiy ta'minot sifatini tekshirish; Kiritilgan o'zgartirishlarni nazorat qilish tamoyillari
+-Matritsa – bu arifmetik amallar belgilari bilan ifodalangan ifodan iborat satrlar.
 
+-Matritsa – bu nuqta vergul bilan ajratilgan va aylana qavslarga olingan sonlardan iborat satrlardir.
 
+-Matritsa – bu nuqta vergul bilan ajratilgan belgilardir.
 
-#Bloklar va ular orasidagi interfeyslarni loyihalashga asoslangan Ericsson yondashuvining muallifi kim (1967)
 
-+Ivar Jeykobson - yondashuv muallifidir
 
--Gradi Butch - yondashuvning muallifi
+     
+#Vektorlar va matritsalar bo’yicha eng oddiy arifmetik operator belgilari
 
--Jeyms Rembo – yondashuvning bosh muallifi
++,-,*, /,^
 
--Ada Lovli – yondashuvning asosiy muallifi
+-, -, *,  /
 
+-,  -, ^
 
+-, -
 
-#Arxitektura va iterativ ishlab chiqishni ta'kidlovchi «Objectory AB» yondashuv muallifi kim (1995)
 
-+Gradi Butch - yondashuv muallifidir
 
--Ivar Jeykobson - yondashuvning muallifi
 
--Jeyms Rembo – yondashuvning bosh muallifi
+#Qaysi operator o’ngdan chapga bo’lishni anglatadi
 
--Ada Lovli – yondashuvning asosiy muallifi
++\.
 
+-/
 
+-^
 
-#dasturiy ta'minotni ishlab chiqishda vazifalar va mas'uliyatni taqsimlashning universal metodologiyasi.
+-*
 
-+Rational Unified Process (RUP) - metodologiyasidir
 
--Feature driven development (FDD) – asosiy metodologiyasi
 
--Lean Software Development (LSD) – keng tarqalgan metodologiyasi
+       
+#Qaysi operator massivlarni elementlar bo’yicha ko’paytirilishni anglatadi
 
--Microsoft Solutions Framework (MSF) – bosh metodologiyasi
++.*.
 
+-*
 
+-./
 
-#Talablarni aniqlash manbalari va usullari uchun qo'llanilmaydi
+-/
 
-+Dasturiy ta'minotni o'rnatish uchun qo'llanma
 
--Ishlab chiqarish faoliyatini kuzatish
 
--Intervyular, so'rovlar
+       
+#Qaysi operator massivlarni element bo’yicha bo’lishni bildiradi
 
--Tizimning oldingi versiyalaridan foydalanish statistikasini tahlili
++./.
 
+-*
 
+-.*
 
-#RUP (Rational Unified Process) metodologiyasining asosiy tamoyillari quyidagilardir
+-/
 
-+Ishlab chiqishning iterativ modeli; Talablarni boshqarish; Komponentli arxitektura; Dasturiy ta'minotni vizual modellashtirish; Dasturiy ta'minot sifatini tekshirish; Kiritilgan o'zgartirishlarni nazorat qilish tamoyillaridir
 
--Ishlab chiqishning yuqori tezligi, kam xarajatliligi, yuqori sifat keng tarqalgan tamoyillari
 
--Ishlab chiqishga iterativ yondashuv; Vaqt xarajatlarini minimallashtirish; Prototiplash; Ishlab chiqishning davriyligi; Hamkorlik bosh tamoyillari.
+       
+#MATLABda ishlatiladigan asosiy tizim o’zgaruvchilardan qaysi birida mavhum birlik mavjud?
 
--Aniq hujjatlashtirish; Ishning keyingi bosqichi avvalgisi tugamaguncha boshlanmaydi; Kechiktirilgan sinov tamoyillari.
++i (j)
 
+-Inf
 
+-Ans
 
-#RUP metodologiyasining qaysi tamoyili loyihaning har bir bosqichida xavflarni bartaraf etishni nazarda tutadi
+-NaN
 
-+Ishlab chiqishning iterativ modeli tamoyilidir
 
--Talablarni boshqarish asosiy tamoyili
 
--Komponent arxitekturasi bosh tamoyili
+       
+#MATLABda ishlatiladigan asosiy tizim o’zgaruvchilardan qaysi biri nuqtasi qo’zg’aluvchan sonlar ustidagi amallar xatoligini ko’rsatadi?
 
--Vizual modellashtirish dasturi keng tarqalgan tamoyili
++eps
 
+-Inf
 
+-Ans
 
-#RUP metodologiyasining qaysi tamoyillari funktsional talablarni tashkil etish va kuzatish, hujjatlarni rasmiylashtirish va maqbul yechimlarni tanlash jarayonining tavsifini beradi
+-I (j)
 
-+metodologiyaning talablarni boshqarish tamoyilidir
 
--metodologiyaning komponentli arxitektura bosh tamoyili
 
--metodologiyaning dasturiy ta’minotni vizual modellashtirish asosiy tamoyili
+       
+#MATLABda ishlatiladigan asosiy tizim o’zgaruvchilardan qaysi biri mashina cheksizligini anglatadi?
 
--metodologiyaning ishlab chiqishning iterativ modeli keng tarqalgan tamoyili
++Inf
 
+-Eps
 
+-Ans
 
-#RUP metodologiyasining qaysi tamoyili tizim arxitekturasini joriy va kelajakdagi loyihalarda ishlatilishi mumkin bo'lgan tarkibiy qismlarga ajratishni nazarda tutadi.
+-i (j)
 
-+metodologiyaning komponentli arxitektura tamoyilidir
 
--metodologiyaning dasturiy ta’minotni vizual modellashtirish asosiy tamoyili
+    
 
--metodologiyaning ishlab chiqishning iterativ modeli keng tarqalgan tamoyili
+#MATLABda ishlatiladigan asosiy tizim o’zgaruvchilardan qaysi biri oxirgi bajarilgan amal natijasini saqlash uchun ishlatiladi?
 
--metodologiyaning kiritilgan o'zgarishlarni nazorat qilish bosh tamoyili
++ans
 
+-Eps
 
+-Inf
 
-#RUP metodologiyasining qaysi tamoyili arxitektura va uning tarkibiy qismlarining tuzilishi va xatti-harakatlarini tushunish uchun dasturiy ta'minotning vizual modelini yaratishni nazarda tutadi.
+-NaN
 
-+metodologiyaning dasturiy ta’minotni vizual modellashtirish tamoyilidir
 
--metodologiyaning ishlab chiqishning iterativ modeli keng tarqalgan tamoyili
 
--metodologiyaning kiritilgan o'zgarishlarni nazorat qilish bosh tamoyili
+      
+#MATLABda foydalaniladigan asosiy tizim o'zgaruvchilardan qaysi biri sonli bo’lmagan ma’lumotlar xususiyatlarini ko’rsatadi?
 
--metodologiyaning dasturiy ta'minot sifatini tekshirish asosiy tamoyili
++NaN
 
+-Eps
 
+-Ans
 
-#RUP metodologiyasining qaysi tamoyili dasturiy ta'minotni ishlab chiqish jarayonida jamoa harakatlarining sifatini nazorat qilishni ta'minlaydi
+-i (j)
 
-+metodologiyaning dasturiy ta'minot sifatini tekshirish tamoyilidir
 
--metodologiyaning dasturiy ta’minotni vizual modellashtirish asosiy tamoyili
 
--metodologiyaning ishlab chiqishning iterativ modeli keng tarqalgan tamoyili
+       
+#MATLAB paketining o’rnatilgan funksiyalardan qaysilari arifmetik sinfga tegishli?
 
--metodologiyaning kiritilgan o'zgarishlarni nazorat qilish bosh tamoyili
++plus (M1, M2), mtimes (M1, M2), rdivide (M1, M2).
 
+-fix(A), floor(A), ceil(A), sign(X).
 
+-calendar(d), clock, datestr(D, k), tic.
 
-#RUP metodologiyasining qaysi tamoyillari nazarda tutilgan uzluksiz ivojlanish jarayonini qurish imkonini beruvchi o'zgarishlarni kuzatish.
+-intersect(a,b), setdiff(a,b), union(a ,b).
 
-+metodologiyaning kiritilgan o'zgarishlarni nazorat qilish bosh tamoyilidir
 
--metodologiyaning dasturiy ta'minot sifatini tekshirish asosiy tamoyili
 
--metodologiyaning dasturiy ta’minotni vizual modellashtirish bosh tamoyili
+       
+#MATLAB paketining o’rnatilgan funksiyalardan qaysilari sonli ma’lumotlarni yaxlitlash funksiyalar sinfiga mansub?
 
--metodologiyaning ishlab chiqishning iterativ modeli keng tarqalgan tamoyili
++fix (A), floor (A), ceil (A), sign (X).
 
+-plus(M1, M2), mtimes(M1, M2), rdivide(M1, M2).
 
+-calendar(d), clock, datestr(D, k), tic.
 
-#RUP metodologiyasining arxitekturasi nechta va qaysi qismlardan iborat
+-intersect(a,b), setdiff(a,b), union(a ,b).
 
-+2 ( statik va dinamik ) qismlardan iboratdir
 
--2 ( ochiq va yopiq ) asosiy qismlardan iborat
 
--3 ( bosqichlar , vazifalar va rollar ) bosh qismlardan iborat
+       
+#MATLAB paketining o’rnatilgan funksiyalardan qaysilari vaqt va sanalar bilan ishlaydigan funksiyalar sinfiga mansub?
 
--4 ( tahlil , rejalashtirish , kodlash , texnik xizmat ko'rsatish ) keng tarqalgan qismlardan iborat
++calendar(d),clock,datestr(D,k), tic.
 
+-plus (M1, M2), mtimes (M1, M2), rdivide (M1, M2).
 
+-fix(A), floor(A), ceil (A), sign(X).
 
-#RUP metodologiyasi arxitekturasining gorizontal o'lchami ifodalaydi
+-intersect(a, b), setdiff(a, b), union(a, b).
 
-+dinamik o'lchamni ko’rsatishdir
 
--statistik o'lchamini aks ettiradi
 
--ochiq o'lchamini namoyon etadi
+       
+#MATLAB paketining o’rnatilgan funksiyalardan qaysilari to’plamlarni qayta ishlaydigan funksiyalar sinfiga mansub?
 
--yopiq o'lchamni ifodalaydi
++intersect(a, b), setdiff(a, b), union(a, b).
 
+-plus (M1,M2),mtimes (M1, M2),rdivide (M1,M2).
 
+-fix(A),floor(A),ceil (A),sign(X).
 
-#RUP metodologiyasi arxitekturasining vertikal o'lchami ifodalaydi
+-findstr(sl,s2),lower(s),upper(s), strrep(sl,s2,s3),strncmp(S,T,n).
 
-+statistik o'lchamni namoyon etishdir
 
--dinamik o'lchamni aks ettiradi
 
--ochiq o'lcham o'lchamni ifodalaydi
+       
+#MATLAB paketining o’rnatilgan funksiyalardan qaysilari satrlar bilan ishlaydigan funksiyalar sinfiga mansub?
 
--yopiq o'lcham ko’rsatadi
++findstr(sl,s2),lower(s),upper( s),strrep(sl,s2,s3),strncmp(S,T,n).
 
+-plus (M1, M2), mtimes (M1, M2), rdivide (M1, M2).
 
+-fix(A), floor(A), ceil (A), sign(X).
 
-#RUP metodologiyasi arxitekturasining dinamik yoki vaqtinchalik o'lchamiga nima tegishli 
+-calendar(d), clock, datestr(D, k), tic.
 
-+Hayotiy tsikl, bosqichlar (phases), takrorlashlar, nazorat nuqtalari(milestones) tegishlidir
 
--Ijrochilarning rollari (roles), vazifalar (activity), harakatlar natijalari (artifacts), ish jarayonlari (workflows), fanlar (disciplines) kiradi
 
--Loyiha boshlanishi bosqichi(Inception) , ishlab chiqish bosqichi(Elaboration), Konstruktsiyalash bosqichi (Construction), Uzatish bosqichi (Transition) tegishli
+       
+#MATLAB paketining o’rnatilgan funksiyalardan qaysilari munosabat funksiyalar sinfiga mansub?
 
--Asosiy va yordamchi jarayonlar: biznes modellarini yaratish (Business Modeling), talablarni aniqlash (Requirements), tahlil va loyihalash (Analysis and Design), Amalga oshirish (Implementation) , sinovdan o'tkazish (Testing), joylashtirish (Deployment) , sozlash va o'zgartirishni boshqarish (Configuration and Change Management), loyiha boshqaruvi (Project Management), infratuzilmani (atrof-muhitni) boshqarish (Environment Management)larni aks ettiradi
++eq (M1, M2),ne (M1, M2),lt (M1, M2),gt (M1, M2),le (M1, M2),ge (M1, M2).
 
+-plus (M1, M2), mtimes (M1, M2), rdivide (M1, M2).
 
+-abs(X), factor(n), log (X), mod(X, Y), åõð(Õ), lcm(A,B), pow2(Y), sqrt(A).
 
-#Funksional bo’lmagan testlash turlari (unumdorligi)
+-and (M1, M2), or (M1, M2), not (M1), xor (M1, M2), any (M1), all (M1).
 
-+yuklamali testlash, stressga testlash, hajmli testlash turlariga ega
 
--xavfsizlikka testlash, hamkorlikni testlash turlari mavjud
 
--lokal testlash, abstract testlash, terminlar testlash turlariga bo’linadi
+       
+#MATLAB paketining o’rnatilgan funksiyalardan qaysilari algebraik va arifmetik funksiyalar sinfiga mansub?
 
--abstrakt testlash, virtual testlash turlari bor
++abs(X), factor(n), log (X), mod(X, Y), åõð(Õ), lcm(A,B), pow2(Y), sqrt(A).
 
+-plus (M1, M2),mtimes (M1, M2),rdivide (M1, M2).
 
+-eq (M1, M2),ne (M1, M2),lt (M1, M2),gt (M1, M2),le (M1, M2),ge (M1, M2).
 
-#RUP metodologiyasi arxitekturasining statik o'lchamiga nima tegishli 
+-and (M1, M2),or (M1, M2),not (M1),xor (M1, M2),any (M1),all (M1).
 
-+Ijrochilarning rollari (roles), vazifalar (activity), harakatlar natijalari (artifacts), ish jarayonlari (workflows), fanlar (disciplines) tegishlidir
 
--Hayotiy tsikl, bosqichlar (phases), takrorlashlar, nazorat nuqtalari(milestones) tegishli
 
--Loyiha boshlanishi bosqichi(Inception) , ishlab chiqish bosqichi(Elaboration), Konstruktsiyalash bosqichi (Construction), Uzatish bosqichi (Transition) tegishli
+       
+#MATLAB paketining o’rnatilgan funksiyalardan qaysilari mantiqiy funksiyalar sinfiga mansub?
 
--Asosiy va yordamchi jarayonlar: biznes modellarini yaratish (Business Modeling), talablarni aniqlash (Requirements), tahlil va loyihalash (Analysis and Design), Amalga oshirish (Implementation) , sinovdan o'tkazish (Testing), joylashtirish (Deployment) , sozlash va o'zgartirishni boshqarish (Configuration and Change Management), loyiha boshqaruvi (Project Management), infratuzilmani (atrof-muhitni) boshqarish (Environment Management)larni aks ettiradi
++and (M1, M2), or (M1, M2), not (M1), xor (M1, M2), any (M1), all (M1).
 
+-plus (M1, M2),mtimes (M1, M2),rdivide (M1, M2).
 
+-eq (M1, M2),ne (M1, M2),lt (M1, M2),gt (M1, M2),le (M1, M2),ge (M1, M2)
 
-#RUP arxitekturasining dinamik tuzilishi
+-abs(X),factor(n),log (X),mod(X, Y), åõð(Õ),lcm(A,B),pow2(Y),sqrt(A).
 
-+Loyiha boshlanishi bosqichi(Inception) , ishlab chiqish bosqichi(Elaboration), Konstruktsiyalash bosqichi (Construction), Uzatish bosqichi (Transition) larni aks ettirishdir
 
--Asosiy va yordamchi jarayonlar: biznes modellarini yaratish (Business Modeling), talablarni aniqlash (Requirements), tahlil va loyihalash (Analysis and Design), Amalga oshirish (Implementation), sinovdan o'tkazish (Testing), joylashtirish (Deployment) , sozlash va o'zgartirishni boshqarish (Configuration and Change Management), loyiha boshqaruvi (Project Management), infratuzilmani (atrof-muhitni) boshqarish (Environment Management)lar tegishli
 
--Hayotiy tsikl, bosqichlar (phases), takrorlashlar, nazorat nuqtalari(milestones) tegishli
+       
+#MATLAB paketining o’rnatilgan funksiyalardan qaysilari trigonometrik va ularning teskari funksiyalar sinfiga mansub?
 
--Ijrochilarning rollari (roles), vazifalar (activity), harakatlar natijalari (artifacts), ish jarayonlari (workflows), fanlar (disciplines)larni o’z ichiga oladi
++cos(X), sin(X), ), tan(X), asin(X), acos(X), atan(X), acot (X, acsc(X), asec(X).
 
+-plus (M1, M2), mtimes (M1, M2), rdivide (M1, M2).
 
+-eq (M1, M2), ne (M1, M2), lt (M1, M2), gt (M1, M2), le (M1, M2), ge (M1, M2).
 
-#RUP arxitekturasining statik tuzilishi
+-abs(X), factor(n), log (X), mod(X, Y), åõð(Õ), lcm(A,B), pow2(Y), sqrt(A).
 
-+Asosiy va yordamchi jarayonlar: biznes modellarini yaratish (Business Modeling), talablarni aniqlash (Requirements), tahlil va loyihalash (Analysis and Design), Amalga oshirish (Implementation) , sinovdan o'tkazish (Testing), joylashtirish (Deployment), sozlash va o'zgartirishni boshqarish (Configuration and Change Management), loyiha boshqaruvi (Project Management), infratuzilmani (atrof-muhitni) boshqarish (Environment Management)larni aks ettirishdir.
 
--Loyiha boshlanishi bosqichi(Inception) , ishlab chiqish bosqichi(Elaboration), Konstruktsiyalash bosqichi (Construction), Uzatish bosqichi (Transition) larni aks ettiradi
 
--Hayotiy tsikl, bosqichlar (phases), takrorlashlar, nazorat nuqtalari(milestones) tegishli
+       
+#MATLAB paketining qaysi funksiyasi matritsali ko’paytirish amalini bajaradi?
 
--Ijrochilarning rollari (roles), vazifalar (activity), harakatlar natijalari (artifacts), ish jarayonlari (workflows), fanlar (disciplines)larni o’z ichiga oladi
++mtimes (M1, M2).
 
+-plus (M1,M2).
 
+-rdivide (M1,M2).
 
-#RUP metodologiyasining asosiy jarayonlari quyidagilarni o'z ichiga oladi
+-times (M1,M2).
 
-+biznes modellarini yaratish (Business Modeling), talablarni aniqlash (Requirements), tahlil va loyihalash (Analysis and Design), Amalga oshirish (Implementation) , sinovdan o'tkazish (Testing), joylashtirish (Deployment) tegishlidir
 
--sozlash va o'zgartirishni boshqarish (Configuration and Change Management), loyiha boshqaruvi (Project Management), infratuzilmani (atrof-muhitni) boshqarish (Environment Management) larni o’z ichiga oladi
 
--Hayotiy tsikl, bosqichlar (phases), takrorlashlar, nazorat nuqtalari(milestones) tegishli
+       
+#MATLAB paketining qaysi funksiyasi matritsali qo’shish amalini bajaradi?
 
--Ijrochilarning rollari (roles), vazifalar (activity), harakatlar natijalari (artifacts), ish jarayonlari (workflows), fanlar (disciplines)larni o’z ichiga oladi
++plus (M1,M2)
 
+-mtimes (M1, M2)
 
+-rdivide (M1, M2)
 
-#RUP metodologiyasini qo'llab-quvvatlovchi jarayonlar o'z ichiga oladi
+-times (M1, M2)
 
-+sozlash va o'zgartirishni boshqarish (Configuration and Change Management), loyiha boshqaruvi (Project Management), infratuzilmani (atrof-muhitni) boshqarish (Environment Management) lar tegishlidir
 
--biznes modellarini yaratish (Business Modeling), talablarni aniqlash (Requirements), tahlil va loyihalash (Analysis and Design), Amalga oshirish (Implementation) , sinovdan o'tkazish (Testing), joylashtirish (Deployment) larni o’z ichiga oladi
 
--Hayotiy tsikl, bosqichlar (phases), takrorlashlar, nazorat nuqtalari(milestones) tegishli
+       
+#MATLAB paketining qaysi funksiyasi massivning elementlari bo’yicha chapdan o’ngga qarab bo’lish amalini bajaradi?
 
--Ijrochilarning rollari (roles), vazifalar (activity), harakatlar natijalari (artifacts), ish jarayonlari (workflows), fanlar (disciplines)larni o’z ichiga oladi
++rdivide (M1, M2)
 
+-mtimes (M1,M2)
 
+-plus (M1,M2)
 
-#RUP fazasi bosqichlari. Ushbu bosqichning asosiy maqsadi loyihaning maqsadlari bo'yicha barcha manfaatdor tomonlar o'rtasida murosaga erishishdir.
+-times (M1,M2)
 
-+Loyiha boshlanishi bosqichidir(Inception)
 
--Ishlab chiqish bosh bosqichi(Elaboration)
 
--Konstruktsiyalash asosiy bosqichi (Construction)
+       
+#MATLAB paketining qaysi funksiyasi massivning elementlari bo’yicha ko’paytirish amalini bajaradi?
 
--Uzatish keng tarqalgan bosqichi(Transition)
++times (M1, M2)
 
+-mtimes (M1,M2)
 
+-plus (M1,M2)
 
-#RUP fazasi bosqichlari. Ushbu bosqichning asosiy maqsadi asosiy, eng muhim talablar asosida tizimga yuklangan vazifalarni hal qilishga imkon beruvchi va keyinchalik tizimni ishlab chiqish uchun asos sifatida foydalaniladigan barqaror asosiy mahsulot arxitekturasini ishlab chiqish.
+-rdivide (M1,M2)
 
-+Ishlab chiqish bosqichidir(Elaboration)
 
--Konstruktsiyalash asosiy bosqichi (Construction)
 
--Uzatish keng tarqalgan bosqichi(Transition)
+       
+#MATLAB paketining qaysi funksiyasi matritsani chapdan o’ngga qarab bo’lish amalini bajaradi?
 
--Loyiha boshlanishi bosh bosqichi(Inception)
++mrdivide(M1,M2)
 
+-mtimes (M1, M2)
 
+-plus (M1, M2)
 
-#RUP fazasi bosqichlari. Ushbu bosqichning asosiy maqsadi ilgari ishlab chiqilgan arxitektura asosida talablarni batafsil tushuntirish va ularni qondiradigan tizimni ishlab chiqish
+-rdivide (M1, M2)
 
-+Konstruktsiyalash bosqichidir(Construction)
 
--Uzatish keng tarqalgan bosqichi(Transition)
 
--Loyiha boshlanishi bosh bosqichi(Inception)
+       
+#MATLAB paketining qaysi funksiyasi matritsani darajaga ko’tarish amalini bajaradi?
 
--Ishlab chiqish asosiy bosqichi(Elaboration)
++mpower(M1, x)
 
+-power(A1,x)
 
+-mldivide(M1,M2)
 
-#RUP fazasi bosqichlari. Ushbu bosqichning asosiy maqsadi tizimni oxirgi foydalanuvchilar uchun to'liq foydalanish imkoniyatini yaratish.
+-rdivide (M1,M2)
 
-+Uzatish bosqichidir(Transition)
 
--Loyiha boshlanishi bosh bosqichi(Inception)
 
--Ishlab chiqish asosiy bosqichi(Elaboration)
+       
+#MATLAB paketining qaysi funksiyasi massivni elementlari bo’yicha darajaga ko’tarish amalini bajaradi?
 
--Konstruktsiyalash keng tarqalgan bosqichi(Construction)
++power(A1, x)
 
+-mpower(M1,x)
 
+-mldivide(M1,M2)
 
-#RUP ( Rational Unified Process ) metodologiyasining mualliflari
+-ldivide(A1,A2)
 
-+Ivar Jeykobson, Gradi Batch, Jeyms Rumbaugh mualliflardir
 
--Kent Bek, Uord Kanningem, Martin Fauler metodologiya mualliflari
 
--Xirotiki Takeuchi va Ikujiro Nonaka metodologiya asoschilari
+       
+#MATLAB paketining qaysi funktsiyasi X ning bir qatorini qaytaradi, bu yerda har bir element 2Y bo’ladi?
 
--Jeff Sazerlend va Ken Shvaber metodologiya asoschilari
++pow2 (Y)
 
+-factor(n)
 
+-gcd(A, Â)
 
-#RUP ish mahsulotini ishlab chiqish jarayonida ijrochilar toifasi
+-lcm(A,B)
 
-+biznes tahlilchisi, biznesni ishlab chiquvchi, ekspert vakili toifalaridir
 
--Mahsulot egasi, Scrum Master, Scrum jamoa ijrochilar toifasi
 
--Dasturchilar jamoasi va testerlar jamoasi ijrochilar toifasi
+       
+#MATLAB paketining qaysi funksiyasi X ning xar bir elementi uchun arkkosinusni qaytaradi?
 
--Dasturchilar, tahlilchilar va loyiha menejerlari jamoasi ijrochilar toifasi
++acos(X)
 
+-acot (X)
 
+-acsc (X)
 
-#RUP ……. ta asosiy tamoyilga asoslanadi.
+-asec (X)
 
-+6 ta tamoyilga ega
 
--10 ta tamoyil mavjud
 
--4 ta tamoyil bor
+       
+#MATLAB paketining qaysi funksiyasi X ning xar bir elementi uchun arkkotangenisni qaytaradi?
 
--8 ta tamoyilga asoslanadi
++acot (X)
 
+-acos(X)
 
+-acsc(X)
 
-#RUP ning asosiy tamoyillari
+-asec(X)
 
-+iterativ rivojlanish modeli, talablarni boshqarish, komponent arxitekturasi, vizual dasturiy ta'minotni modellashtirish, dasturiy ta'minot sifatini tekshirish, nazoratni o'zgartirishdir
 
--qadoqlash va yorliqlashtirish, sinovdan o‘tkazish va tahanalizlash, o‘ziga xos xususiyatlarini aniqlashtirishni o'z ichiga oladi.
 
--odamlar o'qiy oladigan talablarni haqiqiy kodga aylantirishga yordam beradigan oraliq bosqichni o'z ichiga oladi.
+       
+#MATLAB paketining qaysi funksiyasi X ning xar bir elementi uchun arkkosekansni qaytaradi?
 
--maxsus texnik vositalar yordamida fizik kattaliklar qiymatlarini tajriba yo‘li bilan topish.
++acsc (X)
 
+-acos(X)
 
+-acot(X)
 
-#RUP ning iterativ rivojlanish modeli tamoyili
+-asec(X)
 
-+loyihaning har bir bosqichida xatarlarni bartaraf etish muammoni yaxshiroq tushunish va maqbul yechim topilmaguncha kerakli o'zgarishlarni amalga oshirishdir
 
--RUP funktsional talablarni tashkil etish va kuzatish, hujjatlarni rasmiylashtirish va maqbul echimlarni tanlash jarayonini tavsiflaydi 
 
--tizim arxitekturasi joriy va kelajakdagi loyihalarda qo‘llanilishi mumkin bo‘lgan komponentlarga bo‘lingan
+       
+#MATLAB paketining qaysi funksiyasi X ning xar bir elementi uchun arksekansni qaytaradi?
 
--odamlar o'qiy oladigan talablarni haqiqiy kodga aylantirishga yordam beradigan oraliq bosqich
++asec( X)
 
+-acos (X)
 
+-acot (X)
 
-#RUP ning talablarni boshqarish tamoyili
+-acsc(X)
 
-+RUP funktsional talablarni tashkil etish va kuzatish, hujjatlarni rasmiylashtirish va maqbul echimlarni tanlash jarayonini tavsiflash imkoniyatiga ega
 
--loyihaning har bir bosqichida xatarlarni bartaraf etish muammoni yaxshiroq tushunish va maqbul yechim topilmaguncha kerakli o'zgarishlarni amalga oshirish imkonini beradi
 
--tizim arxitekturasi joriy va kelajakdagi loyihalarda qo‘llanilishi mumkin bo‘lgan komponentlarga bo‘lingan
+       
+#MATLAB paketining qaysi funksiyasi X ning xar bir elementi uchun arksinusni qaytaradi?
 
--odamlar o'qiy oladigan talablarni haqiqiy kodga aylantirishga yordam beradigan oraliq bosqich
++asin( X)
 
+-acos (X)
 
+-acot (X)
 
-#Talablarni aniqlash manbalari va usullari uchun qo'llanilmaydi
+-acsc(X)
 
-+Adabiyotlar ro'yxati
 
--Raqobat mahsulotlar tahlili
 
--Anketalash
+       
+#MATLAB paketining qaysi funksiyasi X ning xar bir elementi uchun arktangensni qaytaradi?
 
--Texnik topshiriq
++atan( X)
 
+-cos(X)
 
+-cot(X) 
 
-#RUP ning komponent arxitekturasi tamoyili
+-sec(X)
 
-+tizim arxitekturasi joriy va kelajakdagi loyihalarda qo‘llanilishi mumkin bo‘lgan komponentlarga ega
 
--loyihaning har bir bosqichida xatarlarni bartaraf etish muammoni yaxshiroq tushunish va maqbul yechim topilmaguncha kerakli o'zgarishlarni amalga oshirish imkonini beradi
 
--RUP funktsional talablarni tashkil etish va kuzatish, hujjatlarni rasmiylashtirish va maqbul echimlarni tanlash jarayonini tavsiflaydi
+       
+#MATLAB paketining qaysi funksiyasi X ning xar bir elementi uchun kosinusni qaytaradi?
 
--odamlar o'qiy oladigan talablarni haqiqiy kodga aylantirishga yordam beradigan oraliq bosqich
++cos( X)
 
+-atan(X)
 
+-cot(X)
 
-#RUP ning vizual dasturiy ta'minotni modellashtirish tamoyili
+-sec(X)
 
-+RUP ishlab chiqish metodologiyasini ko'rsatadi arxitektura va uning tarkibiy qismlarining tuzilishi va xatti-harakatlarini tushunish uchun dasturiy ta'minotning vizual modelini yaratishdir
 
--loyihaning har bir bosqichida xatarlarni bartaraf etish muammoni yaxshiroq tushunish va maqbul yechim topilmaguncha kerakli o'zgarishlarni amalga oshirish imkonini beradi
 
--RUP funktsional talablarni tashkil etish va kuzatish, hujjatlarni rasmiylashtirish va maqbul echimlarni tanlash jarayonini tavsiflaydi
+       
+#MATLAB paketining qaysi funksiyasi X ning xar bir elementi uchun kotangensni qaytaradi?
 
--tizim arxitekturasi joriy va kelajakdagi loyihalarda qo‘llanilishi mumkin bo‘lgan komponentlarga bo‘lingan
++cot( X)
 
+-atan(X)
 
+-cos(X)
 
-#RUP ning dasturiy ta'minot sifatini tekshirish tamoyili
+-sec(X)
 
-+dasturiy ta'minotni ishlab chiqish jarayonida jamoaning barcha harakatlarining sifatini nazorat qilishdir
 
--RUP ishlab chiqish metodologiyasini ko'rsatadi arxitektura va uning tarkibiy qismlarining tuzilishi va xatti-harakatlarini tushunish uchun dasturiy ta'minotning vizual modelini qanday yaratish
 
--loyihaning har bir bosqichida xatarlarni bartaraf etish muammoni yaxshiroq tushunish va maqbul yechim topilmaguncha kerakli o'zgarishlarni amalga oshirish imkonini beradi
+       
+#MATLAB paketining qaysi funksiyasi X ning xar bir elementi uchun sekansni qaytaradi?
 
--RUP funktsional talablarni tashkil etish va kuzatish, hujjatlarni rasmiylashtirish va maqbul echimlarni tanlash jarayonini tavsiflaydi
++sec( X)
 
+-atan(X)
 
+-cos(X)
 
-#RUP ning nazoratni o'zgartirish tamoyili
+-cot(X)
 
-+o'zgarishlarni kuzatish uzluksiz rivojlanish jarayonini qurish imkonini berishdir
 
--loyihaning har bir bosqichida xatarlarni bartaraf etish muammoni yaxshiroq tushunish va maqbul yechim topilmaguncha kerakli o'zgarishlarni amalga oshirish imkonini beradi
 
--RUP funktsional talablarni tashkil etish va kuzatish, hujjatlarni rasmiylashtirish va maqbul echimlarni tanlash jarayonini tavsiflaydi
+       
+#MATLAB paketining qaysi funksiyasi X ning xar bir elementi uchun sinusni qaytaradi?
 
--dasturiy ta'minotni ishlab chiqish jarayonida jamoaning barcha harakatlarining sifati nazorat qilinadi
++sin( X)
 
+-atan(X)
 
+-cos(X)
 
-#SCRUM metodologiyasining mualliflari (loyihalarni boshqarishning inqilobiy usuli).
+-cot(X)
 
-+Jeff Sazerlend va Ken Shvaber metodologiya mualliflaridir
 
--Ivar Jeykobson, Gradi Batch, Jeyms Rumbaugh metodologiya mualliflari
 
--Kent Bek, Uord Kanningem, Martin Fauler metodologiya asoschilari
+       
+#MATLAB paketining qaysi funksiyasi X ning xar bir elementi uchun tangensni qaytaradi?
 
--Xirotiki Takeuchi va Ikujiro Nonaka metodologiya avtorlari
++tan( X)
 
+-atan(X)
 
+-cos(X)
 
-#RUP jarayonlari . Atrof-muhit (dizayn muhitini boshqarish)
+-cot(X)
 
-+tahlil qilish, loyihalash, ishlab chiqish, sinov vositalarini yaratish va qo'llab-quvvatlashga jarayonlariga ega
 
--RUP mafkurasiga ko'ra loyiha boshqaruvining ma'muriy harakatlari majmuasini o'z ichiga oladi
 
--manba kodini boshqarish (modellar, bajariladigan modullar, testlar, hujjatlar), mahsulot versiyasini boshqarish, kodni ishlab chiqish va hujjatlashtirish uchun korporativ standartlar, o'zgarishlar va xatolarni kuzatishni o'z ichiga oladi.
+       
+#MATLAB paketining qaysi buyrug’i to’g’ri chiziqlar orqali kesmalar grafigini xosil qiladi?
 
--mijozning saytida mahsulotni o'rnatish, xodimlarni o'qitish, tizimni ishga tushirish va qabul qilish sinovlari, mahsulotni joylashtirish standartlarini tayyorlash, materiallarni savdo bo'limiga topshirishni o'z ichiga oladi.
++Plot
 
+-bar
 
+-stairs
 
-#Yaratilgan, o'zgartirilgan yoki biron bir jarayonda ishlatiladigan obyekt (ma'lumotlar hajmi) deyiladi
+-hist
 
-+Ishchi mahsulot (artifakt) ma’nosiga ega
 
--Ishchi jarayon (workflows) deyiladi
 
--Harakat (Activity) ma’nosini bildiradi
+       
+#MATLAB paketining qaysi buyrug’i ustunli diagrammani xosil qiladi?
 
--Rollar (Role) ma’nosini anglatadi
++Bar
 
+-plot
 
+-stairs
 
-#Rol ijrochisining ish birligi deyiladi
+-hist
 
-+Harakat (Activity) ma’nosiga ega
 
--Ishchi mahsulot (artifakt) ma’nosini bildiradi
 
--Ishchi jarayon (workflows) deyiladi
+       
+#MATLAB paketining qaysi buyrug’i gistogrammani xosil qiladi?
 
--Rollar (Role) ma’nosini anglatadi
++Hist
 
+-plot
 
+-stairs
 
-#Muhim natijaga (ish mahsuloti) erishishga qaratilgan harakatlar ketma-ketligi va ijrochilar (rollar) toifalarining o'zaro ta'sirini tavsiflash.
+-bar
 
-+Ishchi jarayon (workflows) ma’nosiga ega
 
--Harakat (Activity) deyiladi
 
--Ishchi mahsulot (artifakt) ma’nosini bildiradi
+       
+#Qaysi buyruq yarim logarifmik masshtabdagi grafikni xosil qiladi?
 
--Rollar (Role) ma’nosini anglatadi
++polar.
 
+-stem
 
+-loglogx
 
-#Dasturiy ta’minotni testlash (software testing) – bu …
+-semilogx
 
-+dasturning real va kutilgan natijalari orasidagi moslikni ma’lum tartibda tanlangan chekli test to’plami asosida tekshirishdir
 
--tizimni yoki uning komponentlarini joriy bosqich boshida shakllantirilgan talablarga qanoatlantirishini baholash jarayoni
 
--ishlab chiqilgan DTning kutilgan natijalarga va foydalanuvchi extiyojlariga, tizim talablariga mosligini aniqlash
+       
+#Qaysi buyruq burchakli gistogrammani xosil qiladi?
 
--testlash bo’yicha bajarilishi kerak bo’lgan ishlarni qamrab olgan xujjat
++rose
 
+-Compass
 
+-Feather
 
-#X metodologiyasining (ekstremal dasturlash) mualliflari
+-Contour
 
-+Kent Bek, Uord Kanningem, Martin Fauler metodologiya asoschilaridir
 
--Ivar Jeykobson, Gradi Batch, Jeyms Rumbaugh metodologiya mualliflari
 
--Xirotiki Takeuchi va Ikujiro Nonaka metodologiya avtorlari
+       
+#Qaysi buyruq vektorlar grafikasini xosil qiladi?
 
--Jeff Sazerlend va Ken Shvaber metodologiya asoschilari
++Compass
 
+-rose
 
+-feather
 
-#Tekshirish (Verification) – bu …
+-contour
 
-+tizimni yoki uning komponentlarini joriy bosqich boshida shakllantirilgan talablarga qanoatlantirishini baholash jarayonidir.
 
--ishlab chiqilgan DTning kutilgan natijalarga va foydalanuvchi extiyojlariga, tizim talablariga mosligini aniqlash.
 
--testlash bo’yicha bajarilishi kerak bo’lgan ishlarni qamrab olgan xujjat
+       
+#Samolyotda qaysi vektorlarning proektsiyalari grafigi tuziladi?
 
--dasturning real va kutilgan natijalari orasidagi moslikni ma’lum tartibda tanlangan chekli test to’plami asosida tekshirish.
++Feather
 
+-compass
 
+-rose
 
-#Validasiya (Validation) – bu …
+-contour
 
-+ishlab chiqilgan DTning kutilgan natijalarga va foydalanuvchi extiyojlariga, tizim talablariga mosligini aniqlashdir
 
--testlash bo’yicha bajarilishi kerak bo’lgan ishlarni qamrab olgan xujjat
 
--dasturning real va kutilgan natijalari orasidagi moslikni ma’lum tartibda tanlangan chekli test to’plami asosida tekshirish
+       
+#Qaysi bo’yruq konturli grafikani xosil qiladi?
 
--tizimni yoki uning komponentlarini joriy bosqich boshida shakllantirilgan talablarga qanoatlantirishini baholash jarayonidir
++con tour
 
+-feather
 
+-compass
 
-#Testlashni rejalashtirish (Test Plan) – bu
+-rose
 
-+testlash bo’yicha bajarilishi kerak bo’lgan ishlarni qamrab olgan xujjatdir
 
--dasturning real va kutilgan natijalari orasidagi moslikni ma’lum tartibda tanlangan chekli test to’plami asosida tekshirish
 
--tizimni yoki uning komponentlarini joriy bosqich boshida shakllantirilgan talablarga qanoatlantirishini baholash jarayonidir
+       
+#Qaysi buyruq uch o’lchamli grafika uchun ma’lumotlar massivini yaratadi?
 
--ishlab chiqilgan DTning kutilgan natijalarga va foydalanuvchi extiyojlariga, tizim talablariga mosligini aniqlash
++mesh grid
 
+-quiver
 
+-plot3
 
-#Bag/Defekt Report (Bug Report) - bu …
+-mesh
 
-+testlash obyektini noto’g’ri ishlashiga olib kelgan harakatlar ketma-ketligi yoki shu holatga olib kelgan vaziyatlarni izohi bo’lib unda kelib chiqish sabablari va kutilayotgan natijalar keltirilgan xujjatdir.
 
--dasturning real va kutilgan natijalari orasidagi moslikni ma’lum tartibda tanlangan chekli test to’plami asosida tekshirish.
 
--tizimni yoki uning komponentlarini joriy bosqich boshida shakllantirilgan talablarga qanoatlantirishini baholash jarayonidir.
+       
+#Qaysi buyruq gradiyentlar grafigini xosil qiladi?
 
--ishlab chiqilgan DTning kutilgan natijalarga va foydalanuvchi extiyojlariga, tizim talablariga mosligini aniqlash.
++quiver.
 
+-meshgrid
 
+-plot3
 
-#Xavfsizlikni testlash - bu
+-mesh
 
-+testlash strategiyasi bo’lib, tizimni xavfsizligini tekshirish uchun qo’llanilishidir
 
--dasturning real va kutilgan natijalari orasidagi moslikni ma’lum tartibda tanlangan chekli test to’plami asosida tekshirish
 
--tizimni yoki uning komponentlarini joriy bosqich boshida shakllantirilgan talablarga qanoatlantirishini baholash jarayoni
+       
+#Qaysi bo’yruq sirtda (yuzada) grafiklarni xosil qiladi?
 
--ishlab chiqilgan DTning kutilgan natijalarga va foydalanuvchi extiyojlariga, tizim talablariga mosligini aniqlash
++plot3
 
+-Meshgrid.
 
+-Quiver.
 
-#Testni Qoplanishi (Test Coverage) – bu …
+-Mesh.
 
-+testlash sifatini baholash mezonlaridan biri, bajariladigan kodning yoki talablarni testlar yordamida qoplanishidir.
 
--dasturning real va kutilgan natijalari orasidagi moslikni ma’lum tartibda tanlangan chekli test to’plami asosida tekshirish.
 
--tizimni yoki uning komponentlarini joriy bosqich boshida shakllantirilgan talablarga qanoatlantirishini baholash jarayoni.
+       
+#Qaysi buyruq to’rlardan tashkil topgan buyalgan 3D-grafikani xosil qiladi?
 
--ishlab chiqilgan DTning kutilgan natijalarga va foydalanuvchi extiyojlariga, tizim talablariga mosligini aniqlash.
++mesh.
 
+-plot3
 
+-meshgrid
 
-#DT ni testlash darajalari 
+-quiver
 
-+alohida modul ustida, bir guruh modullar yoki butun tizim ustida tekshirilishdir
 
--testlash sifatini baholash mezonlaridan biri, bajariladigan kodning yoki talablarni testlar yordamida qoplanishi.
 
--dasturning real va kutilgan natijalari orasidagi moslikni ma’lum tartibda tanlangan chekli test to’plami asosida tekshirish.
+       
+#Qaysi buyruq to’rlardan tashkil topgan proyeksiyali 3D-grafikani xosil qiladi?
 
--tizimni yoki uning komponentlarini joriy bosqich boshida shakllantirilgan talablarga qanoatlantirishini baholash jarayoni.
++meshñ.
 
+-meshz
 
+-surf
 
-#DT ning sifati –
+-surfc
 
-+bahoni to’g’ri ekanligini kafolatlashdir
 
--alohida modul ustida, bir guruh modullar yoki butun tizim ustida tekshirilishi tushuniladi.
 
--testlash sifatini baholash mezonlaridan biri, bajariladigan kodning yoki talablarni testlar yordamida qoplanishidir.
+       
+#Qaysi buyruq sirtda ustunlarni xosil qiladi?
 
--dasturning real va kutilgan natijalari orasidagi moslikni ma’lum tartibda tanlangan chekli test to’plami asosida tekshirish.
++meshz.
 
+-meshñ
 
+-surf
 
-#DTni testlash tiplari quyidagi guruhlarga bo’linadi:
+-surfc
 
-+funksional, funksional bo’lmagan, o’zgarishlar bilan bog’liq bo’lgan guruhlarga ega
 
--lokal, abstrakt, terminlar guruhlarga bo’linadi
 
--konsepsiya , terminlar , tashki interfeys guruhlari mavjud
+       
+#Qaysi buyruq buyalgan sirtni xosil qiladi?
 
--abstrakt, virtual, tashqi interfeys guruhlarga bo’linadi
++surf.
 
+-meshñ
 
+-meshz
 
-#Funksional testlash turlari
+-surfc
 
-+xavfsizlikka testlash, hamkorlikni testlash turlariga ega
 
--lokal testlash, abstract testlash, terminlar testlash turlari mavjud
 
--abstrakt testlash, virtual testlash turlariga bo’linadi
+       
+#Qaysi buyruq sirt va uning proyeksiyasini xosil qiladi?
 
--o’rnatish jarayonini testlash, foydalanish uchun qulayligini testlash turlari bor
++surfc
 
+-Meshñ.
 
+-Meshz.
 
-#Quyidagi bayonot talablarni sinovdan o'tkazish uchun qaysi parametrga mos keladi «Talablar tizimdan foydalanishning ijobiy va salbiy holatlarini o'z ichiga olishi kerak»
+-Surf.
 
-+Mumkin stsenariylar
 
--Integratsiya
 
--Dolzarbligi
+       
+#Qaysi buyruq yorug ' yuzalarni quradi?
 
--Aniqlik va ravshanlik
++surfl.
 
+-slice
 
+-waterfal
 
-#Dasturiy ta'minotni himoya qilish – …
+-contour3
 
-+dasturiy ta'minotni ruxsatsiz olish, foydalanish, tarqatish, o'zgartirish, o'rganish va analoglarini qayta qurishdan himoya qilishga qaratilgan chora-tadbirlar majmuidir
 
--dasturning real va kutilgan natijalari orasidagi moslikni ma’lum tartibda tanlangan chekli test to’plami asosida tekshirish
 
--tizimni yoki uning komponentlarini joriy bosqich boshida shakllantirilgan talablarga qanoatlantirishini baholash jarayoni
+       
+#Qaysi buyruq uchta o'zgaruvchining funktsiyalari bo'limlarini grafikalar bilan bog'laydi?
 
--ishlab chiqilgan DTning kutilgan natijalarga va foydalanuvchi extiyojlariga, tizim talablariga mosligini aniqlash
++slice
 
+-Surfl
 
+-Waterfal
 
-#Dasturlardan ruxsatsiz foydalanishdan himoya qilish – …
+-Contour3
 
-+dasturiy ta'minotdan noqonuniy foydalanishga qarshi kurashishga qaratilgan chora-tadbirlar tizimidir
 
--tizimni yoki uning komponentlarini joriy bosqich boshida shakllantirilgan talablarga qanoatlantirishini baholash jarayoni
 
--ishlab chiqilgan DTning kutilgan natijalarga va foydalanuvchi extiyojlariga, tizim talablariga mosligini aniqlash
+       
+#Qaysi buyruq uch o'lchovli qatlamli grafiklarni tuzadi?
 
--dasturning real va kutilgan natijalari orasidagi moslikni ma’lum tartibda tanlangan chekli test to’plami asosida tekshirish
++Water fall
 
+-Surfl
 
+-Slice
 
-#Dasturiy ta'minotning murakkabligi nechta asosiy guruhga bo'linadi:
+-contour3
 
-+3 asosiy guruhga ega
 
--2 asosiy guruh mavjud
 
--5 asosiy guruhga bo’linadi
+      
+#Qaysi buyruq uch o’lchamli konturli grafikani xosil qiladi?
 
--4 asosiy guruh bor
++contour 3
 
+-Surfl
 
+-Slice
 
-#Modullashtirish - bu
+-Waterfal
 
-+dasturiy ta'minot tizimini vazifalarni mustaqil bajarishga qodir bo'lgan bir nechta diskret va mustaqil modullarga bo'lish usulidir
 
--dasturning real va kutilgan natijalari orasidagi moslikni ma’lum tartibda tanlangan chekli test to’plami asosida tekshirish
 
--tizimni yoki uning komponentlarini joriy bosqich boshida shakllantirilgan talablarga qanoatlantirishini baholash jarayonidir
+       
+#Qaysi buyruq silindrni uch o’lchamli figura shaklda xosil qiladi?
 
--ishlab chiqilgan DTning kutilgan natijalarga va foydalanuvchi extiyojlariga, tizim talablariga mosligini aniqlash
++Cy1inder
 
+-fill3
 
+-pie3
 
-#Oq quti sinovlari –
+-sphere
 
-+dasturning ichki tuzilmalarini yoki ishlarini tekshirishdir
 
--ichki dasturni bilmasdan, manba kodini ko'rmasdan funksionallikni tekshiradi
 
--testlarni loyihalashtirish uchun ichki ma'lumotlar tuzilmalari va algoritmlari haqida bilim bo’lishi shart emas
+       
+#Qaysi buyruq sferani xosil qiladi?
 
--dasturning real va kutilgan natijalari orasidagi moslikni ma’lum tartibda tanlangan chekli test to’plami asosida tekshirish
++Sphere
 
+-fill3
 
+-pie3
 
-#Qora quti testi-…
+-cy1inder
 
-+ichki dasturni bilmasdan, manba kodini ko'rmasdan funksionallikni tekshiradi.
 
--dasturning ichki tuzilmalarini yoki ishlarini tekshirishdir
 
--testlarni loyihalashtirish uchun ichki ma'lumotlar tuzilmalari va algoritmlari haqida bilimli bo'lishni o'z ichiga oladi
+       
+#Qaysi buyruq uchburchaklari uch o'lchovli ramka raqamlarini quradi?
 
--dasturning real va kutilgan natijalari orasidagi moslikni ma’lum tartibda tanlangan chekli test to’plami asosida tekshirish
++Trimesh
 
+-pie3
 
+-cylinder
 
-#Grey-box testi (kulrang quti testi)
+-sphere
 
-+testlarni loyihalashtirish uchun ichki ma'lumotlar tuzilmalari va algoritmlari haqida bilimga ega bo'lishni o'z ichiga olishidir
 
--ichki dasturni bilmasdan, manba kodini ko'rmasdan funksionallikni tekshiradi
 
--dasturning ichki tuzilmalarini yoki ishlarini tekshiradi
+       
+#MATLAB paketida qaysi sinfdagi sonlardan foydaniladi?
 
--dasturning real va kutilgan natijalari orasidagi moslikni ma’lum tartibda tanlangan chekli test to’plami asosida tekshirish
++Butun, kasrli, fiksirlangan va qo`zg`aluvchan nuqtali, kompleksli sonlardan foydaniladi.
 
+-Butun va kasrli sonlardan foydaniladi.
 
+-Butun va fiksirlangan va qo’zg’aluvchan nuqtali sonlardan foydaniladi.
 
-#Dasturiy ta'minotni konstruktsiyalash (“Software Construction”) bilim sohasi quyidagi bo'limlarni o'z ichiga oladi:
+-Kompleksli sonlardan foydaniladi.
 
-+murakkablikni pasaytirish bo'limiga ega
 
--algoritmlarni tahlil qilish bo'limi mavjud
 
--ma’lumotlar bazasini hosil qilish bo'limi bor
+       
+#Hisoblash natijasini saqlash uchun MATLAB paketida qaysi tizimli o’zgaruvchidan foydaniladi?
 
--dasturlash tillarini o’rganish bo'limini o'z ichiga oladi
++ans ismli o`zgaruvchidan
 
+-a ismli o’zgaruvchidan
 
+-pi ismli o’zgaruvchidan
 
-#Murakkablikni pasaytirish - bu
+-inf ismli o’zgaruvchidan
 
-+konstruktsiyalashdagi murakkablikni minimallashtirish, kamaytirish va alohida qismlarga bo'lishdir
 
--dasturiy ta'minotning tahlili va konstruktsiyalash talablar spetsifikatsiyasini qo'shimchaga aylantirishga yordam beradigan barcha tadbirlarni o'z ichiga oladi
 
--ma'lumotlar diagrammalarining grafik yoki mantiqiy yoki jismoniy ko'rinishi
+       
+#MATLAB paketidagi qaysi tizimli o’zgarmas eng kichik sonni 2**(-1022) saqlaydi?
 
--ma'lumotlar bo'yicha bajariladigan harakatlar
++Realmin
 
+-i, j
 
+-Eps
 
-#SCRUM metodologiyasida qanday ishtirokchi-roli mavjud emas?
+-Inf
 
-+Menejer roli mavjud emasdir
 
--Mahsulot buyurtmachisi roli mavjud emas
 
--Ishlab chiquvchilar jamoasi roli kiritilmagan
+       
+#MATLAB paketidagi qaysi tizimli o’zgarmas eng katta sonni 2**(1023) saqlaydi?
 
--Scrum-master roli aks ettirilmagan
++Realmax
 
+-Realmin
 
+-Eps
 
-#SCRUMda uchta artefakt mavjud. Sprint davrida ishlab chiquvchilar jamoasi tomonidan bajarilgan artefakt, 2ta qoidaga javob berish lozim: releasable (foydalanuvchiga taqdim qilish mumkinligi) va usable (foydalanuvchilar uchun qiymatga ega). Bu qaysi artefaktga o’rinli
+-Inf
 
-+Inkrement (Increment) artefaktiga taaluqlidir
 
--Mahsulot uchun talablar (Product Backlog) artefaktiga o’rinli
 
--Sprint uchun talablar (Sprint Backlog) artefaktiga mansub
+       
+#MATLAB paketining qaysi turdagi o’zgaruvchilari sonli massivni anglatadi?
 
--Sprint oynasi [Scrum oynasi] (Sprint Board) artefaktiga kiradi
++single
 
+-Double
 
+-Char
 
-#SCRUMda uchta artefakt mavjud. Maxsulotlarga quyilgan talablar jamlanmasi. Bu qaysi artefaktga o’rinli
+-Cell
 
-+Mahsulot uchun talablar (Product Backlog) artefaktiga taaluqlidir
 
--Sprint uchun talablar (Sprint Backlog) artefaktiga o’rinli
 
--Sprint oynasi [Scrum oynasi] (Sprint Board) artefaktiga mansub
+       
+#MATLAB paketining qaysi turdagi o’zgaruvchilari ikkilangan aniqlikdagi sonli massivni anglatadi?
 
--Inkrement (Increment) artefaktiga kiradi
++double
 
+-Single
 
+-Char
 
-#SCRUMda uchta artefakt mavjud. Ishlab chiquvchilar jamoasi sprintning yakunida tayyor mahsulotni chiqarish uchun kerak bo'lgan vazifalarni o'z ichiga oladi. Bu qaysi artefaktga o’rinli 
+-Struct
 
-+Sprint uchun talablar (Sprint Backlog) artefaktiga mansubdir
 
--Sprint oynasi [Scrum oynasi] (Sprint Board) artefaktiga taaluqli
 
--Inkrement (Increment) artefaktiga kiradi
+       
+#MATLAB paketining qaysi turdagi o’zgaruvchilari satrli massivni anglatadi?
 
--Mahsulot uchun talablar (Product Backlog) artefaktiga o’rinli
++char
 
+-Single
 
+-Double
 
-#SCRUM metodologiyasining dasturiy mahsulotni ko'rinishini shakllantirish va talablarni ishlab chiqish uchun javobgar shaxs
+-Struct
 
-+Mahsulot egasi (Product Owner) javobgar shaxsdir
 
--Scrum jamoasi (Scrum Team) javobgar shaxs
 
--Scrum master (Scrum Master) javobgar shaxs bo’ladi
+       
+#MATLAB paketining qaysi turdagi o’zgaruvchilari massiv yaycheykalarni anglatadi?
 
--Manfaatdor shaxs (Stakeholder) javobgar shaxs
++cell
 
+-Single
 
+-Char
 
-#SCRUM metodologiyasining har qanday vaqtda bir maqsadga, ya’ni maxsulotni ishlab chiqishga, qaratilgan professionallar birlashmasi.
+-Struct
 
-+Scrum jamoasidir (Scrum Team)
 
--Scrum master (Scrum Master)
 
--Manfaatdor shaxs (Stakeholder)
+      
+#MATLAB paketining qaysi turdagi o’zgaruvchilari tuzulmali massivni anglatadi?
 
--Mahsulot egasi (Product Owner)
++struct
 
+-Single
 
+-Double
 
-#SCRUM metodologiyasining jamoa to'siqlarni bartaraf etishga, jamoa murabbiy vazifasini va SCRUM tadbirlarini tashkil qiluvchi shaxs.
+-Char
 
-+Scrum masterdir (Scrum Master) 
 
--Manfaatdor shaxs (Stakeholder)
 
--Mahsulot egasi (Product Owner)
+       
+#Qaysi operator for var ifoda; ko’rsatma; ... ko’rsatma end ko’rinishida yoziladi?
 
--Scrum jamoasi (Scrum Team)
++Sikl operatori
 
+-Ta’minlash operatori
 
+-Ikki nuqta operatori
 
-#Bu SCRUM jamoasi va Mahsulot egasi tomonlaridan SCRUM tadbirlarini, oddatda 2-4 xafta vaqt miqdorida tashkil qilinayotgan jarayon.
+-Sanoq operatori
 
-+Sprint jarayonidir
 
--Jurnal jarayoni
 
--Backlog (talablar) jarayoni
+       
+#MATLAB paketidagi ifodalar nimalardan tashkil topadi?
 
--Scrum oynasi jarayoni
++Ifodalar o`zgarmaslardan, o`zgaruvchilardan, funksiyalardan, vektorlardan, matritsa va arifmetik amal belgilaridan tashkil topishi mumkin.
 
+-Ifodalar o’zgarmas va o’zgaruvchilardan tashkil topishi mumkin.
 
+-Ifodalar vektor va matritsalardan tashkil topishi mumkin.
 
-#Sprint uchun talablar(Sprint Backlog)ni namoyon qilish uchun vositasi
+-Ifodalar o’zgarmas va arifmetik amal belgilaridan tashkil topishi mumkin.
 
-+Scrum oynasi vositasidir
 
--Sprint vositasi
 
--Jurnal vositasi
+       
+#MATLAB paketida hisoblash natijasini chop qilishni bloklash uchun qaysi belgidan foydaniladi?
 
--Backlog (talablar) vositasi
++Nuqtali verguldan.
 
+-Tenglikdan
 
+-Verguldan
 
-#Lean – metodologiyasi bu 
+-Ikki nuqtadan
 
-+Resurslarni tejash metodologiyasidir
 
--Tezkorlikni tejash metodologiyasi bo’ladi
 
--Baxolashni tejash metodologiyasiga to’g’ri keladi
+       
+#MATLAB paketidagi kirish manbai ma'lumotlarini ko'rsatish uchun qanday ramz ishlatiladi?
 
--Vaqtni tejash metodologiyasi
++Qo`shtirnoq belgisi
 
+-Tenglik
 
+-Virma
 
-#SCRUMda Sprint – bu
+-Nuqta vergul
 
-+vazifa yoki muammoni jamoaviy muhokama qilish va uni hal etish maqsadida (ishlab chiqishga) amalga oshirilayotgan jarayondir
 
--vazifa yoki muammoni aniqlash maqsadida yig’ilish
 
--vazifa yoki muammoni harakatlar ketma-ketligini vizual va jismoniy taqdim etish usuli
+       
+#MATLAB paketida ta’minlash belgisi uchun qaysi belgidan foydaniladi?
 
--vazifa yoki muammoni amalga oshirilgan ishlarning mehnat zichligini tekshirish va baholash mexanizmi 
++Tenglikdan
 
+-Qo’shtirnoqdan
 
+-Verguldan
 
-#Scrum - bu
+-Ikki nuqtadan
 
-+Dasturiy ta’minotni ishlab chiqish metodologiyasidir
 
--Dasturiy ta’minotni ishlab chiqish standarti hisoblanadi
 
--Dasturiy ta’minotni ishlab chiqish hujjati deyiladi
+       
+#MATLAB paketida ^ belgisi nimani anglatadi?
 
--Dasturiy ta’minotni ishlab chiqish texnologiyasi bo’ladi
++Darajaga ko’tarish amalini
 
+-Element bo’yicha qo’shish amalini
 
+-O’ng tomonli bo’lish amali
 
-#Scrum metodologiyaning kamchiligini aniqlang
+-Element bo’yicha ko’paytirish amalini
 
-+Sprintlar bo'g'inlarida munozaralar va uchrashuvlar katta vaqt yo'qotishdir
 
--Har qanday vaqtda talablarga o'zgartirish kiritish qobiliyati mavjud
 
--Vaqt chegarasi borligi 
+       
+#MATLAB paketida qaysi amal n : k : m ko’rinishida yoziladi?
 
--Xodimlar va rahbariyat o'rtasida ochiq muloqot bo’lishi
++Ikki nuqta amali.
 
+-Ta’minlash amali.
 
+-Shartli operatori.
 
-#SCRUM tamoyilli: Shaffoflik (Transparency)
+-Sanoq operatori.
 
-+Jihatlar umumiy standartga birlashtirilganligini va barcha ishtirokchilari umumiy tushunchasiga egaligini nazarda tutishidir
 
--Sprint va mahsulot maqsadlariga erishishdagi nomaqbul og'ishlarni o'z vaqtida aniqlashni va tekshirishni nazarda tutadi
 
--Jarayon yoki mahsulotning bir yoki bir nechta elementlarining maqbul chegaralaridan chetga chiqish aniqlanganda tegishli o'zgarishlarni amalga oshirishni nazarda tutadi
+       
+#MATLAB paketida ta’minlash amalida qaysi belgidan foydaniladi?
 
--Bu jamoa a'zolarining birgalikda ishlashini tavsiflovchi me'yorlar, amaliyotlar va strategiyalar to'plamini ishlab chiqishga nazarda tutadi
++« » belgisidan.
 
+-« - » belgisidan.
 
+-« » belgisidan.
 
-#SCRUM tamoyilli: Tekshirish (inspeksiyalash) (Inspection)
+-«> » belgisidan.
 
-+Sprint va mahsulot maqsadlariga erishishdagi nomaqbul og'ishlarni o'z vaqtida aniqlashni va tekshirishni nazarda tutishidir
 
--Jarayon yoki mahsulotning bir yoki bir nechta elementlarining maqbul chegaralaridan chetga chiqish aniqlanganda tegishli o'zgarishlarni amalga oshirishni nazarda tutadi
 
--Bu jamoa a'zolarining birgalikda ishlashini tavsiflovchi me'yorlar, amaliyotlar va strategiyalar to'plamini ishlab chiqishga nazarda tutadi
+      
+#MATLAB paketida izohni bildirish uchun qaysi belgidan foydaniladi?
 
--Jihatlar umumiy standartga birlashtirilganligini va barcha ishtirokchilari umumiy tushunchasiga egaligini nazarda tutadi
++«% » belgisidan.
 
+-« - » belgisidan.
 
+-« » belgisidan.
 
-#Tasvirda uml-diagrammaning qanday turi keltirilgan 
+-«~ » belgisidan.
 
-+Ketma-ketlik diagrammasi (sequence diagram) turidir
 
--Pretsedentlar diagrammasi (use case diagram) turiga to’g’ri keladi
 
--Joylashtirish diagrammasi (deployment diagram) turiga mos keladi
+       
+#MATLAB paketida element bo’yicha amal nima degani?
 
--Sinflar diagrammasi (class diagram) turi aks ettirilgan
++Vektor yoki matritsaning bir hil indexsli elementlari ustida bajariladigan amal.
 
+-Matritsalar elementlari ustida bajariladigan amal.
 
+-Vektor elementlari ustida bajariladigan ko’paytirish amali.
 
-#SCRUM tamoyilli: Moslashuvchanlik (Adaptation)
+-Vektor yoki matritsa elementlari ustida bajariladigan ko’paytirish amali.
 
-+Jarayon yoki mahsulotning bir yoki bir nechta elementlarining maqbul chegaralaridan chetga chiqish aniqlanganda tegishli o' zgarishlarni amalga oshirishni nazarda tutishidir
 
--Bu jamoa a'zolarining birgalikda ishlashini tavsiflovchi me'yorlar, amaliyotlar va strategiyalar to'plamini ishlab chiqishga nazarda tutadi
 
--Jihatlar umumiy standartga birlashtirilganligini va barcha ishtirokchilari umumiy tushunchasiga egaligini nazarda tutadi
+      
+#MATLAB da qaysi operator if shart ko’rsatma end ko’rinishida yoziladi?
 
--Sprint va mahsulot maqsadlariga erishishdagi nomaqbul og'ishlarni o'z vaqtida aniqlashni va tekshirishni nazarda tutadi
++Shartli operator
 
+-Ta’minlash operatori
 
+-Ikki nuqta operatori
 
-#Kunlik Scrum (Daily Scrum)
+-Sanoq operatori
 
-+Ushbu tadbir o'n besh daqiqadan ortiq davom etmaydi va har bir ish kuni bir joyda bir vaqtning o'zida o'tkazilishidir
 
--Ushbu tadbir Sprint oxirida o'tkaziladi, shuning uchun mijozlar va manfaatdor shaxslar qo'shimcha tekshiruvni o'tkazadilar va unga hisobot beradilar
 
--Bu keyingi Sprint uchun ishni rejalashtiradigan Skrum-jamoa tadbiridir
+       
+#Qaysi operator while Shart Ko’rsatma end ko’rinishida yoziladi?
 
--Barcha ishtirokchilarning o'z ishlarini tekshirish va keyingi bosqichlarida takomillashtirish rejasini tuzish tadbiri
++Sikl operatori
 
+-Ta’minlash operatori
 
+-Ikki nuqta operatori
 
-#Sprint sharhi (Sprint Review)
+-Sanoq operatori
 
-+Ushbu tadbir Sprint oxirida o'tkaziladi, shuning uchun mijozlar va manfaatdor shaxslar qo'shimcha tekshiruvni o'tkazadilar va unga hisobot berishidir
 
--Ushbu tadbir o'n besh daqiqadan ortiq davom etmaydi va har bir ish kuni bir joyda bir vaqtning o'zida o'tkazilishi
 
--Bu keyingi Sprint uchun ishni rejalashtiradigan Skrum-jamoa tadbiri
+       
+#Qaysi operator switch ifoda case ko’rsatmalar_ro’yxati Otherwise ko’rsatmalar_ro’yxati end ko’rinishida yoziladi?
 
--Barcha ishtirokchilarning o'z ishlarini tekshirish va keyingi bosqichlarida takomillashtirish rejasini tuzish tadbiri
++U1ash operatori
 
+-Ta’minlash operatori
 
+-Ikki nuqta operatori
 
-#Spritni rejlashtirish (Sprint Planning)
+-Sikl operatori
 
-+Bu keyingi Sprint uchun ishni rejalashtiradigan Skrum-jamoa tadbiridir.
 
--Barcha ishtirokchilarning o'z ishlarini tekshirish va keyingi bosqichlarida takomillashtirish rejasini tuzish tadbiri.
 
--Ushbu tadbir Sprint oxirida o'tkaziladi, shuning uchun mijozlar va manfaatdor shaxslar qo'shimcha tekshiruvni o'tkazadilar va unga hisobot beradilar
+       
+#Qaysi funksiya birlik matritsasini yaratadi?
 
--Ushbu tadbir o'n besh daqiqadan ortiq davom etmaydi va har bir ish kuni bir joyda bir vaqtning o'zida o'tkaziladi.
++eóå
 
+-Ones
 
+-Zeros
 
-#UMLqanday dasturiy ta’minotni yaratish va loyihalash paradigmasiga asoslangan
+-Rand
 
-+Ob’ektga yo’naltirilgan yondashuv paradigmasiga asosidadir
 
--Jarayonli yondashuv paradigmasiga asoslangan
 
--Tizimli yondashuv paradigmasiga asosi bo’yicha
+       
+#Qaysi funksiya elementlari birdan iborat matritsani yaratadi?
 
--Tuzilmaviy yondashuv paradigmasiga asosida
++ones
 
+-Åóå
 
+-Zeros
 
-#Sprint retrospektivasi (Sprint Retrospective)
+-Rand
 
-+Barcha ishtirokchilarning o'z ishlarini tekshirish va keyingi bosqichlarida takomillashtirish rejasini tuzish tadbiridir
 
--Ushbu tadbir Sprint oxirida o'tkaziladi, shuning uchun mijozlar va manfaatdor shaxslar qo'shimcha tekshiruvni o'tkazadilar va unga hisobot beradilar
 
--Ushbu tadbir o'n besh daqiqadan ortiq davom etmaydi va har bir ish kuni bir joyda bir vaqtning o'zida o'tkaziladi
+       
+#Qaysi funksiya elementlari noldan iborat matritsani yaratadi?
 
--Bu keyingi Sprint uchun ishni rejalashtiradigan Skrum-jamoa tadbiri
++zeros
 
+-Åóå
 
+-Ones
 
-#UML ning Inglizcha nomi to'g'ri yozilgan  qatorni toping?
+-Rand
 
-+Unified Modeling Language nomi UML ning Inglizcha nomidir
 
--Unified Markup Language nomi UML ning Inglizcha nomiga to’g’ri
 
--Unified Methodology Language nomi UML ning Inglizcha nomi bo’ladi
+       
+#Qaysi funksiya tasodifiy elementli matritsani yaratadi?
 
--Unified Method Language nomi UML ning Inglizcha nomi
++rand
 
+-Åóå
 
+-Ones
 
-#Tasvirda uml-diagrammaning qanday turi keltirilgan 
+-Zeros
 
-+Pretsedentlar diagrammasi (use case diagram) turi tasvirlangandir
 
--Komponentlar diagrammasi (component diagram) turi keltirilgan
 
--Sinflar diagrammasi (class diagram) turi ko’rsatilgan
+       
+#Qaysi funksiya massivlarni birlashtiradi?
 
--Joylashtirish diagrammasi (deployment diagram) turi aks ettirilgan
++cat
 
+-Diag
 
+-Prod
 
-#Tasvirda uml-diagrammaning qanday turi keltirilgan 
+-Sum
 
-+Faoliyat diagrammasi (activity diagram) turi tasvirlangandir
 
--Pretsedentlar diagrammasi (use case diagram) turi keltirilgan
 
--Sinflar diagrammasi (class diagram) turi ko’rsatilgan
+       
+#Qaysi funksiya berilgan diagonalli matritsani yaratadi?
 
--Joylashtirish diagrammasi (deployment diagram) turi aks ettirilgan
++diag
 
+-Cat
 
+-Prod
 
-#Diagrammalarda izoh (eslatma) qanday geometrik shakl yordamida tasvirlanadi
+-Sum
 
-+Burchagi buklangan varaq ko’rinishiga ega
 
--To'rtburchak ko’rinishida
 
--Kub ko’rinishi holatida
+       
+#Qaysi funksiya massiv elementlarini ko'paytirishga xizmat qiladi?
 
--Aylana (doira) ko’rinishida
++prod
 
+-Cat
 
+-Diag
 
-#UML notatsiyasi orqali ifodalab bo’lmagan ob’ektlarga OCL - Object Constraint Language formal tili yoki tabiiy so’zlar yordamida ifodalanish xodisa sharti.
+-Sum
 
-+Cheklov xodisa shartidir
 
--Izoh (eslatma) xodisa sharti bo’ladi
 
--Stereotip xodisa shartiga to’gri keladi
+       
+#Qaysi funksiya massiv elementlarini yig’indisini hisoblash uchun xizmat qiladi?
 
--Aloqadorlik (connection) xodisa sharti
++sum
 
+-Cat
 
+-Diag
 
-#Tasvirda uml-diagrammaning qanday turi keltirilgan 
+-Prod
 
-+Sinflar diagrammasi (class diagram) turidir
 
--Faoliyat diagrammasi (activity diagram) turiga to’g’ri keladi
 
--Pretsedentlar diagrammasi (use case diagram) turiga mos keladi
+       
+#Matritsaning uchburchak qismlarini tanlash uchun qanday vazifani bajaradi?
 
--Joylashtirish diagrammasi (deployment diagram) turi aks ettirilgan
++tril
 
+-Cat
 
+-Diag
 
-#Ektor (actor, aktyor) – bu:
+-Prod
 
-+ushbu tizim bilan o'zaro aloqada bo'lgan kompyuter tizimiga nisbatan tashqi mohiyatdir
 
--faqat tizimdan ma'lumot olish mumkin bo'lgan kompyuter tizimiga nisbatan tashqi mohiyat bo’ladi
 
--faqat tizimdan ma'lumot olish mumkin bo'lgan kompyuter tizimiga nisbatan ichki mohiyatga mos
+       
+#Qaysi funksiya matritsa normasini hisoblaydi?
 
--ushbu tizim bilan o'zaro aloqada bo'lgan kompyuter tizimiga nisbatan ichki mohiyat
++norm
 
+-Det
 
+-Rank
 
-#Bu dasturiy, tashkiliy-iqtisodiy, texnik va turli tabiatdagi boshqa tizimlarni aniqlash, taqdim etish, loyihalashtirish va hujjatlashtirish tilidir.
+-Trace
 
-+UML 
 
--XML
 
--SGML
+       
+#Qaysi funksiya matritsa aniqlovchisini (determinantini) topishga xizmat qiladi?
 
--HTML
++det
 
+-Norm
 
+-Rank
 
-#Hodisalar oqimidagi o'zaro ta'sir qiluvchi ob'ektlar guruhlarining xatti-harakatlarini tavsiflovchi diagramma.
+-Trace
 
-+O'zaro hamkorlik diagrammasidir
 
--Ketma-ketlik diagrammasi bo’ladi
 
--Sinf diagrammasiga mos
+       
+#Qaysi funksiya matritsa rangini hisoblash uchun xizmat qiladi?
 
--Holatlar diagrammasi deyiladi
++rank
 
+-Norm
 
+-Det
 
-#Foydalanish holatida sodir bo'ladigan hodisalarning vaqt ketma-ketligini tavsiflovchi diagramma.
+-Trace
 
-+Ketma-ketlik diagrammasi
 
--Sinf diagrammasi
 
--Holatlar diagrammasi
+       
+#Matritsaning izi qanday funktsiyani qaytaradi?
 
--O'zaro hamkorlik diagrammasi
++trace
 
+-Norm
 
+-Det
 
-#Tizimning sinflarini va ular o'rtasida mavjud bo'lgan turli xil ulanishlarni tavsiflovchi diagramma
+-Rank
 
-+Sinf diagrammasi
 
--Holatlar diagrammasi
 
--O'zaro hamkorlik diagrammasi
+       
+#Qaysi formatda uchta qizil rangli, yashil va ko'k rangli intensivlikdan iborat ketma-ketliklar:
 
--Ketma-ketlik diagrammasi
++JPG
 
+-GIF
 
+-RGB
 
-#Barcha mumkin bo'lgan holatlarni, shuningdek, ob'ektning holatlarini o'zgartirish jarayonini tavsiflovchi diagramma
+-DWG
 
-+Holatlar diagrammasi
 
--O'zaro hamkorlik diagrammasi
 
--Ketma-ketlik diagrammasi
+       
+#«ones» funksiyasi nima uchun ishlatiladi?
 
--Sinf diagrammasi
++elementlari birdan iborat massivni yaratishda
 
+-elementlari noldan iborat massivni yaratishda.
 
+-elementlar bilan massivlarni yaratish - tasodifiy sonlar mos ravishda va odatdagi taqsimot bilan.
 
-#Dasturiy ta'minot komponentlarini va ular o'rtasidagi munosabatlarni tavsiflovchi diagramma.
+-matritsani yaratishda.
 
-+Komponent diagrammasi
 
--Joylashtirish diagrammasi
 
--Holatlar diagrammasi
+       
+#«zeros» funksiyasi nima uchun ishlatiladi
 
--O'zaro hamkorlik diagrammasi
++elementlari 0 dan iborat massivni yaratishda
 
+-elementlar bilan massivlarni yaratish - tasodifiy sonlar mos ravishda va odatdagi taqsimot bilan
 
+-chiziqli grafiklarni yaratishda
 
-#Tizimning dasturiy va apparat komponentlari o'rtasidagi jismoniy aloqalarni tavsiflovchi diagramma.
+-elementlari birdan iborat massivni yaratishda
 
-+Joylashtirish diagrammasi
 
--Holatlar diagrammasi
 
--O'zaro hamkorlik diagrammasi
+       
+#«rand» va «randn» funksiyalari nima uchun ishlatiladi?
 
--Komponent diagrammasi
++elementlar bilan massivlarni yaratish – ta`sodifiy sonlar mos ravishda va odatdagi taqsimot bilan
 
+-chiziqli grafiklarni yaratishda
 
+-matritsalarni yaratishda
 
-#Testlarni loyihalashtirish uchun ichki ma'lumotlar tuzilmalari va algoritmlari haqida bilimga ega bo'lishni o'z ichiga oladi
+-elementlari birdan iborat massivni yaratishda
 
-+Gray-box testlash
 
--Yellow-box testlash
 
--Black-box testlash
+       
+#Qaysi funktsiya qator o'lchamini qaytaradi (agar u ikki yoki undan katta bo'lsa)?
 
--White-box testlash
++ndims
 
+-Size
 
+-Java
 
-#Ketma-ketlik diagrammasi –
+-DIM
 
-+ob'ektlar o'rtasida almashinadigan xabarlar ketma-ketligini modellashtiradi
 
--ob'ektlar o'rtasida almashinadigan xabarlar munosabatlarini modellashtiradi
 
--ob'ektlar o'rtasida almashinadigan xabarlar bor yoki yo’qligini modellashtiradi
+       
+#Satrni ustunga va teskarisiga almashtirish nima deb yurutiladi?
 
--ob'ektlar o'rtasida almashinadigan xabarlar o’zgarishlarni modellashtiradi
++Transpositsiya
 
+-Tarqatish
 
+-o'zgartirish
 
-#Kommunikatsiya diagrammasi UML 1 standartida qanday nomlangan
+-pochta orqali yuborish
 
-+Hamkorlik diagrammasi
 
--Joylashtirish diagrammasi
 
--Holatlar diagrammasi
+       
+#Barcha birlik o'lchamlari olib tashlangan bir qatorni qaytaradigan funksiya.
 
--Komponent diagrammasi
++Squeeze.
 
+-Shiftdim .
 
+-Cat .
 
-#Vaqt diagrammasi (timing diagrams) –
+-Permute .
 
-+o'zaro ta'sir paytida bir nechta ob'ektlarning holatini o'zgartirishni modellashtirishdir
 
--o'zaro ta'sir paytida bir nechta ob'ektlarning holatini ketma-ketligini modellashtiradi
 
--o'zaro ta'sir paytida bir nechta ob'ektlarning holatini munosabatlarini modellashtiradi
+       
+#Tuzilmani yaratish funksiyasi
 
--o'zaro ta'sir paytida bir nechta ob'ektlarning holatini bor yoki yuqligini modellashtiradi
++Struct
 
+-fieldnames
 
+-setfield
 
-#O'zaro munosabatlarni ko'rib chiqish diagrammasi qanday 2ta diagrammani o’z ichiga oladi
+-rmfield
 
-+Faoliyat diagrammasi va ketma-ketlik diagrammasiga ega
 
--Faoliyat diagrammasi va sinf diagrammasini o’z ichiga oladi
 
--Sinf diagrammasi va ketma-ketlik diagrammasini aks ettiradi
+       
+#Tuzilma maydonining nomini qaytaruvchi funksiya
 
--Sinf diagrammasi va joylashtirish diagrammasi o’z ichiga oladi
++Fieldnames
 
+-struct
 
+-setfield
 
-#Pretsedent diagrammasi (use case diagram) quyidagicha:  1-nomerli belgilangan ob’ektlar qanday nomlanadi 
+-rmfield
 
-+Keyslar degan nomga ega
 
--Izohlar deb nomlanadi
 
--Sinflar nomi bilan yuritiladi
+       
+#Tuzilma maydoniga qiymatlarni ta’minlovchi funksiya
 
--Aktyorlar deb nomlanadi
++Setfield
 
+-struct
 
+-fieldnames
 
-#Pretsedent diagrammasi (use case diagram) quyidagicha:  2-nomerli belgilangan ob’ektlar qanday nomlanadi 
+-rmfield
 
-+Aktyorlar degan nomga ega
 
--Keyslar deb nomlanadi
 
--Izohlar nomi bilan yuritiladi
+       
+#Tuzilma maydonini o’chirish uchun ishlatiladigan funksiya
 
--Sinflar deb nomlanadi
++Rmfield
 
+-struct
 
+-fieldnames
 
-#Pretsedent diagrammasi (use case diagram) quyidagicha:  3-nomerli belgilangan ob’ektlar qanday nomlanadi 
+-setfield
 
-+aktyor va foydalanish holatlari o'rtasidagi bog'liqlik degan nomga ega
 
--aktyorlar o'rtasidagi umumlashtirish deb nomlanadi
 
--foydalanish holatlari orasidagi umumlashtirish nomi bilan yuritiladi
+       
+#Struktura maydonlarini olib tashlashning qanday funktsiyasi S-maydoniga ega S-strukturasini qaytaradi?
 
--foydalanish holatlari orasidagi bog'liqliklar (har xil turdagi) nomi deyiladi
++rmfield(S,FIELDS)
 
+-isstruct (S, `field`)
 
+-setfielc KS (`field`, V)
 
-#Pretsedent diagrammasi (use case diagram) quyidagicha:  4-nomerli belgilangan ob’ektlar qanday nomlanadi 
+-fieldnames (s)
 
-+aktyorlar o'rtasidagi umumlashtirish degan nomga ega
 
--foydalanish holatlari orasidagi umumlashtirish deb nomlanadi
 
--foydalanish holatlari orasidagi bog'liqliklar (har xil turdagi) nomi bilan yuritiladi
+       
+#O’chirilayotgan maydonlar ro’yxati quyidagi shaklda beriladi:
 
--aktyor va foydalanish holatlari o'rtasidagi bog'liqlik nomi deyiladi
++maydonlar massivi
 
+-yaycheykalar massivi
 
+-qiymatlar massivi
 
-#Pretsedent diagrammasi (use case diagram) quyidagicha:  5-nomerli belgilangan ob’ektlar qanday nomlanadi 
+-tuzilmalar massivi
 
-+foydalanish holatlari orasidagi umumlashtirish degan nomga ega
 
--foydalanish holatlari orasidagi bog'liqliklar (har xil turdagi) deb nomlanadi
 
--aktyor va foydalanish holatlari o'rtasidagi bog'liqlik nomi bilan yuritiladi
+       
+#Matematik model deganda nima tushuniladi?
 
--aktyorlar o'rtasidagi umumlashtirish nomi deyiladi
++Tadqiq qilinayotgan ob’yekt modeli hisoblanadigan chiziqli yoki chiziqli bo’lmagan tenglamalar va tengsizliklar tizimi.
 
+-Chiziqli yoki chiziqli bo`lmagan tenglamalar va tengsizliklar tizimi.
 
+-Ob`yektni tasvirlayotgan differensial tenglamalar tizimi.
 
-#Pretsedent diagrammasi (use case diagram) quyidagicha:  6-nomerli belgilangan ob’ektlar qanday nomlanadi 
+-Chiziqli tenglamalar tizimi.
 
-+foydalanish holatlari orasidagi bog'liqliklar (har xil turdagi) degan nomga ega
 
--aktyor va foydalanish holatlari o'rtasidagi bog'liqlik deb nomlanadi
 
--aktyorlar o'rtasidagi umumlashtirish nomi bilan yuritiladi
+       
+#Hisoblash eksperimenti deganda nima tushuniladi?
 
--foydalanish holatlari orasidagi umumlashtirish nomi deyiladi
++Matematik modeli va raqamli usuldan foydalangan holda tekshirilayotgan ob`ektni, jarayonni yoki hodisani o'rganish usuli.
 
+-O'rganilayotgan ob'ektni o'rganish usuli.
 
+-O'rganilayotgan ob'ektni raqamli usul yordamida o'rganish usuli.
 
-#Pretsedent diagrammasi (use case diagram) quyidagicha:  7-nomerli belgilangan ob’ektlar qanday nomlanadi 
+-Matematik modeli yordamida jarayon yoki hodisani o'rganish usuli.
 
-+Izohlar degan nomga ega
 
--Sinflar deb nomlanadi
 
--Aktyorlar nomi bilan yuritiladi
+       
+#Masalani yechish algoritmi deganda nima tushuniladi?
 
--Keyslar nomi deyiladi
++Yakuniy natijaga olib boradigan, elementar arifmetik va mantiqiy amallar ketma-ketligidir.
 
+-Elementar amallar ketme-ketligidir.
 
+-Yakuniy natijaga olib kelmaydigan mantiqiy amallar ketma-ketligidir.
 
-#UML notatsiyasida sinf diagrammasi qaysi 3ta qismdan iborat?
+-Natijaga olib boradigan arifmetik amallar ketma-ketligidir.
 
-+Nomlanishi, atributlar va amallar
 
--Ochiq, yopiq va himoyalangan
 
--Statik, yarimstatik va dinamik
+       
+#Matritsali ko’rinishda chiziqli tenglamalar tizimi (ChTT) qanday beriladi?
 
--Nomlanishi, konstruktor va destruktor
++ChTT AXB ko’rinishda beriladi.
 
+-ChTT AX>B ko`rinishda beriladi.
 
+-ChTT AX
 
-#Qaysi 3ta maxsus belgilar yordamida Sinf diagrammasida sinf atributlar va amallar ko’rinishini belgilaydi
+-_______
+       
 
-+,-,
 
--,-,*
 
--,-,/
+#MATLAB paketida matritsali shaklda berilgan ChTT ni qanday ishlash mumkin?
 
--,~,:
++Matritsali shakldagi ChTT quyidagicha yechiladi: Õ  Â/À.
 
+-Matritsali shakldagi ChTT quyidagicha yechiladi; Õ  Â - À.
 
+-Matritsali shakldagi ChTT quyidagicha yechiladi; Õ  Â  À.
 
-#Ichki dasturni bilmasdan, manba kodini ko'rmasdan funksionallikni tekshiradi.
+-Matritsali shakldagi ChTT quyidagicha yechiladi; Õ  Â/À - X.
 
-+Black-box testlash
 
--White-box testlash
 
--Gray-box testlash
+       
+#Agar ChATSni matritsa shaklida yozishda sizga amal qilish kerak?
 
--Yellow-box testlash
++matritsa A va vektor B ga to`g`ri kirish uchun
 
+-to'g'ri raqamlar uchun
 
+-harflarni to'g'ri yozish uchun
 
-#Dasturning ichki tuzilmalarini yoki ishlarini tekshiradi.
+-belgilarni to'g'ri yozish uchun
 
-+White-box testlash
 
--Gray-box testlash
 
--Yellow-box testlash
+       
+#ChTS A*XB qarorini eng kichkina kvadratchalar usuli bilan salbiy cheklashlar bilan belgilang:
 
--Black-box testlash
++õ isqnonneg (A,B)
 
+-õ lsqr(A,B)
 
+-õ  bicg(A,B)
 
-#Dasturiy ta’minotni testlash (software testing) – bu …
+-õ  cov(A,B)
 
-+dasturning real va kutilgan natijalari orasidagi moslikni ma’lum tartibda tanlangan chekli test to’plami asosida tekshirish
 
--tizimni yoki uning komponentlarini joriy bosqich boshida shakllantirilgan talablarga qanoatlantirishini baholash jarayonidir
 
--ishlab chiqilgan DTning kutilgan natijalarga va foydalanuvchi extiyojlariga, tizim talablariga mosligini aniqlash
+       
+#Soliq ChTS A*XB eng kichkina kvadratchalar va birlashtirilgan gradyanlar usuli bilan:
 
--testlash bo’yicha bajarilishi kerak bo’lgan ishlarni qamrab olgan xujjat
++õ lsqr(A,B)
 
+-õ isqnonneg (A,B)
 
+-õ  bicg (A,B)
 
-#Tekshirish (Verification) – bu …
+-y cov (A,B)
 
-+tizimni yoki uning komponentlarini joriy bosqich boshida shakllantirilgan talablarga qanoatlantirishini baholash jarayonidir
 
--ishlab chiqilgan DTning kutilgan natijalarga va foydalanuvchi extiyojlariga, tizim talablariga mosligini aniqlash
 
--testlash bo’yicha bajarilishi kerak bo’lgan ishlarni qamrab olgan xujjat
+       
+#Ikki tomonlama konjugat gradiyenti usuli bo'yicha ChTS A*XB yechimi:
 
--dasturning real va kutilgan natijalari orasidagi moslikni ma’lum tartibda tanlangan chekli test to’plami asosida tekshirish
++õ bicg (A,B)
 
+-õ isqnonneg(A,B)
 
+-õ lsqr(A,B)
 
-#Validatsiya (Validation) – bu …
+-y cov(A,B)
 
-+ishlab chiqilgan DTning kutilgan natijalarga va foydalanuvchi extiyojlariga, tizim talablariga mosligini aniqlash
 
--testlash bo’yicha bajarilishi kerak bo’lgan ishlarni qamrab olgan xujjat
 
--dasturning real va kutilgan natijalari orasidagi moslikni ma’lum tartibda tanlangan chekli test to’plami asosida tekshirish
+       
+#Raqamli integratsiya nima?
 
--tizimni yoki uning komponentlarini joriy bosqich boshida shakllantirilgan talablarga qanoatlantirishini baholash jarayonidir
++Integral qiymatining raqamli ravishda egri chiziqli trapeziya maydoniga teng bo'lishiga qarab aniq integral qiymatini hisoblash
 
+-Dinamikadagi ko'plab tizimlar va qurilmalarning xatti-harakatlarini tahlil qilish, shuningdek tebranish nazariyalarida ko'plab muammolarni hal qilish
 
+-ChTS va unga bog'langan matris operatsiyalarini, echish uchun turli algoritmlarni qo'llash
 
-#Testlashni rejalashtirish (Test Plan) – bu
+-Iterativ konjugat gradyent usuli.
 
-+testlash bo’yicha bajarilishi kerak bo’lgan ishlarni qamrab olgan xujjat
 
--dasturning real va kutilgan natijalari orasidagi moslikni ma’lum tartibda tanlangan chekli test to’plami asosida tekshirish
 
--tizimni yoki uning komponentlarini joriy bosqich boshida shakllantirilgan talablarga qanoatlantirishini baholash jarayonidir
+       
+#Qaysi funktsiyani namunalar orasidagi birma-bir qadam bilan trapeziya integratsiyasi yordamida aniq integral qaytaradi?
 
--ishlab chiqilgan DTning kutilgan natijalarga va foydalanuvchi extiyojlariga, tizim talablariga mosligini aniqlash
++trapz(Y)
 
+-trapz(X.Y)
 
+-trapz(....dim)
 
-#Bag/Defekt Report (Bug Report) - bu …
+-cumtrapz (Y)
 
-+testlash obyektini noto’g’ri ishlashiga olib kelgan harakatlar ketma-ketligi yoki shu holatga olib kelgan vaziyatlarni izohi bo’lib unda kelib chiqish sabablari va kutilayotgan natijalar keltirilgan xujjatdir
 
--dasturning real va kutilgan natijalari orasidagi moslikni ma’lum tartibda tanlangan chekli test to’plami asosida tekshirish
 
--tizimni yoki uning komponentlarini joriy bosqich boshida shakllantirilgan talablarga qanoatlantirishini baholash jarayonidir
 
--ishlab chiqilgan DTning kutilgan natijalarga va foydalanuvchi extiyojlariga, tizim talablariga mosligini aniqlash
+#Y funktsiyasi usuli yordamida funktsiyaning funktsiyasi X ning funktsional funktsiyasini integralini qaytaradi?
 
++trapz(X.Y)
 
+-trapz(Y)
 
-#Quyidagi bayonot talablarni sinovdan o'tkazish uchun qaysi parametrga mos keladi «Talablar har bir modul va butun mahsulot qanday ishlashi kerakligi haqida juda aniq ma'lumot berishi kerak»
+-trapz(...,dim)
 
-+Aniqlik va ravshanlik
+-cumtrapz(Y)
 
--Mumkin stsenariylar
 
--Integratsiya
 
--Dolzarbligi
+       
+#Hajmi nxn katak matrisi A uchun qanaqa polinomli qayta ishlash funktsiyasi qaytariladi?
 
++poly(A)
 
+-poly(r)
 
-#Quyidagi bayonot talablarni sinovdan o'tkazish uchun qaysi parametrga mos keladi «Ishlab chiqilgan mahsulotning boshqa tizimi bilan o'zaro ta'sir qilish sxemasining tavsifi»
+-roots (ñ)
 
-+Integratsiya
+-polyval (p)
 
--Dolzarbligi
 
--Aniqlik va ravshanlik
 
--Mumkin stsenariylar
+       
+#Qaysi funksiya ko'p polinomli ishlov berish funktsiyasi polinom koeffitsientlarini ifodalovchi elementlar bilan bir qator vektorini qaytaradi?
 
++poly (r)
 
+-poly(A)
 
-#Quyidagi bayonot talablarni sinovdan o'tkazish uchun qaysi parametrga mos keladi «Dasturiy ta'minotni ishlab chiqish jarayonida o'zgarishlarni amalga oshirish bilan bog'liq talablarni saqlab qolish zaruriyati»
+-roots(ñ)
 
-+Dolzarbligi
+-polyval(p)
 
--Aniqlik va ravshanlik
 
--Mumkin stsenariylar
+       
 
--Integratsiya
+#Polinomning qaysi funktsiyasi polinomning ildizlari bo'lgan ustunli vektorni qaytaradi?
 
++roots(ñ)
 
+-poly (A)
 
-#Talablar doirasida asosiy test usullariga kirmaydigan texnika
+-poly (r)
 
-+O'zaro ko'rish
+-polyval (p)
 
--Xatolarni kuzatish
 
--Javob vaqti
 
--Chiroyli interfeys
+       
+#Qaysi polinomni qayta ishlash funktsiyasi x qatorida ko'rsatilgan nuqtalarda hisoblangan polinom p qiymatlarini qaytaradi?
 
++polyval (p.x)
 
+-poly(A)
 
-#Quyilgan TALABLARNING muhimli deb aytib bo'lmaydigan variantni tanlang
+-roots(ñ)
 
-+Ishlab chiqilayotgan mahsulotning moliyaviy qismini aniqlash
+-poly(r)
 
--Tizim nima va qanday sharoitlarda ishlashi kerakligi
 
--O'zgarishlarni o'lchash va o'zgarishlarni boshqarish imkoniyati
 
--Loyihani ishlab chiqishdagi muvaffaqiyat darajasini ob'ektiv baholash
+       
+#N ga n katak matritsa b uchun  polinomli qayta ishlash funksiyasini belgilang?
 
++poly(b)
 
+-poly (r)
 
-#Foydalanuvchi uchun daturiy ta’minot vazifani hal qilish jarayonida qaysi funktsiyalar va shartlarga rioya qilish kerakligini tavsifi bu
+-roots (ñ)
 
-+Talablar
+-polyval (p)
 
--Topshiriq
 
--Xususiyat
+       
 
--Muammo
+#MATLABda belgilar qatoridan iborat vektor harakteri qanday aniqlanadi
 
++S `Any Characters`
 
+-Xreshape
 
-#Sinovlash(testlash) turlari ko'rsatilgan variantni belgilang
+-S  plot
 
-+Funktsional, tizimli, o'zgarish bilan bog'liq
+-Xmagic(3)
 
--Funktsional, tizimli, muammoli
 
--Funktsional, tizimli, xusussiyatli
 
--Funktsional, tizimli, konstantali
+       
+#\ amali nimani anglatadi
 
++O`ngdan chapga bo`lish 
 
+-Chapdan o’ngga bo’lish
 
-#Dasturni ishga tushirish mezoni bilan qanday test turlari ajratiladi
+-O’ngdan chapga elementlar bo’yicha bo’lish
 
-+Statik va dinamik
+-Elementlar bo’yicha bo’lish
 
--Qo'lda, Yarimavtomatik, Avtomatlashtirilgan
 
--Modulli, integratsiyali, tizimli, qabul qilish testi
 
--Funktsional, tizimli, o'zgarish bilan bog'liq
+       
+#Massivlar bilan ishlaganda .* amali nimani anglatadi
 
++massivni elementlar bo`yicha ko’paytirishni
 
+-massivni ko’paytirishni
 
-#Amalga oshirish jarayoni bilan qanday test turlari ajratiladi
+-massivni elementlar bo’yicha bo’lishni
 
-+Qo'lda, Yarimavtomatik, Avtomatlashtirilgan
+-massivlarning tengligi
 
--Modulli, integratsiyali, tizimli, qabul qilish testi
 
--Funktsional, tizimli, o'zgarish bilan bog'liq
 
--Statik va dinamik
+       
+#1 dan 10 gacha sonlar yig’indisi MatLAB da qanday hisoblanadi
 
++s sum(1:10)
 
+-ssumma(1:10)
 
-#Quyidagi hujjatlar qanday hujjatlar toifasiga kiradi: o'rnatilgan yordam tizimi, o'rnatish va foydalanish bo'yicha yoriqnomalar, litsenziya shartnomasi
+-ssum(0:10)
 
-+Foydalanuvchi va qo'llab-quvvatlovchi hujjatlar (user and accompanying documentation)
+-sprod(1:10)
 
--Marketing hujjatlari (market requirements document)
 
--Texnik spetsifikatsiyalar (technical specifications)
 
--Mahsulot hujjatlari (product documentation, development documentation)
+       
+#1 dan 10 gacha sonlar ko’paytmasi MatLAB da qanday hisoblanadi
 
++s prod(1:10)
 
+-ssumma(1:10)
 
-#Quyidagi hujjatlar qanday hujjatlar toifasiga kiradi: loyiha rejasi, dasturiy mahsulotga bo'lgan talablar, arxitektura va dizayn
+-ssum(0:10)
 
-+Mahsulot hujjatlari (product documentation, development documentation)
+-ssum(1:10)
 
--Foydalanuvchi va qo'llab-quvvatlovchi hujjatlar (user and accompanying documentation)
 
--Marketing hujjatlari (market requirements document)
 
--Texnik spetsifikatsiyalar (technical specifications)
+       
+#ssum(1:3) kiritilgandan keyin qanday natija olinadi?
 
++s  6
 
+-s3
 
-#Quyidagi hujjatlar qanday hujjatlar toifasiga kiradi: ma'lumotlar bazasi sxemalari, algoritmlarning tavsifi, interfeyslar
+-s2
 
-+Texnik spetsifikatsiyalar (technical specifications)
+-s0
 
--Mahsulot hujjatlari (product documentation, development documentation)
 
--Foydalanuvchi va qo'llab-quvvatlovchi hujjatlar (user and accompanying documentation)
 
--Marketing hujjatlari (market requirements document)
+       
+#ssum(1:3)prod(1:3) kiritilgandan keyin qanday natija olinadi?
 
++s  12
 
+-s6
 
-#Dasturiy mahsulotning muayyan sharoitlarda dasturiy ta'minotdan foydalanishda o'rnatilgan va mo'ljallangan ehtiyojlarga mos keladigan funktsiyalarni taqdim etish qobiliyati … deyiladi.
+-s8
 
-+Funktsionalligi
+-s0
 
--Ishlashchanligi
 
--Talabchanligi
 
--Xato qarshiligi
+       
+#s prod(1:3) kiritilgandan keyin qanday natija olinadi??
 
++s  6
 
+-s3
 
-#Umumiy xavfsizlik strategiyasi uchta asosiy tamoyilga asoslangan. Qaysi variant ortiqcha
+-s2
 
-+Ishonchlilik 
+-s0
 
--Maxfiylik (Konfidensiallik)
 
--Butunlik 
 
--Mavjudligi (foydalana olishlilik)
+       
+#ssum(1:3)^2 kiritilgandan keyin qanday natija olinadi?
 
++s 14
 
+-s3
 
-#Testni Qoplanishi (Test Coverage) – bu
+-s6
 
-+testlash sifatini baholash mezonlaridan biri, bajariladigan kodning yoki talablarni testlar yordamida qoplanishidir
+-s0
 
--dasturning real va kutilgan natijalari orasidagi moslikni ma’lum tartibda tanlangan chekli test to’plami asosida tekshirish
 
--tizimni yoki uning komponentlarini joriy bosqich boshida shakllantirilgan talablarga qanoatlantirishini baholash jarayonidir
 
--ishlab chiqilgan DTning kutilgan natijalarga va foydalanuvchi extiyojlariga, tizim talablariga mosligini aniqlash
+       
+#1 dan 3 gacha yig’indi kvadrati qanday yoziladi?
 
++ssum(1:3)^2
 
+-s prod (1:3)^2
 
-#Dasturiy ta'minotni testlash necha va qanday darajalarga bo'linadi 
+-s summa(1:3)^2
 
-+4 (Modulli, integratsiyali, tizimli, qabul qilish testi)
+-s cumsum(1:3)^2
 
--3 (Modulli, integratsiyali, qabul qilish testi)
 
--3 (Modulli, tizimli, qabul qilish testi)
 
--2 (Modulli, qabul qilish testi)
+       
+#1 dan 3 gacha ko’paytma kvadrati qanday yoziladi?
 
++s prod (1:3)^2
 
+-ssum(1:3)^2
 
-#Mavjud bo'lgan ilovaning ayrim yoki alohida mustaqil bo'lgan komponentalar orasidan nuqsonlarning mavjudligini aniqlash uchun funktsional va funktsional bo'lmagan talablarni tekshirish test-sinovi.
+-ssumma(1:3)^2
 
-+Modulli yoki komponentli testlash
+-sprod(1:3)
 
--Integratsiyalashuv testlash
 
--Tizimli testlash
 
--Qabul qilish testi
 
+#y 2sinx funksiya MATLAB da qanday yoziladi?
 
++y 2*sin(x)
 
-#Bu tizim talablarga javob berishini tasdiqlovchi va mijozlarning tizimdan qoniqishini aniqlash uchun o'tkaziladigan rasmiy test jarayonidir.
+-y2*sinx
 
-+Qabul qilish testi
+-y2sin(x)
 
--Modulli yoki komponentli testlash
+-y2-sin(x)
 
--Integratsiyalashuv testlash
 
--Tizimli testlash
 
+       
+#y 2cosx funksiya MATLAB da qanday yoziladi?
 
++y 2*cos(x)
 
-#Komponentlar orasidagi aloqani tekshirish, shuningdek tizimning turli qismlari (operatsion tizim, uskunalar yoki turli tizimlar o'rtasidagi aloqa) bilan o'zaro aloqani tekshirish.
+-y2*cosx
 
-+Integratsiyalashuv testlash
+-y2sin(x)
 
--Tizimli testlash
+-ycos(x)
 
--Qabul qilish testi
 
--Modulli yoki komponentli testlash
 
+       
+#y cos2x funksiya MATLAB da qanday yoziladi?
 
++y cos(2*x)
 
-#Butun tizimdan nuqsonlarning mavjudligini aniqlash uchun funktsional va funktsional bo'lmagan talablarni tekshirish test-sinovi.
+-y2*cosx
 
-+Tizimli testlash
+-y2sin(x)
 
--Qabul qilish testi
+-ycos(x)
 
--Modulli yoki komponentli testlash
 
--Integratsiyalashuv testlash
 
+       
+#s prod(1:2)^2 kiritilgandan keyin qanday natija olinadi?
 
++s  4
 
-#Pastdan yuqoriga, yuqoridan pastga, katta portlash (big bang) - yondashuvlar qaysi testlashning darajasiga tegishli
+-s3
 
-+Integratsiyalashuv testlash
+-s2
 
--Tizimli testlash
+-s0
 
--Qabul qilish testi
 
--Modulli yoki komponentli testlash
 
+       
+#1 dan 100 gacha sonlar yig’indisi qanday hisoblanadi
 
++ssum (1:100)
 
-#“Foydalanish holatlariga asoslangan va  talablar asosida” yondashuvlar qaysi testlashning darajasiga tegishli
+-ssumma(1:100)
 
-+Tizimli testlash
+-ssum(0:100)
 
--Qabul qilish testi
+-sprod(1:100)
 
--Modulli yoki komponentli testlash
 
--Integratsiyalashuv testlash
 
+       
+#MathCAD hujjatida "" nimani bildiradi?
 
++kiritish kursorini.
 
-#“Alfa testi, Beta testi, Foydalanuvchi testi” yondashuvlar qaysi testlashning darajasiga tegishli
+-kiritish chizigini
 
-+Qabul qilish testi
+-massvlarning tengligi
 
--Modulli yoki komponentli testlash
+-sichqoncha korsatkichini
 
--Integratsiyalashuv testlash
 
--Tizimli testlash
 
+       
+#MathCAD paketidagi topshiriqnomani qanday kiritish mumkin?
 
++ tugmasi orqali
 
-#“framework, test to'plamlari va holatlar” yondashuvlar qaysi testlashning darajasiga tegishli
+-Kalkulyator asboblar panelidagi Ta'rif tugmasini bosib (Kalkulyator)
 
-+Modulli yoki komponentli testlash
+-Baholash asboblar panelidagi Ta'rif tugmasini bosing (ifodalash)
 
--Integratsiyalashuv testlash
+-Quyidagi usullardan har qanday kishi
 
--Tizimli testlash
 
--Qabul qilish testi
 
+       
+#Klaviaturadan MathCAD paketidagi "pi" raqamini qanday kiritish mumkin?
 
++CtrlShiftp
 
-#Qaysi testning vazifasi: maksimal yuklanganligi ostida dasturning miqyosliligini aniqlaydi.
+-1j
 
-+Ishlashchanlik testi
+-CtrlShiftz
 
--Aloqadorlik testi
+-Å
 
--Xavfsizlik testi
 
--O'rnatish testi
 
+       
+#MathCAD paketida ikkita grafik bitta andozaga qanday joylashtiriladi?
 
++Oyning birinchi funktsiyasini yozing, birinchi funksiya nomi, vergul-ni bosing va ikkinchi funktsiyaning nomini kiriting
 
-#Qaysi testning vazifasi: dasturni himoya qilish, hacker hujumlari, viruslar, nozik ma'lumotlarga ruxsatsiz kirish uchun yaxlit yondashuvni ta'minlash bilan bog'liq xatarlarni tahlil qilish.
+-Oyning birinchi funktsiyasini yozing, Enter tugmasini bosing va ikkinchi funktsiyaning nomini kiriting
 
-+Xavfsizlik testi
+-birinchi funktsiyani yozing, bo'shliq tugmasini bosing va ikkinchi funktsiyaning nomini kiriting
 
--O'rnatish testi
+-Oyning o'qi bo'yicha birinchi funktsiya nomini yozganda, Page Down tugmasini bosing va ikkinchi funktsiyaning nomini kiriting
 
--Ishlashchanlik testi
 
--Aloqadorlik testi
 
+       
+#y 10! funksiya MATLAB da qanday yoziladi?
 
++yprod (1:10)
 
-#Qaysi testning vazifasi: sinov qilingan mahsulotni dasturiy ta'minot xatolar, apparat etishmovchiligi yoki aloqa muammolari tufayli yuzaga kelishi mumkin bo'lgan muvaffaqiyatsizliklarga qarshi turish va muvaffaqiyatli tiklash qobiliyati nuqtai nazaridan tekshirish
+-ysum(1:10)
 
-+Rad etish va tiklash testi
+-yprod(10)
 
--Foydalanuvchi uchun qulaylik testi
+-ysum(10)
 
--Xavfsizlik testi
 
--Konfiguratsiya testi
 
+       
+#s prod(1:5)*2 kiritilgandan keyin qanday natija olinadi?
 
++s24.0
 
-#Qaysi testning vazifasi: turli platformalarda dasturiy ta'minotni tekshirishga qaratilgan testlash.
+-s10
 
-+Konfiguratsiya testi
+-s200
 
--Rad etish va tiklash testi
+-s0
 
--Foydalanuvchi uchun qulaylik testi
 
--Xavfsizlik testi
 
+       
+#50 dan 100 gacha sonlar yig’indisi qanday hisoblanadi
 
++ssum (50:100)
 
-#Qaysi testning vazifasi: Foydalanuvchi dasturiy ta'minotni o'rnatish va sozlash uchun bajarishi kerak bo'lgan harakatlarni tekshirishdan iborat.
+-ssumma(50:100)
 
-+O'rnatish testi
+-ssum(0:100)
 
--Rad etish va tiklash testi
+-sprod(50:100)
 
--Foydalanuvchi uchun qulaylik testi
 
--Xavfsizlik testi
 
+       
+#s prod(1:3)^2 kiritilgandan keyin qanday natija olinadi?
 
++s36.O
 
-#Regresiya testi (Regression Testing) 
+-s10
 
-+Bu ilova yoki muhitga kiritilgan oʻzgarishlarni (nuqsonni tuzatish, kodni birlashtirish, boshqa operatsion tizimga, maʼlumotlar bazasiga, veb-server yoki dastur serveriga oʻtkazish) tekshirishga qaratilgan testidir.
+-s20
 
--boshlash uchun chop etilgan versiyaning sifat mezonlariga muvofiqligini aniqlashga qaratilgan testdir.
+-s0
 
--DTning bir yoki bir nechta komponentlar yoki tizimlar bilan o'zaro aloqa qilish qobiliyatini tekshirish, moslik testini (muvofiqlik testini) va integratsiyashuvan testni (integration testing) o'z ichiga oladi.
 
--ishlab chiqilgan mahsulotning foydalanuvchilar uchun qulaylik, o'rganish, tushunarlilik va jozibadorlik darajasini ma'lum shartlar kontekstida belgilash.
 
+       
+#>> n5; >> prod(1:n) Natija nimaga teng?
 
++12.0
 
-#Tutunli test (Smoke testing)
+-36
 
-+Bu komponent yoki tizimning asosiy funksiyalarini qamrab oluvchi rejalashtirilgan test.
+-140
 
--ishlab chiqilgan mahsulotning foydalanuvchilar uchun qulaylik, o'rganish, tushunarlilik va jozibadorlik darajasini ma'lum shartlar kontekstida belgilash.
+-5
 
--boshlash uchun chop etilgan versiyaning sifat mezonlariga muvofiqligini aniqlashga qaratilgan testdir.
 
--spetsifikatsiyada ko'rsatilgan talablarga muvofiq ishlayotganligini isbotlash uchun etarli darajada yo'naltirilgan testdir.
 
+       
+#>> n2; >> prod(1:n)^sum(1:n) Natija nimaga teng?
 
++8.
 
-#Sanitar testi (Sanity Testing)
+-6
 
-+spetsifikatsiyada ko'rsatilgan talablarga muvofiq ishlayotganligini isbotlash uchun etarli darajada yo'naltirilgan testdir.
+-2
 
--boshlash uchun chop etilgan versiyaning sifat mezonlariga muvofiqligini aniqlashga qaratilgan testdir.
+-16
 
--DTning bir yoki bir nechta komponentlar yoki tizimlar bilan o'zaro aloqa qilish qobiliyatini tekshirish, moslik testini (muvofiqlik testini) va integratsiyashuvan testni (integration testing) o'z ichiga oladi.
 
--ishlab chiqilgan mahsulotning foydalanuvchilar uchun qulaylik, o'rganish, tushunarlilik va jozibadorlik darajasini ma'lum shartlar kontekstida belgilash.
 
+       
+#>> n8; >> prod(1:n)^0 Natija nimaga teng?
 
++1.
 
-#O'rnatish testi (Build Verification Test)
+-64
 
-+boshlash uchun chop etilgan versiyaning sifat mezonlariga muvofiqligini aniqlashga qaratilgan testdir.
+-2342
 
--spetsifikatsiyada ko'rsatilgan talablarga muvofiq ishlayotganligini isbotlash uchun etarli darajada yo'naltirilgan testdir.
+-16
 
--DTning bir yoki bir nechta komponentlar yoki tizimlar bilan o'zaro aloqa qilish qobiliyatini tekshirish, moslik testini (muvofiqlik testini) va integratsiyashuvan testni (integration testing) o'z ichiga oladi.
 
--ishlab chiqilgan mahsulotning foydalanuvchilar uchun qulaylik, o'rganish, tushunarlilik va jozibadorlik darajasini ma'lum shartlar kontekstida belgilash.
 
+       
+#>> n6; >> prod(1:n)^1 Natija nimaga teng?
 
++72.0
 
-#O'zaro ta'sir testi (Interoperability Testing)
+-36
 
-+DTning bir yoki bir nechta komponentlar yoki tizimlar bilan o'zaro aloqa qilish qobiliyatini tekshirish, moslik testini (muvofiqlik testini) va integratsiyashuvan testni (integration testing) o'z ichiga oladi.
+-1440
 
--ishlab chiqilgan mahsulotning foydalanuvchilar uchun qulaylik, o'rganish, tushunarlilik va jozibadorlik darajasini ma'lum shartlar kontekstida belgilash.
+-1
 
--boshlash uchun chop etilgan versiyaning sifat mezonlariga muvofiqligini aniqlashga qaratilgan testdir.
 
--spetsifikatsiyada ko'rsatilgan talablarga muvofiq ishlayotganligini isbotlash uchun etarli darajada yo'naltirilgan testdir.
 
+       
+#s prod(1:4)*2 kiritilgandan keyin qanday natija olinadi?
 
++s48.
 
-#Foydalanish qulayligi testi (Usability Testing)
+-s24
 
-+ishlab chiqilgan mahsulotning foydalanuvchilar uchun qulaylik, o'rganish, tushunarlilik va jozibadorlik darajasini ma'lum shartlar kontekstida belgilash.
+-s1432
 
--boshlash uchun chop etilgan versiyaning sifat mezonlariga muvofiqligini aniqlashga qaratilgan testdir.
+-s1
 
--spetsifikatsiyada ko'rsatilgan talablarga muvofiq ishlayotganligini isbotlash uchun etarli darajada yo'naltirilgan testdir.
 
--Bu komponent yoki tizimning asosiy funksiyalarini qamrab oluvchi rejalashtirilgan test.
+
+      
+#>> n5; >> prod(3:n) Natija nimaga teng?
+
++6O
+
+-15
+
+-120
+
+-5
+
+
+
+
+#ye<sup>2x</sup> tg2x funksiya MATLAB da qanday yoziladi?
+
++yexp(2*x)tan(2*x)
+
+-yexpxsin(2*x)
+
+-ye(x)2xtan(2*x)
+
+-ye(2x) 2*sin(x)
+
+
+
+
+#y sin2xe<sup>2x</sup> funksiya MATLAB da qanday yoziladi?
+
++y sin(2*x) exp(2*x)
+
+-yexpxsin(2*x)
+
+-ye(x)2xsin(2*x)
+
+-ye(2x) 2*sin(x)
+
+
+
+
+#ye<sup>2x</sup> funksiya MATLAB da qanday yoziladi?
+
++yexp(2*x)
+
+-yexpx
+
+-ye(x)2x
+
+-ye(2x)
+
+
+
+
+#ye<sup>x</sup> funksiya MATLAB da qanday yoziladi?
+
++yexp(x)
+
+-yexpx
+
+-ye(x)2x
+
+-ye(x)
+
+
+
+
+#ye<sup>x</sup>2x funksiya MATLAB da qanday yoziladi?
+
++yexp(x)2*x
+
+-yexp(x)-2*x
+
+-yexp(x)2x
+
+-ye(x)2*x
+
+
+
+
+#y x<sup>3</sup>4sinx<sup>2 </sup>5 funksiya MATLAB da qanday yoziladi?
+
++y x^34*sin(x^2)5
+
+-y x*34*sin(x^2)5
+
+-y x^32*sin(x^2)-5
+
+-y x^34*sin(x^2)-5
+
+
+
+
+#yt<sup>2x</sup> sin<sup>2</sup>x funksiya MATLAB da qanday yoziladi?
+
++yt^(2*x)sin(x)^2
+
+-yexpxsin(2*x)
+
+-ye(x)2xsin(2*x)
+
+-ye(2x) 2*sin(x)
+
+
+
+
+#yt<sup>2x</sup> sin<sup>2</sup>x funksiya MATLAB da qanday yoziladi?
+
++yt^(2*x)sin(x)^2
+
+-yexpxsin(2*x)
+
+-ye(x)2xsin(2*x)
+
+-ye(2x)2*sin(x)
